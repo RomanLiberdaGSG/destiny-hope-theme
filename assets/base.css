@@ -5,6 +5,11 @@
   --alpha-badge-border: 0.1;
 }
 
+@font-face {
+  font-family: “Resolve”;
+  src: url(‘{{ “resolve.ttf” | asset_url }}’) format(“truetype”);
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
