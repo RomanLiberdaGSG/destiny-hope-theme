@@ -11,7 +11,7 @@
 {% stylesheet %}
   .product-tabs-items-list{
     display: flex;
-  
+
   }
   .product-tabs-items-list, .product-tab-item{
     list-style-type: none;
@@ -34,31 +34,36 @@
   .product-tab-content.active{
     display: block;
   }
-  
 {% endstylesheet %}
 
 {% javascript %}
+    function deselectOther(links, contents){
+      links.forEach(function(link){
+        link.classList.remove("active");
+      });
+      contents.forEach(function(link){
+        link.classList.remove("active");
+      });
+    }
 
-  function deselectOther(links){
+    var links = document.querySelectorAll(".product-tab-link");
+    var contents = document.querySelectorAll(".product-tab-content");
+  
     links.forEach(function(link){
-      link.classList.remove("active");
-    }); 
-  }
+      link.addEventListener("click", function(e){
+        e.preventDefault();
 
+        deselectOther(links);
 
-  var links = document.querySelectorAll(".product-tab-link");
-  
-  links.forEach(function(link){
-    link.addEventListener("click", function(e){
-      e.preventDefault();
+        e.target.classList.add("active");
 
-      deselectOther(links);
+        var target = document.getElementById(e.target.data.targetId);
+        
+        target.classList.add("active");
 
-      e.target.classList.add("active");
-      console.log(e);
+        console.log(e);
+      });
     });
-  });
-  
 {% endjavascript %}
 
 <div class="page-width">
