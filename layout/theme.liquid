@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <style>
+    {% style %}
       @font-face {
-        font-family: “Resolve”;
+        font-family: "Resolve";
         src: url("{{ 'resolve.woff2' | asset_url }}");
       }
       p{
         font-family: "Resolve" !important;
       }
-    </style>
+    {% endstyle %}
     <link rel="canonical" href="{{ canonical_url }}">
 
     {%- if settings.favicon != blank -%}
