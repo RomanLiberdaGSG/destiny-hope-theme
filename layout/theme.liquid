@@ -13,13 +13,14 @@
     {%- endif -%}
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
-     {% comment %} <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>{% endcomment %}
+       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
+    {% comment %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
-
+    {% endcomment %}
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
@@ -101,7 +102,7 @@
       }
 
       :root {
-        {% comment %}
+        
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -110,8 +111,8 @@
         --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
-        {% endcomment %}
-
+        
+        {% comment %}
         --font-body-family: Arial, sans-serif;
         --font-body-style: normal;
         --font-body-weight: 400;
@@ -120,7 +121,7 @@
         --font-heading-family: 'Syne', sans-serif;
         --font-heading-style: normal;
         --font-heading-weight: 700;
-        
+        {% endcomment %}
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
