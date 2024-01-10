@@ -25,6 +25,9 @@
     color: black;
     text-decoration: none;
   }
+  .product-tab-link.active{
+    background-color: red;
+  }
   
 {% endstylesheet %}
 
@@ -32,6 +35,8 @@
   document.querySelectorAll(".product-tab-link").forEach(function(link){
     link.addEventListener("click", function(e){
       e.preventDefault();
+
+      e.currentTarget.classlist.add("active")
       console.log(e);
     });
   });
