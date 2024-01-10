@@ -2,9 +2,9 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/Maxxus-Logo-Schwarz.svg",
     "logo_width": 150,
-    "type_header_font": "assistant_n4",
+    "type_header_font": "syne_n7",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "sans-serif",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
