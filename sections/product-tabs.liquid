@@ -12,7 +12,7 @@
   .product-tabs{
     padding-top: 3rem;
     padding-bottom: 3rem;
-  
+
   }
   .product-tabs-items-list{
     display: flex;
@@ -90,21 +90,23 @@
   });
 {% endjavascript %}
 
-<div class="page-width product-tabs">
-  <ul class="product-tabs-items-list">
-    <li class="product-tab-item">
-      <a class="product-tab-link active" data-targetid="js__product-desc" href="#">Popis</a>
-    </li>
-    <li class="product-tab-item">
-      <a class="product-tab-link" data-targetid="js__product-spec" href="#">Technická specifikace</a>
-    </li>
-    <li class="product-tab-item">
-      <a class="product-tab-link" data-targetid="js__product-revs" href="#">Recenze</a>
-    </li>
-  </ul>
-  <div class="product-tab-contents">
-    <div class="product-tab-content active" id="js__product-desc">
-      {{ product.description }}
+<div class="page-width">
+  <div class="product-tabs">
+    <ul class="product-tabs-items-list">
+      <li class="product-tab-item">
+        <a class="product-tab-link active" data-targetid="js__product-desc" href="#">Popis</a>
+      </li>
+      <li class="product-tab-item">
+        <a class="product-tab-link" data-targetid="js__product-spec" href="#">Technická specifikace</a>
+      </li>
+      <li class="product-tab-item">
+        <a class="product-tab-link" data-targetid="js__product-revs" href="#">Recenze</a>
+      </li>
+    </ul>
+    <div class="product-tab-contents">
+      <div class="product-tab-content active" id="js__product-desc">
+        {{ product.description }}
+      </div>
     </div>
   </div>
 </div>
