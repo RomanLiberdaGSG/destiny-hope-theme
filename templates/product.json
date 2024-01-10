@@ -30,8 +30,13 @@
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "quantity_selector_CLb8ee": {
+          "type": "quantity_selector",
+          "settings": {
           }
         }
       },
@@ -40,7 +45,8 @@
         "title",
         "caption",
         "price",
-        "e28ee9e2-802e-4374-ab01-5f25ff68fe58"
+        "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
+        "quantity_selector_CLb8ee"
       ],
       "settings": {
         "enable_sticky_info": true,
