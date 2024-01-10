@@ -15,8 +15,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>MAXXUS GROUP GmbH & Co. KGNordring 8064521 Groß-Gerau<\/p><p>+(49) 6152 - 510 860<strong><br\/><\/strong>Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr<\/p>"
+            "heading": "MAXXUS",
+            "subtext": "<p>MAXXUS GROUP GmbH & Co. KGNordring 8064521 Groß-Gerau<\/p><p><a href=\"tel:+(49) 6152 - 510 860\" title=\"tel:+(49) 6152 - 510 860\">+(49) 6152 - 510 860<\/a><strong><br\/><\/strong>Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr<\/p>"
           }
         }
       },
