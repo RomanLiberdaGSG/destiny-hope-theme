@@ -28,6 +28,12 @@
   .product-tab-link.active{
     background-color: red;
   }
+  .product-tab-content{
+    display: none;
+  }
+  .product-tab-content.active{
+    display: block;
+  }
   
 {% endstylesheet %}
 
@@ -36,8 +42,7 @@
   function deselectOther(links){
     links.forEach(function(link){
       link.classList.remove("active");
-    });
-    
+    }); 
   }
 
 
@@ -49,7 +54,6 @@
 
       deselectOther(links);
 
-      console.log(e);
       e.target.classList.add("active");
       console.log(e);
     });
@@ -70,5 +74,8 @@
         <a class="product-tab-link" data-target-id="js__product-revs" href="#">Recenze</a>
       </li>
     </ul>
+    <div class="product-tab-content" id="js__product-desc">
+      {{ product.description }}
+    </div>
   </div>
 </div>
