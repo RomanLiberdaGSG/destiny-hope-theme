@@ -4999,4 +4999,8 @@
   }
 }
 
+.row img {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=bootstrap-grid.css.map */
