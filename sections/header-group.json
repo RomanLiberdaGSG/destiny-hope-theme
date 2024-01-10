@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Entdecken Sie unseren 40% Rabatt – Fitnessgeräte für Ihre Ziele!",
             "link": ""
           }
         }
@@ -17,7 +17,7 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-8bce4a78-8653-4c27-88f0-ca53baa3ff6a",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -33,7 +33,7 @@
       ],
       "settings": {
         "custom_liquid": "<div class=\"top-wrapper\">\n<div class=\"rte top-container header page-width\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n{{shop.address.phone}}\n<\/a>\n<\/div>\n<\/div>\n<\/div>",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-3",
         "padding_top": 0,
         "padding_bottom": 0
       }
