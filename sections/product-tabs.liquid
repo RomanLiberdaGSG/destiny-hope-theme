@@ -56,9 +56,9 @@
 
         e.target.classList.add("active");
 
-        console.log(e.target.data.targetId);
+        console.log(e.target.dataset.targetid);
 
-        var target = document.getElementById(e.target.data.targetId);
+        var target = document.getElementById(e.target.dataset.targetid);
         
         target.classList.add("active");
 
@@ -71,13 +71,13 @@
   <div class="product-tabs">
     <ul class="product-tabs-items-list">
       <li class="product-tab-item">
-        <a class="product-tab-link" data-targetId="js__product-desc" href="#">Popis</a>
+        <a class="product-tab-link" data-targetid="js__product-desc" href="#">Popis</a>
       </li>
       <li>
-        <a class="product-tab-link" data-targetId="js__product-spec" href="#">Technická specifikace</a>
+        <a class="product-tab-link" data-targetid="js__product-spec" href="#">Technická specifikace</a>
       </li>
       <li>
-        <a class="product-tab-link" data-targetId="js__product-revs" href="#">Recenze</a>
+        <a class="product-tab-link" data-targetid="js__product-revs" href="#">Recenze</a>
       </li>
     </ul>
     <div class="product-tab-content" id="js__product-desc">
