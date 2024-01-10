@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: “Resolve”;
-  src: url(‘{{ “resolve” | asset_url }}’) format(“woff2”);
+  src: url(‘{{ “resolve” | file_url }}’) format(“woff2”);
 }
 
 .product-card-wrapper .card,
