@@ -29,6 +29,13 @@
 {% endstylesheet %}
 
 {% javascript %}
+
+  document.querySelecotrAll("product-tab-link").forEach(function(link){
+    link.addEventListener("click", function(e){
+      console.log(e);
+    });
+  });
+  
 {% endjavascript %}
 
 <div class="page-width">
