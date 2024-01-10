@@ -29,7 +29,7 @@
     "f5ef79a6-7fec-4b86-8114-bf3a00564198": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"top-container\">\n<a href=\"tel:{{shop.address.phone}}\">\n{{shop.address.phone}}\n<\/a>\n<\/div>",
+        "custom_liquid": "<div class=\"rte top-container\">\n<a href=\"tel:{{shop.address.phone}}\">\n{{shop.address.phone}}\n<\/a>\n<\/div>",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
