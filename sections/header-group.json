@@ -29,7 +29,7 @@
     "f5ef79a6-7fec-4b86-8114-bf3a00564198": {
       "type": "custom-liquid",
       "custom_css": [
-        ".top-container{display: flex; justify-content: center; padding: .5em 1em}"
+        ".top-container {display: flex; justify-content: flex-end; padding: 0.5em 1em;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"rte top-container\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n{{shop.address.phone}}\n<\/a>\n<\/div>\n\n<\/div>",
