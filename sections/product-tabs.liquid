@@ -25,7 +25,7 @@
     display: block;
     padding: .5em 2em;
     background-color: #f6f6f6;
-  
+
     color: black;
     text-decoration: none;
     border-top: 1px solid #f6f6f6;
@@ -34,7 +34,7 @@
   }
   .product-tab-link.active{
     color: #0073fe;
-    
+
     box-shadow: inset 0px 5px 0px 0px #0073fe;
     background-color: white;
   }
@@ -44,38 +44,42 @@
   .product-tab-content.active{
     display: block;
   }
+  .product-tab-contents{
+    border: 1px solid #f6f6f6;
+    padding: 1em;
+  }
 {% endstylesheet %}
 
 {% javascript %}
-    function deselectOther(links, contents){
-      links.forEach(function(link){
-        link.classList.remove("active");
-      });
-      contents.forEach(function(link){
-        link.classList.remove("active");
-      });
-    }
-
-    var links = document.querySelectorAll(".product-tab-link");
-    var contents = document.querySelectorAll(".product-tab-content");
-  
+  function deselectOther(links, contents){
     links.forEach(function(link){
-      link.addEventListener("click", function(e){
-        e.preventDefault();
-        deselectOther(links, contents);
-
-        e.target.classList.add("active");
-
-        console.log(e.target.dataset.targetid);
-
-        
-        var target = document.getElementById(e.target.dataset.targetid);
-        
-        target.classList.add("active");
-
-        console.log(e);
-      });
+      link.classList.remove("active");
     });
+    contents.forEach(function(link){
+      link.classList.remove("active");
+    });
+  }
+
+  var links = document.querySelectorAll(".product-tab-link");
+  var contents = document.querySelectorAll(".product-tab-content");
+
+  links.forEach(function(link){
+    link.addEventListener("click", function(e){
+      e.preventDefault();
+      deselectOther(links, contents);
+
+      e.target.classList.add("active");
+
+      console.log(e.target.dataset.targetid);
+
+
+      var target = document.getElementById(e.target.dataset.targetid);
+
+      target.classList.add("active");
+
+      console.log(e);
+    });
+  });
 {% endjavascript %}
 
 <div class="page-width">
@@ -91,8 +95,10 @@
         <a class="product-tab-link" data-targetid="js__product-revs" href="#">Recenze</a>
       </li>
     </ul>
-    <div class="product-tab-content" id="js__product-desc">
-      {{ product.description }}
+    <div class="product-tab-contents">
+      <div class="product-tab-content" id="js__product-desc">
+        {{ product.description }}
+      </div>
     </div>
   </div>
 </div>
