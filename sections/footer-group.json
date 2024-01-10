@@ -5,6 +5,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "link_list_MVRh3E": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "main-menu"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -28,6 +35,7 @@
         }
       },
       "block_order": [
+        "link_list_MVRh3E",
         "footer-0",
         "footer-1",
         "footer-2"
