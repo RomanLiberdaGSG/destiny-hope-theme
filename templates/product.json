@@ -145,7 +145,7 @@
         "template--16493882638513__fd1084e7-3257-4c15-a4a6-e033e2c2463e-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Button",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
