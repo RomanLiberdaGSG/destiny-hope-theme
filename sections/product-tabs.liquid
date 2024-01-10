@@ -57,6 +57,8 @@
 
         e.target.classList.add("active");
 
+        console.log(e.target.data.targetId);
+
         var target = document.getElementById(e.target.data.targetId);
         
         target.classList.add("active");
