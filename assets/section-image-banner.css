@@ -424,6 +424,7 @@
 
 .banner__heading {
   margin-bottom: 0;
+  font-family: "Resolve";
 }
 
 .banner__box .banner__heading + * {
