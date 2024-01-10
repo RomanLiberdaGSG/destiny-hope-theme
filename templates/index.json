@@ -2,6 +2,26 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "heading_qDbwCQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOGGE KRAFTVOLL INS NEUE JAHR!",
+            "heading_size": "h1"
+          }
+        },
+        "text_UBteyW": {
+          "type": "text",
+          "settings": {
+            "text": "BIS ZU <strong>40%<\/strong> RABAT",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qDbwCQ",
+        "text_UBteyW"
+      ],
       "custom_css": [
 
       ],
