@@ -100,12 +100,18 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "product_tabs_H6PBYM": {
+      "type": "product-tabs",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "3a426c02-cc93-4809-98b3-02f8231f1dd6",
     "custom_liquid_7iVMLx",
-    "related-products"
+    "related-products",
+    "product_tabs_H6PBYM"
   ]
 }
