@@ -16,11 +16,23 @@
             "text": "BIS ZU <strong>40%<\/strong> RABAT",
             "text_style": "subtitle"
           }
+        },
+        "buttons_TTLUxH": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "JETZT KAUFEN!",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_qDbwCQ",
-        "text_UBteyW"
+        "text_UBteyW",
+        "buttons_TTLUxH"
       ],
       "custom_css": [
 
