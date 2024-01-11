@@ -3,7 +3,7 @@
   background-color: var(--search-bg-color);
 }
 
-.search-modal__form field:after{
+.search-modal__form .field:after{
   box-shadow: unset;
 }
 
