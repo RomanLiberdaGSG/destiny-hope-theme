@@ -1,7 +1,6 @@
 .search__input.field__input {
   padding-right: 9.8rem;
-  top: var(--search-bg-color);
-  border: none;
+  background-color: var(--search-bg-color);
 }
 
 .search__button {
