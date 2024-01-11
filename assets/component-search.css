@@ -2,8 +2,9 @@
   padding-right: 9.8rem;
   background-color: var(--search-bg-color);
 }
-.search__input.field__input:after {
-   box-shadow: unset !important;
+
+.search-modal__form field:after{
+  box-shadow: unset;
 }
 
 
