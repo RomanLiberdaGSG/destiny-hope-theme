@@ -1,6 +1,7 @@
 .search__input.field__input {
   padding-right: 9.8rem;
   background-color: var(--search-bg-color);
+  border-radius: 6px;
 }
 
 .search-modal__form .field:after{
