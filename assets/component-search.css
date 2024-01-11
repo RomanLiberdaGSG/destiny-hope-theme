@@ -6,6 +6,7 @@
 
 .search-modal__form .field:after{
   box-shadow: unset;
+  border-radius: 6px;
 }
 
 
