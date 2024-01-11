@@ -8,6 +8,9 @@
   box-shadow: unset;
   border-radius: 6px;
 }
+.search-modal__form .field:hover:after{
+  border-radius: 6px;
+}
 
 
 .search__button {
