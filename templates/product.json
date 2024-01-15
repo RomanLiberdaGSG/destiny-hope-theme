@@ -63,6 +63,23 @@
         "padding_bottom": 12
       }
     },
+    "170533423438e24e42": {
+      "type": "apps",
+      "blocks": {
+        "pobo_page_builder_product_block_QJERPw": {
+          "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/product-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "pobo_page_builder_product_block_QJERPw"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product_tabs_H6PBYM": {
       "type": "product-tabs",
       "settings": {
@@ -89,6 +106,7 @@
   },
   "order": [
     "main",
+    "170533423438e24e42",
     "product_tabs_H6PBYM",
     "related-products"
   ]
