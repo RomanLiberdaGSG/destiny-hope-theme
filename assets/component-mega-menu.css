@@ -58,7 +58,7 @@
 
 .mega-menu__heading-link{
     color: rgba(var(--color-foreground), 0.75);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   font-weight: bold;
   font-size: 1.2em;
 }
