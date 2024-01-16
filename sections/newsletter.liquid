@@ -20,6 +20,9 @@
     <div class="page-width">
       <div class="container-fluid">
         <div class="row">
+
+          {{ section.blocks | json }}
+          
           <div class="col">
             {%- for block in section.blocks -%}
               {%- case block.type -%}
