@@ -3,6 +3,9 @@
 
   Usage:
   {% render 'header-mega-menu' %}
+
+
+  
 {% endcomment %}
 
 <nav class="header__inline-menu color-{{ section.settings.menu_color_scheme }}">
@@ -31,7 +34,7 @@
                 tabindex="-1"
               >
                 <ul
-                  class="mega-menu__list page-width{% comment %}{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}{%endcomment%}"
+                  class="mega-menu__list page-width{% comment %}{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}{% endcomment %}"
                   role="list"
                 >
                   {%- for childlink in link.links -%}
@@ -44,7 +47,7 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {{ childlink.object.image.src | image_url:  width: 45| image_tag: class: "test" }}
+                        {{ childlink.object.image.src | image_url:  width: 45| image_tag: class: "mega-menu__link-image" }}
                         {{ childlink.title | escape }}
                       </a>
                       {% comment %}
