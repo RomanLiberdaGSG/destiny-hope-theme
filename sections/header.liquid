@@ -195,7 +195,7 @@
       endif
     %}
 {%- if settings.predictive_search_enabled -%}
-          <predictive-search class="search-modal__form non-modal" data-loading-text="{{ 'accessibility.loading' | t }}">
+          <predictive-search class="search__form non-modal" data-loading-text="{{ 'accessibility.loading' | t }}">
         {%- endif -%}
     <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
           <div class="field">
