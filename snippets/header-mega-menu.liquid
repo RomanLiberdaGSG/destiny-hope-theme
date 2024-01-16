@@ -31,7 +31,7 @@
                 tabindex="-1"
               >
                 <ul
-                  class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}"
+                  class="mega-menu__list page-width{% comment %}{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}{%endcomment%}"
                   role="list"
                 >
                   {%- for childlink in link.links -%}
@@ -47,6 +47,7 @@
                         {{ childlink.object.image.src | image_url:  width: 45| image_tag: class: "test" }}
                         {{ childlink.title | escape }}
                       </a>
+                      {% comment %}
                       {%- if childlink.links != blank -%}
                         <ul class="list-unstyled" role="list">
                           {%- for grandchildlink in childlink.links -%}
@@ -65,6 +66,7 @@
                           {%- endfor -%}
                         </ul>
                       {%- endif -%}
+                      {% endcomment %}
                     </li>
                   {%- endfor -%}
                 </ul>
