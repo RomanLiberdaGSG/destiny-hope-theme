@@ -63,6 +63,32 @@
   }
 {% endstylesheet %}
 
+
+
+<div class="page-width">
+  <div class="product-tabs">
+    <ul class="product-tabs-items-list">
+      <li class="product-tab-item">
+        <a class="product-tab-link active" data-targetid="js__product-desc" href="#">{{ 'product_tabs.descripiton' | t }}</a>
+      </li>
+      <li class="product-tab-item">
+        <a class="product-tab-link" data-targetid="js__product-spec" href="#">{{ 'product_tabs.technical_specification' | t }}</a>
+      </li>
+      <li class="product-tab-item">
+        <a class="product-tab-link" data-targetid="js__product-revs" href="#">{{ 'product_tabs.reviews_and_rating' | t }}</a>
+      </li>
+    </ul>
+    <div class="product-tab-contents">
+      <div class="product-tab-content active" id="js__product-desc">
+        {{ product.description }}
+      </div>
+       <div class="product-tab-content active app__easy-specs-container" id="js__product-spec">
+      
+      </div>
+    </div>
+  </div>
+</div>
+
 {% javascript %}
   function deselectOther(links, contents){
     links.forEach(function(link){
@@ -94,27 +120,3 @@
     });
   });
 {% endjavascript %}
-
-<div class="page-width">
-  <div class="product-tabs">
-    <ul class="product-tabs-items-list">
-      <li class="product-tab-item">
-        <a class="product-tab-link active" data-targetid="js__product-desc" href="#">{{ 'product_tabs.descripiton' | t }}</a>
-      </li>
-      <li class="product-tab-item">
-        <a class="product-tab-link" data-targetid="js__product-spec" href="#">{{ 'product_tabs.technical_specification' | t }}</a>
-      </li>
-      <li class="product-tab-item">
-        <a class="product-tab-link" data-targetid="js__product-revs" href="#">{{ 'product_tabs.reviews_and_rating' | t }}</a>
-      </li>
-    </ul>
-    <div class="product-tab-contents">
-      <div class="product-tab-content active" id="js__product-desc">
-        {{ product.description }}
-      </div>
-       <div class="product-tab-content active app__easy-specs-container" id="js__product-spec">
-      
-      </div>
-    </div>
-  </div>
-</div>
