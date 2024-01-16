@@ -2373,7 +2373,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header-wrapper--border-bottom {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  //border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
 .header {
