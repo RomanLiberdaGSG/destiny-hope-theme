@@ -53,6 +53,7 @@
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
   word-wrap: break-word;
+  border: 1px solid silver;
 }
 
 .mega-menu__link-image{
