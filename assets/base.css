@@ -2374,6 +2374,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header-wrapper--border-bottom {
   //border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
 }
 
 .header {
