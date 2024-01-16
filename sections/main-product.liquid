@@ -100,6 +100,8 @@
                   </h2>
                 </a>
               </div>
+            {%- when 'short_description' -%}
+               {% render block %}
             {%- when 'price' -%}
               <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price',
@@ -722,6 +724,11 @@
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
+      "limit": 1
+    },
+    {
+      "type": "short_description",
+      "name": "Short description",
       "limit": 1
     },
     {
