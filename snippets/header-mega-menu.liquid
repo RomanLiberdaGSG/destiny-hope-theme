@@ -44,7 +44,7 @@
                           aria-current="page"
                         {% endif %}
                       >
-                        {{ childlink.object.image.src }}
+                        <img src="{{ childlink.object.image.src }}" width="30" height="30">
                         {{ childlink.title | escape }}
                       </a>
                       {%- if childlink.links != blank -%}
