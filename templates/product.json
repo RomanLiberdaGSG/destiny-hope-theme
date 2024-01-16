@@ -15,10 +15,9 @@
           "settings": {
           }
         },
-        "custom_liquid_RAnnbi": {
-          "type": "custom_liquid",
+        "short_description_DWAzGj": {
+          "type": "short_description",
           "settings": {
-            "custom_liquid": "{{product.metafields.custom_product.short_description}}"
           }
         },
         "price": {
@@ -42,7 +41,7 @@
       "block_order": [
         "vendor",
         "title",
-        "custom_liquid_RAnnbi",
+        "short_description_DWAzGj",
         "price",
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
         "quantity_selector_CLb8ee"
