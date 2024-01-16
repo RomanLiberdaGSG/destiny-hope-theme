@@ -105,6 +105,3 @@
 .mega-menu__list--condensed .mega-menu__link {
   font-weight: normal;
 }
-.header__active-menu-item{
-  background-color:rgb(var(--color-foreground));
-}
