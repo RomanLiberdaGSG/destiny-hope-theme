@@ -56,6 +56,11 @@
   border: 1px solid silver;
 }
 
+.mega-menu__heading-link{
+    color: rgba(var(--color-foreground), 0.75);
+    margin-bottom: 1rem;
+}
+
 .mega-menu__link-image{
   display: block;
   max-width: 100%;
