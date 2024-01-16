@@ -2367,6 +2367,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 /* Main Header Layout */
 .header-wrapper {
+  position: relative;
+  z-index: 100;
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
