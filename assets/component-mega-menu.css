@@ -84,7 +84,9 @@
 }
 
 .mega-menu__link:hover,
-.mega-menu__link--active {
+.mega-menu__link--active,
+.mega-menu__heading-link:hover
+{
   color: rgb(var(--color-foreground));
   text-decoration: underline;
 }
