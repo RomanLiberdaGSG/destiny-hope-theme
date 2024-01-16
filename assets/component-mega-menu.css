@@ -43,7 +43,6 @@
 
 .mega-menu__link {
   display: flex;
-  aspect-ratio: 1/1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -59,6 +58,7 @@
 .mega-menu__link-image{
   display: block;
   max-width: 100%;
+  margin-bottom: 1em;
 }
 
 .mega-menu__link--level-2 {
