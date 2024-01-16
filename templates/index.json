@@ -78,10 +78,45 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "multirow_xFYVeN": {
+      "type": "multirow",
+      "blocks": {
+        "row_UMDCHF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/homepage_1.jpg",
+            "caption": "",
+            "heading": "MAXXUS Crosstrainer für eine gesunde, natürliche Laufbewegung",
+            "text": "<p>Der <a href=\"https:\/\/www.maxxus.com\/de\/c\/crosstrainer\">Crosstrainer <\/a>ist seit vielen Jahren nicht mehr aus den Fitness Studios und den heimischen Fitnessräumen wegzudenken. Jeder kennt Crosstrainer mit Heckantrieb oder mit Frontantrieb, große Crosstrainer und kompakte Crosstrainer. Die Entwicklung der MAXXUS Crosstrainer ist nicht stehengeblieben.<br\/><br\/>Die Bewegung beim Training auf einem modernen Crosstrainer ähnelt der natürlichen Laufbewegung und ermöglicht damit das simulierte Laufen ohne Aufprall und ist somit sehr gelenkschonend. Aber nicht nur die Bewegung auf einem Crosstrainer hat sich in den letzten Jahren verändert. Auch die Bedienung der Cockpits wurde an die Bedürfnisse der Nutzer angepasst.<br\/><br\/>Die APP-Steuerung der Trainingsprogramme per Bluetooth mit dem Smartphone oder dem Tablet ist bei einem modernen MAXXUS Crosstrainer möglich. Das erlaubt die Speicherung von Daten und reichlich Abwechslung beim Laufen auf dem Crosstrainer. So hat man immer alle Daten im Blick und kann das Training nach den eigenen Wünschen gestalten.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_UMDCHF"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "multirow_xFYVeN"
   ]
 }
