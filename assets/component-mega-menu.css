@@ -42,6 +42,9 @@
 }
 
 .mega-menu__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: rgba(var(--color-foreground), 0.75);
   display: block;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
