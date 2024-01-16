@@ -60,7 +60,7 @@
     color: rgba(var(--color-foreground), 0.75);
     margin-bottom: 1rem;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .mega-menu__link-image{
