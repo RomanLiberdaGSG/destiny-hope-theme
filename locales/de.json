@@ -511,5 +511,10 @@
       "expanded": "Formular für den Empfänger des Geschenkgutscheins erweitert",
       "collapsed": "Formular für den Empfänger des Geschenkgutscheins minimiert"
     }
+  },
+  "product_tabs": {
+    "descripiton": "Produktbeschreibung",
+    "technical_specification": "Technische Spezifikationen",
+    "reviews_and_rating": "Bewertung(en)"
   }
 }
