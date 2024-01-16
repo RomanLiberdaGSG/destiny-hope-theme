@@ -74,6 +74,7 @@
       "blocks": {
         "pobo_page_builder_product_block_FQjVW7": {
           "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/product-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
