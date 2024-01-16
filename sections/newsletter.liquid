@@ -20,13 +20,21 @@
     <div class="page-width">
       <div class="container-fluid">
         <div class="row">
-{%- for block in section.blocks -%}
-              {%- case block.type -%}
-                {%- when 'image' -%}
-                TEST
-                {%- endcase -%}
-    {%- endfor -%}
-          
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'image' -%}
+                {% if block.settings.image != blank %}
+                  <div class="col-auto">
+                    {{
+                        block.settings.image
+                        | image_url: width: 250
+                        | image_tag
+                      }}
+                  </div>
+                {% endif %}
+            {%- endcase -%}
+          {%- endfor -%}
+
           <div class="col">
             {%- for block in section.blocks -%}
               {%- case block.type -%}
