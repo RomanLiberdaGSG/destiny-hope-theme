@@ -6,7 +6,7 @@
 {% endcomment %}
 
 <nav class="header__inline-menu color-{{ section.settings.menu_color_scheme }}">
-  <ul class="list-menu list-menu--inline" role="list">
+  <ul class="list-menu list-menu--inline page-width" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
         {%- if link.links != blank -%}
