@@ -25,6 +25,7 @@
               {%- when 'image' -%}
                 {% if block.settings.image != blank %}
                   <div class="col-auto">
+                    {% assign imageEnabled = true %}
                     {{
                         block.settings.image
                         | image_url: width: 350
@@ -35,7 +36,7 @@
             {%- endcase -%}
           {%- endfor -%}
 
-          <div class="col">
+          <div class="col {% if imageEnabled %}text-start{% endif %}">
             {%- for block in section.blocks -%}
               {%- case block.type -%}
                 {%- when '@app' -%}
