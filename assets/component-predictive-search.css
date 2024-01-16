@@ -1,6 +1,8 @@
+predictive-search.non-modal{
+    grid-area: searchbar;
+}
 .predictive-search {
   display: none;
-  grid-area: searchbar;
   position: absolute;
   top: calc(100% + 0.1rem);
   left: -0.1rem;
