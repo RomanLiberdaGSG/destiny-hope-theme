@@ -52,6 +52,10 @@
   word-wrap: break-word;
 }
 
+.mega-menu__link-image{
+  display: block;
+}
+
 .mega-menu__link--level-2 {
   font-weight: bold;
 }
