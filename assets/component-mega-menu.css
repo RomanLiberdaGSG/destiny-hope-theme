@@ -43,6 +43,7 @@
 
 .mega-menu__link {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgba(var(--color-foreground), 0.75);
