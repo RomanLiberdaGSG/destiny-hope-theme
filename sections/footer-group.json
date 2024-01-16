@@ -5,6 +5,12 @@
     "newsletter_bbrFt4": {
       "type": "newsletter",
       "blocks": {
+        "image_RmFRxJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/footer_newsletter.png"
+          }
+        },
         "heading_RVqA6k": {
           "type": "heading",
           "settings": {
@@ -25,6 +31,7 @@
         }
       },
       "block_order": [
+        "image_RmFRxJ",
         "heading_RVqA6k",
         "paragraph_9TrRki",
         "email_form_VRTnFH"
