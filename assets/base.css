@@ -3,6 +3,7 @@
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
+  --maxxus-blue: #0073fe;
 }
 
 .product-card-wrapper .card,
@@ -486,6 +487,7 @@ h1,
 h2,
 .h2 {
   font-size: calc(var(--font-heading-scale) * 2rem);
+  color: var(--maxxus-blue);
 }
 
 @media only screen and (min-width: 750px) {
