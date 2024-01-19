@@ -32,7 +32,7 @@
         ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"top-wrapper\">\n<div class=\"rte top-container header page-width\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n{{shop.address.phone}}\n<\/a>\n<\/div>\n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"top-wrapper\">\n<div class=\"rte top-container header page-width\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n{{shop.address.phone}}\n<\/a>\n<\/div>\n<\/div>\n<\/div>\n<i class=\"maxxus-phone\"><\/i>",
         "color_scheme": "scheme-4",
         "padding_top": 0,
         "padding_bottom": 0
