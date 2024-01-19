@@ -15,11 +15,6 @@
           "settings": {
           }
         },
-        "judge_me_reviews_preview_badge_Vamryt": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
         "short_description_DWAzGj": {
           "type": "short_description",
           "settings": {
@@ -54,7 +49,6 @@
       "block_order": [
         "vendor",
         "title",
-        "judge_me_reviews_preview_badge_Vamryt",
         "short_description_DWAzGj",
         "price",
         "variant_picker_DYgnri",
@@ -91,16 +85,10 @@
           "settings": {
             "product": "{{product}}"
           }
-        },
-        "judge_me_reviews_review_widget_VHUyVg": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "pobo_page_builder_product_block_FQjVW7",
-        "judge_me_reviews_review_widget_VHUyVg"
+        "pobo_page_builder_product_block_FQjVW7"
       ],
       "settings": {
       }
