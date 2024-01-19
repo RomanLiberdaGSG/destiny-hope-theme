@@ -29,8 +29,8 @@
     "f5ef79a6-7fec-4b86-8114-bf3a00564198": {
       "type": "custom-liquid",
       "custom_css": [
-        ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em;}",
-        "a {text-decoration: none !important; margin-left:1rem;}",
+        ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em; font-size:.8em;}",
+        "a {text-decoration: none !important; margin-left: 2rem;}",
         "a * {vertical-align: middle;}",
         "i {text-decoration: none !important; font-size: 2rem; margin-right: 0.3em;}"
       ],
