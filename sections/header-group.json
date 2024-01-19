@@ -30,7 +30,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em;}",
-        "a {text-decoration: none !important;}",
+        "a {text-decoration: none !important; vertical-align: middle;}",
         "i.maxxus-phone:before {text-decoration: none !important; font-size: 2rem; vertical-align: middle; margin-right: 1em;}"
       ],
       "settings": {
