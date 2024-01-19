@@ -31,11 +31,11 @@
       "custom_css": [
         ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em;}",
         "a {text-decoration: none !important; vertical-align: middle;}",
-        "a *{vertical-align:middle;}",
-        "i.maxxus-phone {text-decoration: none !important; font-size: 2.2rem; margin-right: 0.7em;}"
+        "a * {vertical-align: middle;}",
+        "i.maxxus-phone {text-decoration: none !important; font-size: 2rem; margin-right: 0.7em;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"top-wrapper\">\n<div class=\"rte top-container header page-width\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n<i class=\"maxxus-phone\"><\/i>{{shop.address.phone}}\n<\/a>\n<\/div>\n<\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"top-wrapper\">\n<div class=\"rte top-container header page-width\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n<i class=\"maxxus-phone\"><\/i><span>{{shop.address.phone}}<\/span>\n<\/a>\n<\/div>\n<\/div>\n<\/div>",
         "color_scheme": "scheme-4",
         "padding_top": 0,
         "padding_bottom": 0
