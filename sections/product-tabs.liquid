@@ -23,14 +23,7 @@
       </div>
       <div class="product-tab-content active app__easy-specs-container" id="js__product-spec"></div>
       <div class="product-tab-content active app__easy-specs-container" id="js__product-revs">
-        {%- for block in section.blocks -%}
-          {%- case block.type -%}
-            {%- when '@app' -%}
-            {{ block |json }}
-              {% render block %}
-          {% endcase %}
-        {% endfor %}
-        {{ product.metafields.judgeme.widget }}
+        {{ product.metafields.judgeme.widget }} 
       </div>
     </div>
   </div>
