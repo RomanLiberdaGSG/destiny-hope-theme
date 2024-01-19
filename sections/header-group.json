@@ -30,9 +30,9 @@
       "type": "custom-liquid",
       "custom_css": [
         ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em;}",
-        "a {text-decoration: none !important; vertical-align: middle;}",
+        "a {text-decoration: none !important; margin-left:1rem;}",
         "a * {vertical-align: middle;}",
-        "i {text-decoration: none !important; font-size: 2rem; margin-right: 0.em;}"
+        "i {text-decoration: none !important; font-size: 2rem; margin-right: 0.3em;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"top-wrapper\">\n<div class=\"rte top-container header page-width\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n<i class=\"maxxus-phone\"><\/i><span>{{shop.address.phone}}<\/span>\n<\/a>\n<a href=\"mailto:info@maxxus.com\">\n<i class=\"maxxus-envelope\"><\/i><span>info@maxxus.com<\/span>\n<\/a>\n<\/div>\n<\/div>\n<\/div>",
