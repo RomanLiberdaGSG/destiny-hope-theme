@@ -30,6 +30,14 @@
           "settings": {
           }
         },
+        "variant_picker_DYgnri": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_picker_type": "swatch",
+            "swatch_shape": "circle"
+          }
+        },
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58": {
           "type": "buy_buttons",
           "settings": {
@@ -49,6 +57,7 @@
         "judge_me_reviews_preview_badge_Vamryt",
         "short_description_DWAzGj",
         "price",
+        "variant_picker_DYgnri",
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
         "quantity_selector_CLb8ee"
       ],
