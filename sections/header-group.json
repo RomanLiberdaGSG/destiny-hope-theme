@@ -30,7 +30,7 @@
       "type": "custom-liquid",
       "custom_css": [
         ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em;}",
-        "i.maxxus-phone {text-decoration: none !important; margin-right: 1em;}"
+        "i.maxxus-phone:before {text-decoration: none !important; margin-right: 1em;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"top-wrapper\">\n<div class=\"rte top-container header page-width\">\n<div class=\"top-container-item\">\n<a href=\"tel:{{shop.address.phone}}\">\n<i class=\"maxxus-phone\"><\/i>{{shop.address.phone}}\n<\/a>\n<\/div>\n<\/div>\n<\/div>",
