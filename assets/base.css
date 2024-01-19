@@ -77,7 +77,7 @@
              @font-face {
           font-family: "maxxus-font";
 
-          src: url("maxxus-font.ttf") format("truetype"),url("maxxus-font.woff") format("woff"),url("maxxus-font.svg") format("svg");
+          src: url("maxxus-font.ttf") format("truetype"),url("maxxus-font.woff") format("woff");
           font-weight: 400;
           font-style: normal
       }
