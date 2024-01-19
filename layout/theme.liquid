@@ -13,13 +13,13 @@
     {%- endif -%}
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
-       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
     {% comment %}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
     {% endcomment %}
     <title>
       {{ page_title }}
@@ -48,6 +48,16 @@
       assign body_font_italic = settings.type_body_font | font_modify: 'style', 'italic'
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
+
+    {% style %}
+            @font-face {
+          font-family: maxxus-font;
+              src
+          src: url({{"maxxus-font.ttf" | asset_url }}) format("truetype"),url({{"maxxus-font.woff" | asset_url }}) format("woff"),url({{"maxxus-font.svg" | asset_url }}) format("svg");
+          font-weight: 400;
+          font-style: normal
+      }
+    {% endstyle %}
 
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
@@ -104,7 +114,7 @@
       :root {
 
         --search-bg-color: #eeeeee;
-        
+
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -113,7 +123,7 @@
         --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
-        
+
         {% comment %}
         --font-body-family: Arial, sans-serif;
         --font-body-style: normal;
@@ -124,7 +134,7 @@
         --font-heading-style: normal;
         --font-heading-weight: 700;
         {% endcomment %}
-      
+
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
 
@@ -269,23 +279,10 @@
           font-size: 1.6rem;
         }
       }
-
-
-      @font-face {
-    font-family: maxxus-font;
-        src
-    src: url({{"maxxus-font.ttf" | asset_url }}) format("truetype"),url({{"maxxus-font.woff" | asset_url }}) format("woff"),url({{"maxxus-font.svg" | asset_url }}) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-      
     {% endstyle %}
-
-    
 
     {{ 'grid.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
-  
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
