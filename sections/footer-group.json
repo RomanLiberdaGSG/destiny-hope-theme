@@ -54,6 +54,13 @@
             "menu": "main-menu"
           }
         },
+        "link_list_VtMBXR": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "shop"
+          }
+        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -64,6 +71,7 @@
       },
       "block_order": [
         "link_list_MVRh3E",
+        "link_list_VtMBXR",
         "footer-2"
       ],
       "settings": {
