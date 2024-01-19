@@ -269,7 +269,18 @@
           font-size: 1.6rem;
         }
       }
+
+
+      @font-face {
+    font-family: maxxus-font;
+    src: url({{"maxxus-font.ttf" | asset_url }} format("truetype"), url({{"maxxus-font.woff" | asset_url }} format("woff"), url({{"maxxus-font.svg" | asset_url }} format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+      
     {% endstyle %}
+
+    
 
     {{ 'grid.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
