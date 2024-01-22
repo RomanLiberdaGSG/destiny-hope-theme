@@ -1,5 +1,6 @@
-{% if block.settings.footer_logo != blank %}
   {{  block.settings.footer_logo | json }}
+{% if block.settings.footer_logo != blank %}
+
 {{
                             block.settings.footer_logo
                             | image_url: width: 1100
