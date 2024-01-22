@@ -1,13 +1,12 @@
-  {{  block.settings| json }}
-{% if block.settings.footer_logo != blank %}
+
+{% if settings.footer_logo != blank %}
 
 {{
-                            block.settings.footer_logo
+                            settings.footer_logo
                             | image_url: width: 1100
                             | image_tag:
                               loading: 'lazy',
                               widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
-                              width: block.settings.image_width
+                              width: settings.image_width
                           }}
 {% endif %}
-test
