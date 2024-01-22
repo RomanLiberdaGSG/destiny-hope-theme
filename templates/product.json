@@ -44,6 +44,15 @@
           "type": "quantity_selector",
           "settings": {
           }
+        },
+        "collapsible_tab_EEUft6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -53,7 +62,8 @@
         "price",
         "variant_picker_DYgnri",
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
-        "quantity_selector_CLb8ee"
+        "quantity_selector_CLb8ee",
+        "collapsible_tab_EEUft6"
       ],
       "settings": {
         "enable_sticky_info": true,
