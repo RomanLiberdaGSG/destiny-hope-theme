@@ -81,13 +81,6 @@
             "footer_logo": "shopify:\/\/shop_images\/Maxxus_Logo-White.png",
             "image_width": 155
           }
-        },
-        "text_rHfDQC": {
-          "type": "text",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
         }
       },
       "block_order": [
@@ -95,8 +88,7 @@
         "link_list_VtMBXR",
         "link_list_AzGgV7",
         "link_list_eptUwy",
-        "footer_contact_ggKdDq",
-        "text_rHfDQC"
+        "footer_contact_ggKdDq"
       ],
       "settings": {
         "color_scheme": "scheme-4",
