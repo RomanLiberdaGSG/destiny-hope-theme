@@ -71,8 +71,9 @@
     
     triggers.forEach((trigger) =>{
       trigger.addEventListener("click", (e) =>{
-        console.log(e);
-        document.getElementById(trigger.dataset.targetCollapser).classList.toggle("active");
+        const content = document.getElementById(trigger.dataset.targetCollapser);
+        console.log(content);
+        content.classList.toggle("active");
       });
     });
   });
