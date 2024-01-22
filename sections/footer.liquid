@@ -45,6 +45,9 @@
   .footer-collapser_content.active{
     display: revert;
   }
+  .footer-collapser_header.active i {
+    transform: rotate(90deg);
+  }
   @media screen and (min-width: 750px) {
       .footer-collapser_header{
         cursor: auto;
@@ -72,7 +75,7 @@
     triggers.forEach((trigger) =>{
       trigger.addEventListener("click", (e) =>{
         const content = document.getElementById(trigger.dataset.targetCollapser);
-        console.log(content);
+        trigger.classList.toggle("active");
         content.classList.toggle("active");
       });
     });
