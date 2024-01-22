@@ -42,9 +42,11 @@ ul.footer-contact li.locator:before{
 {% endif %}
 <ul class="footer-contact">
   <li class="locator">
+    <span>
     {{ shop.address.address1 }}<br>
     {{ shop.address.zip }} {{ shop.address.city }}<br>
     {{ shop.address.country }}
+    </span>
   </li>
   <li class="phone">
     <a class="link link--text" href="tel:{{ shop.phone }}">{{ shop.phone }}</a><br>
