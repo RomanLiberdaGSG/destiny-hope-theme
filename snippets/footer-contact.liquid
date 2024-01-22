@@ -1,18 +1,17 @@
 {% style %}
 
 
-  ul {
+ul.footer-contact {
   --icon-space: 3.3rem;
   list-style: none;
   padding: 0;
 }
 
-li {
+ul.footer-contact li {
   padding-left: var(--icon-space);
 }
 
-li:before {
-  content: "\e920";
+ul.footer-contact li:before {
   font-family: "maxxus-font";
   display: inline-block;
   margin-left: calc( var(--icon-space) * -1 );
@@ -21,6 +20,9 @@ li:before {
   line-height: 1;
   vertical-align: middle;
   margin-right: -.2em;
+}
+ul.footer-contact li.locator{
+  content: "\e920";
 }
   
 {% endstyle %}
