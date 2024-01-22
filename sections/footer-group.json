@@ -54,14 +54,6 @@
             "menu": "main-menu"
           }
         },
-        "link_list_AzGgV7": {
-          "type": "link_list",
-          "disabled": true,
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
         "link_list_VtMBXR": {
           "type": "link_list",
           "settings": {
@@ -69,9 +61,15 @@
             "menu": "shop"
           }
         },
+        "link_list_AzGgV7": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
         "link_list_eptUwy": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -83,32 +81,14 @@
             "footer_logo": "shopify:\/\/shop_images\/Maxxus_Logo-White.png",
             "image_width": 155
           }
-        },
-        "link_list_T3LrnR": {
-          "type": "link_list",
-          "disabled": true,
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
-        },
-        "link_list_Ua6yXL": {
-          "type": "link_list",
-          "disabled": true,
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
         "link_list_MVRh3E",
-        "link_list_AzGgV7",
         "link_list_VtMBXR",
+        "link_list_AzGgV7",
         "link_list_eptUwy",
-        "footer_contact_ggKdDq",
-        "link_list_T3LrnR",
-        "link_list_Ua6yXL"
+        "footer_contact_ggKdDq"
       ],
       "settings": {
         "color_scheme": "scheme-4",
