@@ -1,22 +1,22 @@
 {% style %}
 
   ul {
-  --icon-space: 1.5em;
+  --icon-size: 1.5em;
   list-style: none;
   padding: 0;
 }
 
 li {
-  padding-left: var(--icon-space);
+  padding-left: calc( var(--icon-size) * .8 );
 }
 
 li:before {
   content: "\e920";
   font-family: "maxxus-font";
   display: inline-block;
-  margin-left: calc( var(--icon-space) * .8 * -1 );
-  width: calc( var(--icon-space) * .8 );
-  font-size: var(--icon-space);
+  margin-left: calc( var(--icon-size) * .8 * -1 );
+  width: calc( var(--icon-size) * .8 );
+  font-size: var(--icon-size);
   line-height: 1;
   vertical-align: middle;
 }
