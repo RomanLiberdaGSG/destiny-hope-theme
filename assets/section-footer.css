@@ -1,6 +1,6 @@
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  background-image: url("{{'maxxus.footer.png' | asset_url}}");
+    background-image: url("maxxus-footer.png");
 }
 
 .footer:not(.color-scheme-1) {
