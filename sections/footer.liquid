@@ -29,7 +29,7 @@
     }
   }
 
-  .collapser_header{
+  .footer-collapser_header{
     cursor:pointer;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@
     padding: 1rem 0;
     margin-bottom: 0 !important;
   }
-  .collapser_content{
+  .footer-collapser_content{
     display: none;
   }
 
@@ -93,7 +93,7 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext {% if block.type == "link_list" %}collapser_header{% endif %} ">{{- block.settings.heading -}}{% if block.type == "link_list" %}<i class="maxxus-arrow-right"></i>{% endif %} </h2>
+                  <h2 class="footer-block__heading inline-richtext {% if block.type == "link_list" %}footer-collapser_header{% endif %} ">{{- block.settings.heading -}}{% if block.type == "link_list" %}<i class="maxxus-arrow-right"></i>{% endif %} </h2>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -110,7 +110,7 @@
                     {%- if block.settings.menu != blank -%}
 
                       
-                      <ul class="footer-block__details-content list-unstyled collapser_content">
+                      <ul class="footer-block__details-content list-unstyled footer-collapser_content">
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
