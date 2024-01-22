@@ -42,14 +42,15 @@ ul.footer-contact li.locator:before{
 {% endif %}
 <ul class="footer-contact">
   <li class="locator">
-    <span>MAXXUS GROUP GmbH & Co. KG<br>
-    Nordring 80<br>
-    64521 Groß-Gerau</span>
+    {{ shop.address.address1 }}<br>
+    {{ shop.address.address2 }}<br>
+    {{ shop.address.zip }} {{ shop.address.city }}<br>
+    {{ shop.address.country }}
   </li>
   <li class="phone">
-    {{ shop.phone }}
+    <a href="tel:{{ shop.phone }}">{{ shop.phone }}</a>
   </li>
   <li class="envelope">
-    {{ shop.email }}
+    <a href="mailto:{{ shop.email }}">{{ shop.email }}</a>
   </li>
 </ul>
