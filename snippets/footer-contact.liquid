@@ -28,6 +28,9 @@ ul.footer-contact li.locator:before{
   ul.footer-contact li.phone:before{
    content: "\e90e";
 }
+    ul.footer-contact li.envelope:before{
+   content: "\e921";
+}
   
 {% endstyle %}
 {% if settings.footer_logo != blank %}
@@ -45,5 +48,8 @@ ul.footer-contact li.locator:before{
   </li>
   <li class="phone">
     {{ shop.phone }}
+  </li>
+  <li class="envelope">
+    {{ shop.email }}
   </li>
 </ul>
