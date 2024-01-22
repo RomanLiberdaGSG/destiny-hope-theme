@@ -1,20 +1,33 @@
+{% style %}
+  ul.footer-contact {
+  --icon-space: 1.3em;
+  list-style: none;
+  padding: 0;
+}
 
+ul.footer-contact li {
+  padding-left: var(--icon-space);
+}
+
+ul.footer-contact li.locator:before {
+      content: "\e920";
+  font-family: maxxus-font;
+  display: inline-block;
+  margin-left: calc( var(--icon-space) * -1 );
+  width: var(--icon-space);
+}
+{% endstyle %}
 {% if settings.footer_logo != blank %}
-
-{{
-                            settings.footer_logo
-                            | image_url: width: 1100
-                            | image_tag:
-                              loading: 'lazy',
-                              widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
-                              width: settings.image_width
-                          }}
- 
+  {{
+    settings.footer_logo
+    | image_url: width: 1100
+    | image_tag: loading: 'lazy', widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100', width: settings.image_width
+  }}
 {% endif %}
- <ul>
-    <li>
-     <i class="maxxus-locator"></i>MAXXUS GROUP GmbH & Co. KG<br>
-Nordring 80<br>
-64521 Groß-Gerau
-    </li>
-  </ul>
+<ul class="footer-contact">
+  <li class="locator">
+    MAXXUS GROUP GmbH & Co. KG<br>
+    Nordring 80<br>
+    64521 Groß-Gerau
+  </li>
+</ul>
