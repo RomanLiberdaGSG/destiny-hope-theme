@@ -1,6 +1,5 @@
-{% comment %}theme-check-disable UndefinedObject
-
-
+{% comment %}
+  theme-check-disable UndefinedObject
 {% endcomment %}
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
 {{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
@@ -50,10 +49,13 @@
         padding: inherit;
         margin-bottom: inherit;
       }
+    .footer-collapser_block{
+      margin: inherit;
+    }
+    .footer-collapser_content{
+    display: inherit;
   }
-
-
-  
+  }
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
@@ -73,7 +75,8 @@
   -%}
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
-    or section.settings.show_social and has_social_icons == true
+    or section.settings.show_social
+    and has_social_icons == true
     or section.settings.enable_follow_on_shop
   -%}
     {%- unless only_empty_brand -%}
@@ -104,24 +107,32 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext {% if block.type == "link_list" %}footer-collapser_header{% endif %}" {% if block.type == "link_list" %}data-target-collapser="footer-collapser-content_{{ block.id }}"{% endif %} >{{- block.settings.heading -}}{% if block.type == "link_list" %}<i class="maxxus-arrow-right"></i>{% endif %} </h2>
+                  <h2
+                    class="footer-block__heading inline-richtext {% if block.type == "link_list" %}footer-collapser_header{% endif %}"
+                    {% if block.type == 'link_list' %}
+                      data-target-collapser="footer-collapser-content_{{ block.id }}"
+                    {% endif %}
+                  >
+                    {{- block.settings.heading -}}
+                    {% if block.type == 'link_list' %}<i class="maxxus-arrow-right"></i>{% endif %}
+                  </h2>
                 {%- endif -%}
 
                 {%- case block.type -%}
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'footer-contact' -%}
-                    {% render 'footer-contact' settings: block.settings %}
+                    {% render 'footer-contact', settings: block.settings %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
                   {%- when 'link_list' -%}
-                
                     {%- if block.settings.menu != blank -%}
-
-                      
-                      <ul class="footer-block__details-content list-unstyled footer-collapser_content" id="footer-collapser-content_{{ block.id }}">
+                      <ul
+                        class="footer-block__details-content list-unstyled footer-collapser_content"
+                        id="footer-collapser-content_{{ block.id }}"
+                      >
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
@@ -133,8 +144,6 @@
                           </li>
                         {%- endfor -%}
                       </ul>
-
-                      
                     {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
