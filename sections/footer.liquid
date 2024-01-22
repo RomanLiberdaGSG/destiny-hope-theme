@@ -36,6 +36,7 @@
     border-bottom:1px solid rgba(var(--color-foreground), 0.1);
     padding: 1rem 0;
   }
+  
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
@@ -103,7 +104,7 @@
                     {%- if block.settings.menu != blank -%}
 
                       
-                      <ul class="footer-block__details-content list-unstyled">
+                      <ul class="footer-block__details-content list-unstyled collapser_content">
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
