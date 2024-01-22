@@ -72,14 +72,8 @@
         "footer_contact_ggKdDq": {
           "type": "footer-contact",
           "settings": {
-            "footer_logo": "shopify:\/\/shop_images\/footer_newsletter.png",
-            "image_width": 100
-          }
-        },
-        "brand_information_mxrkDC": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
+            "footer_logo": "shopify:\/\/shop_images\/Maxxus_Logo-White.png",
+            "image_width": 155
           }
         }
       },
@@ -87,8 +81,7 @@
         "link_list_MVRh3E",
         "link_list_VtMBXR",
         "footer-2",
-        "footer_contact_ggKdDq",
-        "brand_information_mxrkDC"
+        "footer_contact_ggKdDq"
       ],
       "settings": {
         "color_scheme": "scheme-4",
