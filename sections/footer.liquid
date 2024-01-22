@@ -42,6 +42,9 @@
   .footer-collapser_content{
     display: none;
   }
+  .footer-collapser_content.active{
+    display: revert;
+  }
   @media screen and (min-width: 750px) {
       .footer-collapser_header{
         cursor: auto;
@@ -60,6 +63,18 @@
   }
   }
 {%- endstyle -%}
+{% javascript %}
+
+
+  document.addEventListener("DOMContentLoaded",(e)=>{
+    const triggers = document.querySelectorAll(".footer-collapser_header");
+    triggers.forEach((trigger) =>{
+      trigger.addEventListener("click", (e) =>{
+        document.getElementById(trigger.dataset.targetCollapser).classlist.toggle("active");
+      });
+    });
+  });
+  {% endjavascript %}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
