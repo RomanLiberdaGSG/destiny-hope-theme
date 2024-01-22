@@ -72,7 +72,7 @@
         "footer_contact_ggKdDq": {
           "type": "footer-contact",
           "settings": {
-            "footer-logo": "shopify:\/\/shop_images\/Maxxus_Logo-White.png",
+            "footer_logo": "shopify:\/\/shop_images\/Maxxus_Logo-White.png",
             "image_width": 100
           }
         },
