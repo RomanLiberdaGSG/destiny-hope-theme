@@ -24,6 +24,9 @@ ul.footer-contact li:before {
 ul.footer-contact li.locator:before{
   content: "\e920";
 }
+  ul.footer-contact li.phone:before{
+   content: "\e90e";
+}
   
 {% endstyle %}
 {% if settings.footer_logo != blank %}
@@ -38,5 +41,8 @@ ul.footer-contact li.locator:before{
     <span>MAXXUS GROUP GmbH & Co. KG<br>
     Nordring 80<br>
     64521 Groß-Gerau</span>
+  </li>
+  <li class="phone">
+    {{ shop.phone }}
   </li>
 </ul>
