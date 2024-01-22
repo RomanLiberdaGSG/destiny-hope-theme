@@ -82,7 +82,7 @@
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'footer-contact' -%}
-                    {% render 'footer-contact' %}
+                    {% render 'footer-contact' settings: block.settings %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
