@@ -67,9 +67,11 @@
 
 
   document.addEventListener("DOMContentLoaded",(e)=>{
+    console.log("loaded");
     const triggers = document.querySelectorAll(".footer-collapser_header");
     triggers.forEach((trigger) =>{
       trigger.addEventListener("click", (e) =>{
+        console.log(e);
         document.getElementById(trigger.dataset.targetCollapser).classlist.toggle("active");
       });
     });
