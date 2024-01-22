@@ -96,7 +96,7 @@
                 {% endif %}
               >
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="footer-block__heading inline-richtext {% if block.type == "link_list" %}footer-collapser_header{% endif %} ">{{- block.settings.heading -}}{% if block.type == "link_list" %}<i class="maxxus-arrow-right"></i>{% endif %} </h2>
+                  <h2 class="footer-block__heading inline-richtext {% if block.type == "link_list" %}footer-collapser_header{% endif %}" {% if block.type == "link_list" %}data-target-collapser="footer-collapser-content_{{ block.id }}"{% endif %} >{{- block.settings.heading -}}{% if block.type == "link_list" %}<i class="maxxus-arrow-right"></i>{% endif %} </h2>
                 {%- endif -%}
 
                 {%- case block.type -%}
@@ -113,7 +113,7 @@
                     {%- if block.settings.menu != blank -%}
 
                       
-                      <ul class="footer-block__details-content list-unstyled footer-collapser_content" id="footer-collapser-content{{ block.id }}">
+                      <ul class="footer-block__details-content list-unstyled footer-collapser_content" id="footer-collapser-content_{{ block.id }}">
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
