@@ -63,6 +63,7 @@
         },
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "MAXXUS",
             "subtext": "<p>MAXXUS GROUP GmbH & Co. KGNordring 8064521 Groß-Gerau<\/p><p><a href=\"tel:+(49) 6152 - 510 860\" title=\"tel:+(49) 6152 - 510 860\">+(49) 6152 - 510 860<\/a><strong><br\/><\/strong>Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr<\/p><p><a href=\"mailto:info@maxxus.at\" title=\"mailto:info@maxxus.at\">info@maxxus.at<\/a><\/p>"
@@ -72,13 +73,20 @@
           "type": "footer-contact",
           "settings": {
           }
+        },
+        "brand_information_mxrkDC": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
         "link_list_MVRh3E",
         "link_list_VtMBXR",
         "footer-2",
-        "footer_contact_ggKdDq"
+        "footer_contact_ggKdDq",
+        "brand_information_mxrkDC"
       ],
       "settings": {
         "color_scheme": "scheme-4",
@@ -88,7 +96,7 @@
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": false,
+        "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,
         "padding_top": 36,
