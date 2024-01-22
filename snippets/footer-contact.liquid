@@ -10,17 +10,11 @@ ul li {
   padding-left: var(--gutter);
 }
 
-ul li.locator::marker {
-  margin-top: 5px;
-  line-height: 1;
-   content: "\e920";
-  font-family: maxxus-font;
+ul li::marker {
+  content: "\f00a"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
   font-size: var(--icon-size);
-  vertical-align: middle;
 }
-  li span{
-    vertical-align: middle;
-  }
 
   
 {% endstyle %}
