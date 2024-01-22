@@ -113,7 +113,7 @@
                     {%- if block.settings.menu != blank -%}
 
                       
-                      <ul class="footer-block__details-content list-unstyled footer-collapser_content" id="footer-collapser-content{{ block.settings.id | json }}">
+                      <ul class="footer-block__details-content list-unstyled footer-collapser_content" id="footer-collapser-content{{ block.id }}">
                         {%- for link in block.settings.menu.links -%}
                           <li>
                             <a
