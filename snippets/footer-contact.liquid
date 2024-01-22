@@ -2,12 +2,13 @@
 
   ul {
   --icon-size: 1.5em;
+  --icon-width: calc(var(--icon-size) *.8);
   list-style: none;
   padding: 0;
 }
 
 li {
-  padding-left: calc( var(--icon-size) * .8 );
+  padding-left:  var(--icon-width);
 }
 
 li:before {
@@ -15,7 +16,7 @@ li:before {
   font-family: "maxxus-font";
   display: inline-block;
 
-  width: calc( var(--icon-size) * .8 );
+  width: var(--icon-width);
   font-size: var(--icon-size);
   line-height: 1;
   vertical-align: middle;
