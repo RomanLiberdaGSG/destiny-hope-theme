@@ -1,21 +1,22 @@
 {% style %}
-  ul.footer-contact {
-  --icon-space: 1.3em;
-  list-style: none;
-  padding: 0;
+
+ul {
+  --icon-size: .8em;
+  --gutter: .5em;
+  padding: 0 0 0 var(--icon-size);
 }
 
-ul.footer-contact li {
-  padding-left: var(--icon-space);
+ul li {
+  padding-left: var(--gutter);
 }
 
-ul.footer-contact li.locator:before {
-      content: "\e920";
+ul li.locator::marker {
+   content: "\e920";
   font-family: maxxus-font;
-  display: inline-block;
-  margin-left: calc( var(--icon-space) * -1 );
-  width: var(--icon-space);
+  font-size: var(--icon-size);
 }
+
+  
 {% endstyle %}
 {% if settings.footer_logo != blank %}
   {{
