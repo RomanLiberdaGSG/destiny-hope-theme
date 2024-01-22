@@ -56,6 +56,7 @@
         },
         "link_list_AzGgV7": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -70,6 +71,7 @@
         },
         "link_list_eptUwy": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -84,6 +86,7 @@
         },
         "link_list_T3LrnR": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -91,6 +94,7 @@
         },
         "link_list_Ua6yXL": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
