@@ -33,8 +33,6 @@
 
   .footer__content-top {
     padding-bottom: 3rem;
-    /*padding-left: calc(4rem / var(--font-body-scale));
-    padding-right: calc(4rem / var(--font-body-scale));*/
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
