@@ -97,7 +97,8 @@
     });
   }
 
-  var links = document.querySelectorAll(".product-tab-link");
+  document.addEventListener("DOMContentLoaded", (e)=>{
+     var links = document.querySelectorAll(".product-tab-link");
   var contents = document.querySelectorAll(".product-tab-content");
 
   links.forEach(function(link){
@@ -117,6 +118,9 @@
       console.log(e);
     });
   });
+  });
+  
+ 
 {% endjavascript %}
 
 {% schema %}
