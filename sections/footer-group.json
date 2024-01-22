@@ -71,7 +71,7 @@
         "link_list_eptUwy": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "SERVICE",
             "menu": "footer"
           }
         },
@@ -79,7 +79,7 @@
           "type": "footer-contact",
           "settings": {
             "footer_logo": "shopify:\/\/shop_images\/Maxxus_Logo-White.png",
-            "image_width": 155
+            "image_width": 205
           }
         }
       },
