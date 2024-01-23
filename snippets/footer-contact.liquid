@@ -109,6 +109,9 @@
       {%- if settings.payment_enable -%}
         <div class="row">
           <div class="col">
+            <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
+                  {{ 'payments.heading' | t }}
+                </h2>
             <div class="footer__payment">
               <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
               <ul class="list list-payment" role="list">
