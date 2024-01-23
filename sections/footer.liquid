@@ -319,7 +319,7 @@
     {%- endunless -%}
   {%- endif -%}
 
-  <div
+ {%  comment %} <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
@@ -422,6 +422,7 @@
       </div>
     </div>
   </div>
+  {% endcomment %}
 </footer>
 <div class="footer__content-bottom-wrapper footer__content-bottom-wrapper--center">
   <div class="page-width">
