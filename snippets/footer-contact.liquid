@@ -63,42 +63,65 @@
       </li>
     </ul>
   </div>
-  {%- if settings.enable_country_selector and localization.available_countries.size > 1 -%}
-    <div class="col">
-      <noscript>
-        {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
-          <div class="localization-form__select">
-            <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
-            <select
-              class="localization-selector link"
-              name="country_code"
-              aria-labelledby="FooterCountryLabelNoScript"
-            >
-              {%- for country in localization.available_countries -%}
-                <option
-                  value="{{ country.iso_code }}"
-                  {%- if country.iso_code == localization.country.iso_code %}
-                    selected
-                  {% endif %}
+  <div class="col">
+    {%- if settings.enable_country_selector and localization.available_countries.size > 1 -%}
+      <div class="row">
+        <div class="col">
+          <noscript>
+            {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
+              <div class="localization-form__select">
+                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+                <select
+                  class="localization-selector link"
+                  name="country_code"
+                  aria-labelledby="FooterCountryLabelNoScript"
                 >
-                  {{ country.name }} ({{ country.currency.iso_code }}
-                  {{ country.currency.symbol }})
-                </option>
-              {%- endfor -%}
-            </select>
-            {% render 'icon-caret' %}
+                  {%- for country in localization.available_countries -%}
+                    <option
+                      value="{{ country.iso_code }}"
+                      {%- if country.iso_code == localization.country.iso_code %}
+                        selected
+                      {% endif %}
+                    >
+                      {{ country.name }} ({{ country.currency.iso_code }}
+                      {{ country.currency.symbol }})
+                    </option>
+                  {%- endfor -%}
+                </select>
+                {% render 'icon-caret' %}
+              </div>
+              <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
+            {%- endform -%}
+          </noscript>
+          <localization-form>
+            {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
+              <div class="no-js-hidden">
+                <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
+                  {{ 'localization.country_label' | t }}
+                </h2>
+                {%- render 'country-localization', localPosition: 'FooterCountry' -%}
+              </div>
+            {%- endform -%}
+          </localization-form>
+        </div>
+      </div>
+
+      {%- if section.settings.payment_enable -%}
+        <div class="row">
+          <div class="col">
+            <div class="footer__payment">
+              <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+              <ul class="list list-payment" role="list">
+                {%- for type in shop.enabled_payment_types -%}
+                  <li class="list-payment__item">
+                    {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                  </li>
+                {%- endfor -%}
+              </ul>
+            </div>
           </div>
-          <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
-        {%- endform -%}
-      </noscript>
-      <localization-form>
-        {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
-          <div class="no-js-hidden">
-            <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
-            {%- render 'country-localization', localPosition: 'FooterCountry' -%}
-          </div>
-        {%- endform -%}
-      </localization-form>
-    </div>
-  {%- endif -%}
+        </div>
+      {%- endif -%}
+    {%- endif -%}
+  </div>
 </div>
