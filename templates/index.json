@@ -79,6 +79,62 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_CkdRLG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GLYy4d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feat_1.svg",
+            "title": "Profiqualität für Zuhause",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8PiNdH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feat_2.svg",
+            "title": "Perfekter Service macht den Unterschied",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DGYCiX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feat_3.svg",
+            "title": "Wir lieben was wir tun",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GLYy4d",
+        "column_8PiNdH",
+        "column_DGYCiX"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-a1fdce66-0175-4908-a0ad-9453481dfab0",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_xFYVeN": {
       "type": "multirow",
       "blocks": {
@@ -117,6 +173,7 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "multicolumn_CkdRLG",
     "multirow_xFYVeN"
   ]
 }
