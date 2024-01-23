@@ -466,3 +466,8 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+.card__badge{
+  font-weight: bold;
+  border-radius: 0;
+}
