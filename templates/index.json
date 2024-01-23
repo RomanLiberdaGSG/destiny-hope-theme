@@ -51,34 +51,6 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Unsere Bestseller",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_CkdRLG": {
       "type": "multicolumn",
       "blocks": {
@@ -119,7 +91,7 @@
         "column_DGYCiX"
       ],
       "custom_css": [
-        "h3 {font-weight: 700; font-size: 1.5rem; }"
+        "h3 {font-weight: 700; font-size: 1.5rem;}"
       ],
       "settings": {
         "title": "",
@@ -134,14 +106,42 @@
         "color_scheme": "scheme-3e6ce680-56cd-478f-8b31-987179826713",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 52,
+        "padding_top": 40,
         "padding_bottom": 32
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Unsere Bestseller",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
-    "multicolumn_CkdRLG"
+    "multicolumn_CkdRLG",
+    "featured_collection"
   ]
 }
