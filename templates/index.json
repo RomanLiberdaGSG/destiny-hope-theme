@@ -85,7 +85,7 @@
         "column_GLYy4d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feat_1.svg",
+            "image": "shopify:\/\/shop_images\/feat_1_circle.svg",
             "title": "Profiqualität für Zuhause",
             "text": "",
             "link_label": "",
@@ -95,7 +95,7 @@
         "column_8PiNdH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feat_2.svg",
+            "image": "shopify:\/\/shop_images\/feat_2_circle.svg",
             "title": "Perfekter Service macht den Unterschied",
             "text": "",
             "link_label": "",
@@ -105,7 +105,7 @@
         "column_DGYCiX": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feat_3.svg",
+            "image": "shopify:\/\/shop_images\/feat_3_circle.svg",
             "title": "Wir lieben was wir tun",
             "text": "",
             "link_label": "",
