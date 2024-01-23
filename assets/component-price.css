@@ -5,7 +5,7 @@
   color: rgb(var(--color-foreground));
 }
 .price-item--sale{
- color: red;
+ color: var(--app-red);
   font-weight: bold;
 }
 .price > * {
