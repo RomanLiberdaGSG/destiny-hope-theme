@@ -516,5 +516,8 @@
     "descripiton": "Produktbeschreibung",
     "technical_specification": "Technische Spezifikationen",
     "reviews_and_rating": "Bewertung(en)"
+  },
+  "payments": {
+    "heading": "Zahlungsverfahren"
   }
 }
