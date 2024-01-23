@@ -1,15 +1,18 @@
 .price {
+  --card-price-size: 2rem;
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
 }
-.price-item--sale{
- color: var(--app-red);
+.price-item--sale {
+  color: var(--app-red);
   font-weight: bold;
+  font-size: var(--card-price-size);
 }
-.price__regular .price-item--regular{
-    font-weight: bold;
+.price__regular .price-item--regular {
+  font-weight: bold;
+    font-size: var(--card-price-size);
 }
 .price > * {
   display: inline-block;
@@ -19,7 +22,7 @@
 .price.price--unavailable {
   visibility: hidden;
 }
-.price__container{
+.price__container {
   display: block;
 }
 .price--end {
