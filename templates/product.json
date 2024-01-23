@@ -87,6 +87,22 @@
         "include_margins": true
       }
     },
+    "1706019427ee54c24d": {
+      "type": "apps",
+      "blocks": {
+        "easify_attachments_product_attachments_XreMLk": {
+          "type": "shopify:\/\/apps\/easify-attachments\/blocks\/product-attachments\/cc218f93-dff3-4a2d-af6e-04e2bc66e693",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "easify_attachments_product_attachments_XreMLk"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "product_tabs_H6PBYM": {
       "type": "product-tabs",
       "blocks": {
@@ -131,6 +147,7 @@
   "order": [
     "main",
     "170533423438e24e42",
+    "1706019427ee54c24d",
     "product_tabs_H6PBYM",
     "related-products",
     "17054960691a1f8cc4"
