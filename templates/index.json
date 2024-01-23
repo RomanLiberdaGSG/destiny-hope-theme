@@ -118,9 +118,12 @@
         "column_8PiNdH",
         "column_DGYCiX"
       ],
+      "custom_css": [
+        "h3{font-weight: 300; font-size: 1.5rem; text-transform:uppercase}"
+      ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -128,7 +131,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3e6ce680-56cd-478f-8b31-987179826713",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 52,
