@@ -471,6 +471,6 @@
   font-weight: bold;
 
 }
-.card__badke span{
-  border-radius: 0 !important;
+.card__badge span.badge{
+  border-radius: 0;
 }
