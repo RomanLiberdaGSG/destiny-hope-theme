@@ -8,6 +8,9 @@
  color: var(--app-red);
   font-weight: bold;
 }
+.price-item--regular{
+    font-weight: bold;
+}
 .price > * {
   display: inline-block;
   vertical-align: top;
