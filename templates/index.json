@@ -128,11 +128,11 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-a1fdce66-0175-4908-a0ad-9453481dfab0",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 16
+        "padding_top": 52,
+        "padding_bottom": 32
       }
     }
   },
