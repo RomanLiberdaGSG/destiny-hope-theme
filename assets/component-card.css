@@ -469,5 +469,8 @@
 
 .card__badge{
   font-weight: bold;
+
+}
+.card__badke span{
   border-radius: 0 !important;
 }
