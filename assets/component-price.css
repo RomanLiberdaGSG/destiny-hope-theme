@@ -13,7 +13,9 @@
 .price.price--unavailable {
   visibility: hidden;
 }
-
+.price__container{
+  display: block;
+}
 .price--end {
   text-align: right;
 }
