@@ -18,6 +18,3 @@
   display: flex;
   padding: 0.5rem;
 }
-.payment-methods svg {
-filter: grayscale(1);
-}
