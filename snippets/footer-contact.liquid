@@ -1,40 +1,37 @@
 {% style %}
-
-
-ul.footer-contact {
-  --icon-space: 4rem;
-  list-style: none;
-  padding: 0;
-}
-
-ul.footer-contact li {
-  margin-bottom: 1em;
-  padding-left: var(--icon-space);
-}
-
-ul.footer-contact li:before {
-  font-family: "maxxus-font";
-  display: inline-block;
-  margin-left: calc( var(--icon-space) * -1 );
-  width: var(--icon-space);
-  font-size: 1.5em;
-  line-height: 1;
-  vertical-align: middle;
-  margin-right: -.2em;
-}
-ul.footer-contact li.locator:before{
-  content: "\e920";
-}
-  ul.footer-contact li.phone:before{
-   content: "\e90e";
-}
-    ul.footer-contact li.envelope:before{
-   content: "\e921";
-}
-  ul.footer-contact .address{
-    font-size: 1.4rem;
+  ul.footer-contact {
+    --icon-space: 4rem;
+    list-style: none;
+    padding: 0;
   }
-  
+
+  ul.footer-contact li {
+    margin-bottom: 1em;
+    padding-left: var(--icon-space);
+  }
+
+  ul.footer-contact li:before {
+    font-family: "maxxus-font";
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    font-size: 1.5em;
+    line-height: 1;
+    vertical-align: middle;
+    margin-right: -.2em;
+  }
+  ul.footer-contact li.locator:before{
+    content: "\e920";
+  }
+    ul.footer-contact li.phone:before{
+     content: "\e90e";
+  }
+      ul.footer-contact li.envelope:before{
+     content: "\e921";
+  }
+    ul.footer-contact .address{
+      font-size: 1.4rem;
+    }
 {% endstyle %}
 {% if settings.footer_logo != blank %}
   {{
@@ -46,16 +43,55 @@ ul.footer-contact li.locator:before{
 <ul class="footer-contact">
   <li class="locator">
     <span class="address">
-    {{ shop.address.address1 }}<br>
-    {{ shop.address.zip }} {{ shop.address.city }}<br>
-    {{ shop.address.country }}
+      {{ shop.address.address1 -}}
+      <br>
+      {{ shop.address.zip }}
+      {{ shop.address.city -}}
+      <br>
+      {{ shop.address.country }}
     </span>
   </li>
   <li class="phone">
     <a class="link link--text" href="tel:{{ shop.phone }}">{{ shop.phone }}</a><br>
-   <small>Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr</small> 
+    <small>Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr</small>
   </li>
   <li class="envelope">
     <a class="link link--text" href="mailto:{{ shop.email }}">{{ shop.email }}</a>
   </li>
 </ul>
+{%- if settings.enable_country_selector and localization.available_countries.size > 1 -%}
+  <noscript>
+    {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
+      <div class="localization-form__select">
+        <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+        <select
+          class="localization-selector link"
+          name="country_code"
+          aria-labelledby="FooterCountryLabelNoScript"
+        >
+          {%- for country in localization.available_countries -%}
+            <option
+              value="{{ country.iso_code }}"
+              {%- if country.iso_code == localization.country.iso_code %}
+                selected
+              {% endif %}
+            >
+              {{ country.name }} ({{ country.currency.iso_code }}
+              {{ country.currency.symbol }})
+            </option>
+          {%- endfor -%}
+        </select>
+        {% render 'icon-caret' %}
+      </div>
+      <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
+    {%- endform -%}
+  </noscript>
+  <localization-form>
+    {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
+      <div class="no-js-hidden">
+        <h2 class="caption-large text-body" id="FooterCountryLabel">{{ 'localization.country_label' | t }}</h2>
+        {%- render 'country-localization', localPosition: 'FooterCountry' -%}
+      </div>
+    {%- endform -%}
+  </localization-form>
+{%- endif -%}
