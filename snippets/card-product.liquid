@@ -132,7 +132,7 @@
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
-                {{- 'products.product.on_sale' | t -}} {{ (card_product.price / card_product.product_on_compare / 100) }} 
+                {{- 'products.product.on_sale' | t -}} {{ product_card.compare_at_price | minus: product_card.price | times: 100.0 | divided_by: product.compare_at_price | money_without_currency | times: 100 | remove: '.0'}} %
               </span>
             {%- endif -%}
           </div>
