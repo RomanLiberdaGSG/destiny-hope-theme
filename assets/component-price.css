@@ -4,7 +4,10 @@
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
 }
-
+.price-item--sale{
+ color: red;
+  font-weight: bold;
+}
 .price > * {
   display: inline-block;
   vertical-align: top;
