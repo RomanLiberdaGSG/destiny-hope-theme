@@ -421,7 +421,10 @@
         {%- endif -%}
       </div>
     </div>
-    <div class="footer__content-bottom-wrapper page-width footer__content-bottom-wrapper--center">
+  </div>
+</footer>
+<div class="footer__content-bottom-wrapper footer__content-bottom-wrapper--center">
+  <div class="page-width">
       <div class="footer__copyright caption">
         <small class="copyright__content"
           >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
@@ -442,8 +445,7 @@
         {%- endif -%}
       </div>
     </div>
-  </div>
-</footer>
+</div>
 
 {% schema %}
 {
