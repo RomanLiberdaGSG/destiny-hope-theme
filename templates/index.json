@@ -91,7 +91,8 @@
         "column_DGYCiX"
       ],
       "custom_css": [
-        "h3 {font-weight: 700; font-size: 1.5rem;}"
+        "h3 {font-weight: 700; font-size: 1.5rem; opacity: 0.5;}",
+        "img {opacity: 0.5;}"
       ],
       "settings": {
         "title": "",
@@ -103,7 +104,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-3e6ce680-56cd-478f-8b31-987179826713",
+        "color_scheme": "scheme-4",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 40,
