@@ -115,6 +115,7 @@
 
       target.classList.add("active");
 
+      document.dispatchEvent(new CustomEvent('scroll'))
       console.log(e);
     });
   });
