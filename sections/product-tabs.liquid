@@ -108,15 +108,13 @@
 
       e.target.classList.add("active");
 
-      console.log(e.target.dataset.targetid);
-
 
       var target = document.getElementById(e.target.dataset.targetid);
 
       target.classList.add("active");
 
       document.dispatchEvent(new CustomEvent('scroll'))
-      console.log(e);
+  
     });
   });
   });
