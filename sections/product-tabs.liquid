@@ -16,6 +16,11 @@
           {{- 'product_tabs.reviews_and_rating' | t -}}
         </a>
       </li>
+      <li class="product-tab-item">
+        <a class="product-tab-link" data-targetid="js__product-files" href="#">
+          Downloads
+        </a>
+      </li>
     </ul>
     <div class="product-tab-contents">
       <div class="product-tab-content active" id="js__product-desc">
@@ -29,6 +34,14 @@
           {{ product.metafields.judgeme.widget }}
         </div>
         <!-- End of Judge.me code -->
+      </div>
+      <div class="product-tab-content" id="js__product-files">
+        <div class="tigren-product-attachments">
+          <div class="tigren-title">
+            <h2 class="tigren-title-header"></h2>
+          </div>
+          <div class="tigren-attachments"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -114,12 +127,10 @@
       target.classList.add("active");
 
       document.dispatchEvent(new CustomEvent('scroll'))
-  
+
     });
   });
   });
-  
- 
 {% endjavascript %}
 
 {% schema %}
