@@ -515,7 +515,8 @@
   "product_tabs": {
     "descripiton": "Produktbeschreibung",
     "technical_specification": "Technische Spezifikationen",
-    "reviews_and_rating": "Bewertung(en)"
+    "reviews_and_rating": "Bewertung(en)",
+    "downloads": "Downloads"
   },
   "payments": {
     "heading": "Zahlungsverfahren"
