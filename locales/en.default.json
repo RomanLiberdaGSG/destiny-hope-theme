@@ -68,7 +68,8 @@
   "product_tabs": {
     "descripiton": "Description",
     "technical_specification": "Technical specification",
-    "reviews_and_rating": "Downloads"
+    "reviews_and_rating": "Reviews and rating",
+    "downloads": "Downloads"
   },
   "accessibility": {
     "skip_to_text": "Skip to content",
