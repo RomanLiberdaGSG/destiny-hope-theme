@@ -33,11 +33,6 @@
             "swatch_shape": "circle"
           }
         },
-        "easify_product_options_easify_product_options_EmAw6D": {
-          "type": "shopify:\/\/apps\/easify-product-options\/blocks\/easify-product-options\/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
-          "settings": {
-          }
-        },
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58": {
           "type": "buy_buttons",
           "settings": {
@@ -66,7 +61,6 @@
         "short_description_DWAzGj",
         "price",
         "variant_picker_DYgnri",
-        "easify_product_options_easify_product_options_EmAw6D",
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
         "quantity_selector_CLb8ee",
         "collapsible_tab_EEUft6"
@@ -95,16 +89,6 @@
     },
     "1706019427ee54c24d": {
       "type": "apps",
-      "blocks": {
-        "easify_attachments_product_attachments_XreMLk": {
-          "type": "shopify:\/\/apps\/easify-attachments\/blocks\/product-attachments\/cc218f93-dff3-4a2d-af6e-04e2bc66e693",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "easify_attachments_product_attachments_XreMLk"
-      ],
       "settings": {
         "include_margins": true
       }
