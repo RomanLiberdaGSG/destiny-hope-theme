@@ -138,11 +138,30 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "1706874465e8819809": {
+      "type": "apps",
+      "blocks": {
+        "mag_form_builder_form_p8YWGe": {
+          "type": "shopify:\/\/apps\/mag-form-builder\/blocks\/form\/a1074dc9-da75-4be4-856f-aa55cf4ede25",
+          "settings": {
+            "show_form": true,
+            "form_token": ""
+          }
+        }
+      },
+      "block_order": [
+        "mag_form_builder_form_p8YWGe"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn_CkdRLG",
-    "featured_collection"
+    "featured_collection",
+    "1706874465e8819809"
   ]
 }
