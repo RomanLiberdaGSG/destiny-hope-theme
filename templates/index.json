@@ -119,7 +119,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "top-20",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -141,18 +141,6 @@
     },
     "1706874465e8819809": {
       "type": "apps",
-      "blocks": {
-        "mag_form_builder_form_p8YWGe": {
-          "type": "shopify:\/\/apps\/mag-form-builder\/blocks\/form\/a1074dc9-da75-4be4-856f-aa55cf4ede25",
-          "settings": {
-            "show_form": true,
-            "form_token": ""
-          }
-        }
-      },
-      "block_order": [
-        "mag_form_builder_form_p8YWGe"
-      ],
       "settings": {
         "include_margins": true
       }
