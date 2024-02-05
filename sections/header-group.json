@@ -28,6 +28,7 @@
     },
     "f5ef79a6-7fec-4b86-8114-bf3a00564198": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".top-container {display: flex; justify-content: flex-end; padding-top: 0.5em; padding-bottom: 0.5em; font-size: 0.8em;}",
         "a {text-decoration: none !important; margin-left: 2rem;}",
