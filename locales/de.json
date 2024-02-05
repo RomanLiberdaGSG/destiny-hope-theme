@@ -274,7 +274,7 @@
       "caption": "Artikel im Warenkorb",
       "remove_title": "{{ title }} entfernen",
       "note": "Spezielle Bestellanweisungen",
-      "checkout": "Auschecken",
+      "checkout": "Zur Kasse",
       "empty": "Dein Warenkorb ist leer",
       "cart_error": "Beim Aktualisieren deines Warenkorbs ist ein Fehler aufgetreten. Bitte versuche es erneut.",
       "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} Stück dieses Artikels hinzufügen.",
@@ -564,6 +564,13 @@
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "review": {
+        "checkout_as_guest": "Als Gast bestellen"
+      }
     }
   }
 }
