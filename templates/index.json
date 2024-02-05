@@ -119,7 +119,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "top-20",
+        "collection": "top-15",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
