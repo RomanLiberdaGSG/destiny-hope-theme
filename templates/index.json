@@ -6,14 +6,14 @@
         "heading_qDbwCQ": {
           "type": "heading",
           "settings": {
-            "heading": "JOGGE KRAFTVOLL INS NEUE JAHR!",
-            "heading_size": "h1"
+            "heading": "FLEXIBEL",
+            "heading_size": "h0"
           }
         },
         "text_UBteyW": {
           "type": "text",
           "settings": {
-            "text": "BIS ZU <strong>40%<\/strong> RABAT",
+            "text": "TRAINIEREN",
             "text_style": "subtitle"
           }
         },
@@ -38,10 +38,10 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-maxxus.jpg",
-        "image_overlay_opacity": 20,
+        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "image_overlay_opacity": 40,
         "image_height": "medium",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-c42cdcae-6a33-4dd9-8b7d-b7e85867f6e9",
