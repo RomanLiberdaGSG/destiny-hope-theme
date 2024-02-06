@@ -528,10 +528,10 @@
         "sold_out": "Ausverkauft",
         "unavailable": "Nicht verfügbar",
         "on_sale": "Sale",
-        "quantity": "Quantity",
+        "quantity": "Anzahl",
         "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details"
+        "back_to_collection": "Zurück zu {{ title }}",
+        "view_details": "Details anzeigen"
       }
     },
     "article": {
