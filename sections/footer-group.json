@@ -97,7 +97,7 @@
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": false,
-        "show_social": false,
+        "show_social": true,
         "enable_language_selector": false,
         "show_policy": false,
         "margin_top": 0,
