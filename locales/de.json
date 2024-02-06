@@ -279,7 +279,7 @@
       "cart_error": "Beim Aktualisieren deines Warenkorbs ist ein Fehler aufgetreten. Bitte versuche es erneut.",
       "cart_quantity_error_html": "Du kannst deinem Warenkorb nur {{ quantity }} Stück dieses Artikels hinzufügen.",
       "taxes_and_shipping_policy_at_checkout_html": "Steuern, Rabatte und <a href=\"{{ link }}\">Versand<\/a> werden beim Checkout berechnet",
-      "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand und Rabatte werden beim Checkout berechnet",
+      "taxes_included_but_shipping_at_checkout": "Inklusive Steuern. Versand und Rabatte werden beim Checkout berechnet",
       "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\">Versand<\/a> und Rabatte werden beim Checkout berechnet.",
       "taxes_and_shipping_at_checkout": "Steuern, Rabatte und Versand werden beim Checkout berechnet",
       "headings": {
@@ -563,7 +563,7 @@
       "login_form_submit": "Eingeben",
       "signup_form_email_label": "E-Mail",
       "signup_form_success": "Wir senden dir eine E-Mail, sobald es los geht! ",
-      "password_link": "Enter using password"
+      "password_link": "Shop mit Passwort betreten"
     }
   },
   "shopify": {
