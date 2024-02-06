@@ -20,8 +20,8 @@
         "buttons_TTLUxH": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "JETZT KAUFEN!",
-            "button_link_1": "shopify:\/\/collections\/rudergerate",
+            "button_label_1": "LAUFBÄNDER ENTDECKEN",
+            "button_link_1": "shopify:\/\/collections\/laufband",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
