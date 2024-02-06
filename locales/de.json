@@ -536,11 +536,11 @@
     },
     "article": {
       "tags": "Tags:",
-      "all_topics": "All topics",
-      "by_author": "by {{ author }}",
-      "posted_in": "Posted in",
-      "read_more": "Read more",
-      "back_to_blog": "Back to {{ title }}"
+      "all_topics": "Alle Artikel",
+      "by_author": "Von {{ author }}",
+      "posted_in": "Geposted in",
+      "read_more": "Weiterlesen",
+      "back_to_blog": "Zurück zu {{ title }}"
     },
     "comments": {
       "title": "Leave a comment",
