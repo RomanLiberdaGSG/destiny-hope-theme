@@ -524,9 +524,9 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
+        "regular_price": "Regulärer Preis",
+        "sold_out": "Ausverkauft",
+        "unavailable": "Nicht verfügbar",
         "on_sale": "Sale",
         "quantity": "Quantity",
         "add_to_cart": "Add to cart",
