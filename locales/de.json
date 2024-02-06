@@ -572,5 +572,10 @@
         "checkout_as_guest": "Als Gast bestellen"
       }
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "contact_us": "kontaktiere uns."
+    }
   }
 }
