@@ -16,7 +16,7 @@
           {{- 'product_tabs.reviews_and_rating' | t -}}
         </a>
       </li>
-      <li class="product-tab-item">
+      <li class="product-tab-item js__product-files-hidden">
         <a class="product-tab-link" data-targetid="js__product-files" href="#">{{- 'product_tabs.downloads' | t -}}</a>
       </li>
     </ul>
@@ -33,7 +33,7 @@
         </div>
         <!-- End of Judge.me code -->
       </div>
-      <div class="product-tab-content" id="js__product-files">
+      <div class="product-tab-content js__product-files-hidden" id="js__product-files">
         <div class="tigren-product-attachments">
           <div class="tigren-attachments"></div>
         </div>
@@ -119,11 +119,24 @@
   {
     text-decoration: underline;    
   }
+
   
   
 {% endstylesheet %}
 
 {% javascript %}
+
+
+  function showDownloads(){
+    const container = document.querySelector('.tigren-attachments');
+
+    if (container.childNodes.length > 0){
+      
+    }
+    
+  }
+
+  
   function deselectOther(links, contents){
     links.forEach(function(link){
       link.classList.remove("active");
