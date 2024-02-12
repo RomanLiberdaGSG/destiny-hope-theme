@@ -125,7 +125,7 @@
 {% endstylesheet %}
 
 {% javascript %}
-
+console.log('product-detail');
 
         function showDownloads(){
 
@@ -168,6 +168,9 @@
 
 
 
+document.addEventListener('scroll', (e) => {
+console.log('scroll');
+});
 
            var links = document.querySelectorAll(".product-tab-link");
         var contents = document.querySelectorAll(".product-tab-content");
@@ -191,7 +194,7 @@
 
 
 
-  showDownloads();
+
 
         });
 {% endjavascript %}
