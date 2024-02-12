@@ -137,13 +137,12 @@ console.log('product-detail');
 
           const hiddenElems = document.querySelectorAll('.js__product-files-hidden');
 
-    console.log(hiddenElems);
 
 
 
           if (container.childNodes.length > 0)
   {
-            console.log('downloads files');
+        
             hiddenElems.forEach((elem)=>{
             elem.classList.remove('js__product-files-hidden');
 
@@ -166,6 +165,9 @@ console.log('product-detail');
         }
 
         document.addEventListener("DOMContentLoaded", (e)=>{
+
+   console.log('DOM Loaded');
+
            var links = document.querySelectorAll(".product-tab-link");
         var contents = document.querySelectorAll(".product-tab-content");
 
