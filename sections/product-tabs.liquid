@@ -190,6 +190,7 @@ console.log('scroll');
             target.classList.add("active");
 
 setTimeout(()=>{
+console.log("dispatched");
 document.dispatchEvent(new CustomEvent('scroll'))
 
 }, 3000);
