@@ -119,7 +119,9 @@
   {
     text-decoration: underline;    
   }
-
+.js__product-files-hidden{
+  display: none;
+}
   
   
 {% endstylesheet %}
@@ -130,8 +132,12 @@
   function showDownloads(){
     const container = document.querySelector('.tigren-attachments');
 
+    const hiddenElems = document.querySelectorAll('.js__product-files-hidden');
+
+    
     if (container.childNodes.length > 0){
-      
+      console.log('downloads files');
+      hiddenElems.classList.remove('js__product-files-hidden'');
     }
     
   }
