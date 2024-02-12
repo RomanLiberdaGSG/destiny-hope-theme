@@ -165,16 +165,16 @@
           }
 
           document.addEventListener("DOMContentLoaded", (e)=>{
-  showDownloads();
+          showDownloads();
 
 
 
-             var links = document.querySelectorAll(".product-tab-link");
+          var links = document.querySelectorAll(".product-tab-link");
           var contents = document.querySelectorAll(".product-tab-content");
 
 
           links.forEach(function(link){
-            link.addEventListener("click", function(e){
+          link.addEventListener("click", function(e){
               e.preventDefault();
               deselectOther(links, contents);
 
@@ -186,8 +186,8 @@
               target.classList.add("active");
 
 
-              window.scrollBy(0, 0);
-
+              window.scrollBy(0, 1);
+window.scrollBy(0, -1);
 
 
 
