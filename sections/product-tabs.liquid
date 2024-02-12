@@ -43,153 +43,147 @@
 </div>
 
 {% stylesheet %}
-    .product-tabs{
-      padding-top: 10rem;
-    
-      padding-bottom: 3rem;
+      .product-tabs{
+        padding-top: 10rem;
 
-    }
-    .product-tabs-items-list{
-      position: relative;
-      display: flex;
-      z-index: 2;
-      padding: 0;
-      margin: 0 0 -1px 0;
-    }
-    .product-tab-item{
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    .product-tab-item{
-      margin-right: .5em;
-    }
-    .product-tab-link{
-      display: block;
-      min-height: 47px;
-      display: flex;
-      align-items: center;
-      padding: .5em 2em;
-      background-color: #f6f6f6;
+        padding-bottom: 3rem;
 
-      color: black;
-      text-decoration: none;
-      border-top: 1px solid #f6f6f6;
-      border-left: 1px solid #f6f6f6;
-      border-right: 1px solid #f6f6f6;
-    }
-    .product-tab-link.active{
-      color: #0073fe;
+      }
+      .product-tabs-items-list{
+        position: relative;
+        display: flex;
+        z-index: 2;
+        padding: 0;
+        margin: 0 0 -1px 0;
+      }
+      .product-tab-item{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .product-tab-item{
+        margin-right: .5em;
+      }
+      .product-tab-link{
+        display: block;
+        min-height: 47px;
+        display: flex;
+        align-items: center;
+        padding: .5em 2em;
+        background-color: #f6f6f6;
 
-      box-shadow: inset 0px 5px 0px 0px #0073fe;
-      background-color: white;
-    }
-    .product-tab-content{
-      display: none;
-    }
-    .product-tab-content.active{
-      display: block;
-    }
-    .product-tab-contents{
-      border: 1px solid #f6f6f6;
-      padding: 1em;
+        color: black;
+        text-decoration: none;
+        border-top: 1px solid #f6f6f6;
+        border-left: 1px solid #f6f6f6;
+        border-right: 1px solid #f6f6f6;
+      }
+      .product-tab-link.active{
+        color: #0073fe;
+
+        box-shadow: inset 0px 5px 0px 0px #0073fe;
+        background-color: white;
+      }
+      .product-tab-content{
+        display: none;
+      }
+      .product-tab-content.active{
+        display: block;
+      }
+      .product-tab-contents{
+        border: 1px solid #f6f6f6;
+        padding: 1em;
+      }
+
+   .product-tabs .tigren-infor_wrap{
+      text-align: left;
     }
 
- .product-tabs .tigren-infor_wrap{
-    text-align: left;
+    .product-tabs .tigren-productAttachment{
+      box-shadow: none;
+      border-bottom: 1px solid #f6f6f6;
+      gap: 2rem;
+      margin-bottom: 0;
+    }
+    .product-tabs .tigren-productAttachment:last-of-type{
+      border-bottom:none;
+    }
+    .product-tabs .tigren-linkAttachment
+    {
+      font-weight: bold;
+      color: var(--maxxus-blue);
+      line-height: 1;
+      margin-bottom: .3rem;
+    }
+    .product-tabs .tigren-linkAttachment:hover
+    {
+      text-decoration: underline;
+    }
+  .js__product-files-hidden{
+    display: none;
   }
-
-  .product-tabs .tigren-productAttachment{
-    box-shadow: none;
-    border-bottom: 1px solid #f6f6f6;
-    gap: 2rem;
-    margin-bottom: 0;
-  }
-  .product-tabs .tigren-productAttachment:last-of-type{
-    border-bottom:none;
-  }
-  .product-tabs .tigren-linkAttachment 
-  {
-    font-weight: bold;
-    color: var(--maxxus-blue);
-    line-height: 1;
-    margin-bottom: .3rem;
-  }
-  .product-tabs .tigren-linkAttachment:hover
-  {
-    text-decoration: underline;    
-  }
-.js__product-files-hidden{
-  display: none;
-}
-  
-  
 {% endstylesheet %}
 
 {% javascript %}
+    function showDownloads(){
 
 
-  function showDownloads(){
-console.log('Starting');
+      const container = document.querySelector('.tigren-attachments');
 
-    const container = document.querySelector('.tigren-attachments');
+      const hiddenElems = document.querySelectorAll('.js__product-files-hidden');
 
-    const hiddenElems = document.querySelectorAll('.js__product-files-hidden');
+console.log(hiddenElems);
 
-    
-    if (container.childNodes.length > 0){
-      console.log('downloads files');
-      hiddenElems.classList.remove('js__product-files-hidden');
+
+
+      if (container.childNodes.length > 0){
+        console.log('downloads files');
+        hiddenElems.classList.remove('js__product-files-hidden');
+      }
+
+
+
     }
 
 
-    
-  }
+    function deselectOther(links, contents){
+      links.forEach(function(link){
+        link.classList.remove("active");
+      });
+      contents.forEach(function(link){
+        link.classList.remove("active");
+      });
+    }
 
-  
-  function deselectOther(links, contents){
+    document.addEventListener("DOMContentLoaded", (e)=>{
+       var links = document.querySelectorAll(".product-tab-link");
+    var contents = document.querySelectorAll(".product-tab-content");
+
     links.forEach(function(link){
-      link.classList.remove("active");
-    });
-    contents.forEach(function(link){
-      link.classList.remove("active");
-    });
-  }
+      link.addEventListener("click", function(e){
+        e.preventDefault();
+        deselectOther(links, contents);
 
-  document.addEventListener("DOMContentLoaded", (e)=>{
-     var links = document.querySelectorAll(".product-tab-link");
-  var contents = document.querySelectorAll(".product-tab-content");
-
-  links.forEach(function(link){
-    link.addEventListener("click", function(e){
-      e.preventDefault();
-      deselectOther(links, contents);
-
-      e.target.classList.add("active");
+        e.target.classList.add("active");
 
 
-      var target = document.getElementById(e.target.dataset.targetid);
+        var target = document.getElementById(e.target.dataset.targetid);
 
-      target.classList.add("active");
+        target.classList.add("active");
 
-      document.dispatchEvent(new CustomEvent('scroll'))
+        document.dispatchEvent(new CustomEvent('scroll'))
+
+      });
+
+   showDownloads();
 
     });
 
 
-    setTimeout(()=> {
- showDownloads();
-
-
-}, 5000)
-   
-  });
 
 
 
-
-
-  });
+    });
 {% endjavascript %}
 
 {% schema %}
