@@ -125,7 +125,7 @@
 {% endstylesheet %}
 
 {% javascript %}
-console.log('product-detail');
+
 
         function showDownloads(){
 
@@ -166,7 +166,10 @@ console.log('product-detail');
 
         document.addEventListener("DOMContentLoaded", (e)=>{
 
-   console.log('DOM Loaded');
+document.addEventListener('scroll', (e) => {
+console.log('scroll');
+});
+
 
            var links = document.querySelectorAll(".product-tab-link");
         var contents = document.querySelectorAll(".product-tab-content");
