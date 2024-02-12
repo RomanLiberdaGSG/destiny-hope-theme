@@ -165,12 +165,7 @@ console.log('product-detail');
         }
 
         document.addEventListener("DOMContentLoaded", (e)=>{
-
-
-
-document.addEventListener('scroll', (e) => {
-console.log('scroll');
-});
+showDownloads();
 
 
 
@@ -189,12 +184,7 @@ console.log('scroll');
 
             target.classList.add("active");
 
-setTimeout(()=>{
-console.log("dispatched");
-document.dispatchEvent(new CustomEvent('scroll'))
-
-}, 3000);
-
+           window.scrollY += 100;
 
             
 
