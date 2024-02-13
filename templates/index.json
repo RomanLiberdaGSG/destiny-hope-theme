@@ -156,10 +156,20 @@
             "description": "Gleiten Sie durch Ihre Fitnessreise mit unserem Crosstrainer – die perfekte Kombination aus Eleganz und Ausdauer.",
             "collection": "crosstrainer"
           }
+        },
+        "featured_collection_TWXUTz": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Laufband_1200x725_254405d3-c392-4dc9-9ea2-0d01dc4d971b.png",
+            "title": "Laufband",
+            "description": "Freiheit auf jedem Kilometer – das Maxxus Laufband ist Ihr persönlicher Weg zum Sieg, Schritt für Schritt.",
+            "collection": "laufband"
+          }
         }
       },
       "block_order": [
-        "featured_collection_KUG6Dy"
+        "featured_collection_KUG6Dy",
+        "featured_collection_TWXUTz"
       ],
       "settings": {
         "section_title": "Featured collections"
