@@ -21,7 +21,7 @@
       </li>
     </ul>
     <div class="product-tab-contents">
-      <a class="product-tab-link-m" data-targetid="js__product-desc" href="#">{{- 'product_tabs.descripiton' | t -}}</a>
+      <a class="product-tab-link-m" data-targetid="js__product-desc" href="#"><span>{{- 'product_tabs.descripiton' | t -}}</span> <i class="maxxus-arrow-right"></i></a>
       <div class="product-tab-content active" id="js__product-desc">
         {{ product.description }}
       </div>
@@ -44,6 +44,14 @@
 </div>
 
 {% stylesheet %}
+  .product-tab-link-m{
+    padding: 1em 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #0073fe;
+  }
       .product-tabs{
         padding-top: 10rem;
 
