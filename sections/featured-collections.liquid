@@ -120,7 +120,8 @@
 {% endstylesheet %}
 
 <div class="page-width">
-  <h2>{{ section.settings.section_title }}</h2>
+  <h2>{{ section.settings.title }}</h2>
+  <p>{{ section.settings.description }}</p>
   <div class="collections-grid">
     {% for block in section.blocks %}
       {%- case block.type -%}
