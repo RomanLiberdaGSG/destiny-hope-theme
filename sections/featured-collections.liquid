@@ -60,6 +60,9 @@
   .collection_image_wrapper>img{
     display: block;
     width: 100%;
+  }
+  .collection_item{
+    text-decoration: none;
     
   }
 {% endstylesheet %}
@@ -70,7 +73,7 @@
     {% for block in section.blocks %}
       {%- case block.type -%}
         {%- when 'featured_collection' -%}
-          <a href="{{ block.settings.collection.url }}" class="btn">
+          <a href="{{ block.settings.collection.url }}" class="collection_item">
         <div class="collection_image_wrapper">
             {{ block.settings.image | image_url: width: 500 | image_tag }}
         </div>
