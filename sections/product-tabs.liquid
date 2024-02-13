@@ -21,13 +21,13 @@
       </li>
     </ul>
     <div class="product-tab-contents">
-      <a class="product-tab-link-m active" data-targetid="js__product-desc" href="#"><span>{{- 'product_tabs.descripiton' | t -}}</span> <i class="maxxus-arrow-right"></i></a>
+      <a class="product-tab-link-m active" data-targetid="js__product-desc" href="#"><span>{{- 'product_tabs.descripiton' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
       <div class="product-tab-content active" id="js__product-desc">
         {{ product.description }}
       </div>
-      <a class="product-tab-link-m" data-targetid="js__product-spec" href="#"><span>{{- 'product_tabs.technical_specification' | t -}}</span> <i class="maxxus-arrow-right"></i></a>
+      <a class="product-tab-link-m" data-targetid="js__product-spec" href="#"><span>{{- 'product_tabs.technical_specification' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
       <div class="product-tab-content app__easy-specs-container" id="js__product-spec"></div>
-      <a class="product-tab-link-m" data-targetid="js__product-revs" href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-right"></i></a>
+      <a class="product-tab-link-m" data-targetid="js__product-revs" href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
       <div class="product-tab-content" id="js__product-revs">
         <!-- Start of Judge.me code -->
         <div style="clear:both"></div>
@@ -36,7 +36,7 @@
         </div>
         <!-- End of Judge.me code -->
       </div>
-      <a class="product-tab-link-m js__product-files-hidden" data-targetid="js__product-files" href="#"><span>{{- 'product_tabs.downloads' | t -}}</span> <i class="maxxus-arrow-right"></i></a>
+      <a class="product-tab-link-m js__product-files-hidden" data-targetid="js__product-files" href="#"><span>{{- 'product_tabs.downloads' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
       <div class="product-tab-content js__product-files-hidden" id="js__product-files">
         <div class="tigren-product-attachments">
           <div class="tigren-attachments"></div>
@@ -58,7 +58,7 @@
     border-bottom: 1px solid rgba(var(--color-foreground),.08);
   }
 .product-tab-link-m.active i{
-transform: rotate(90deg);
+transform: rotate(-180deg);
 }
 
       .product-tabs{
