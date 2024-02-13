@@ -46,17 +46,12 @@
 <div class="page-width">
   <h2>{{ section.settings.section_title }}</h2>
   {% for block in section.blocks %}
-
-
-  {%- case block.type -%}
-                  {%- when 'featured_collection' -%}
-      
-      <a href="/collections/{{ block.settings.collection.url }}" class="btn">
-        <h3>{{ block.settings.title }}</h3>
-      <p>{{ block.settings.description }}</p>
-      </a>
-
-    {%- endcase  -%}
-    
+    {%- case block.type -%}
+      {%- when 'featured_collection' -%}
+        <a href="{{ block.settings.collection.url }}" class="btn">
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.description }}</p>
+        </a>
+    {%- endcase -%}
   {% endfor %}
 </div>
