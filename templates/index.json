@@ -165,11 +165,31 @@
             "description": "Freiheit auf jedem Kilometer – das Maxxus Laufband ist Ihr persönlicher Weg zum Sieg, Schritt für Schritt.",
             "collection": "laufband"
           }
+        },
+        "featured_collection_EQiY3K": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rudergerate_1200x725_57001742-7dda-48ff-a0bd-fedc700d0a74.png",
+            "title": "Rudergeräte",
+            "description": "Kraft, Ausdauer und Stil vereint in einem Gerät - mit unseren Rudergeräten holen Sie sich den Rausch des Wassers in Ihr Zuhause.",
+            "collection": ""
+          }
+        },
+        "featured_collection_AEajkD": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fitness_bikes_1200x725_a24fa9d8-3188-4ca0-9637-ab82bb3eab9c.png",
+            "title": "Fitnessbike ",
+            "description": "Schnell, stark, unermüdlich - mit dem Maxxus Fitnessbike sind Sie der Meister Ihrer Route.",
+            "collection": ""
+          }
         }
       },
       "block_order": [
         "featured_collection_KUG6Dy",
-        "featured_collection_TWXUTz"
+        "featured_collection_TWXUTz",
+        "featured_collection_EQiY3K",
+        "featured_collection_AEajkD"
       ],
       "settings": {
         "section_title": "Featured collections"
