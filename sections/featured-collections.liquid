@@ -50,11 +50,12 @@
 
   {%- case block.type -%}
                   {%- when 'featured_collection' -%}
-    <div class="block">
-      <h3>{{ block.settings.title }}</h3>
+      
+      <a href="/collections/{{ block.settings.collection.url }}" class="btn">
+        <h3>{{ block.settings.title }}</h3>
       <p>{{ block.settings.description }}</p>
-      <a href="/collections/{{ block.settings.collection }}" class="btn">View Collection</a>
-    </div>
+      </a>
+
     {%- endcase  -%}
     
   {% endfor %}
