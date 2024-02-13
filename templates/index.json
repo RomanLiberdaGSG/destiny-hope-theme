@@ -181,7 +181,16 @@
             "image": "shopify:\/\/shop_images\/Fitness_bikes_1200x725_a24fa9d8-3188-4ca0-9637-ab82bb3eab9c.png",
             "title": "Fitnessbike ",
             "description": "Schnell, stark, unermüdlich - mit dem Maxxus Fitnessbike sind Sie der Meister Ihrer Route.",
-            "collection": ""
+            "collection": "fitness-bike"
+          }
+        },
+        "featured_collection_RJUntg": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kraftgerate_1200x725_05160cde-07f3-4200-8c04-791bbd137cfe.png",
+            "title": "Kraftgeräte ",
+            "description": "Lassen Sie Ihre Muskeln sprechen! Unsere Kraftgeräte sind der Schlüssel zu einem durchtrainierten Körper und einem starken Geist.",
+            "collection": "kraftgerate"
           }
         }
       },
@@ -189,7 +198,8 @@
         "featured_collection_KUG6Dy",
         "featured_collection_TWXUTz",
         "featured_collection_EQiY3K",
-        "featured_collection_AEajkD"
+        "featured_collection_AEajkD",
+        "featured_collection_RJUntg"
       ],
       "settings": {
         "section_title": "Featured collections"
