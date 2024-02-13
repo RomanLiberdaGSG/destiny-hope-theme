@@ -104,7 +104,6 @@ transform: rotate(-180deg);
         color: black;
         text-decoration: none;
         
-        
       }
       .product-tab-link.active{
         color: #0073fe;
@@ -205,9 +204,15 @@ transform: rotate(-180deg);
 
  function doSelect(target, links, contents) {
    const contentTarget = document.getElementById(target.dataset.targetid);
+   const linkTargets document.querySelectorAll(".product-tab-link[data-targetid=" + target.dataset.targetid + "], .product-tab-link-m[data-targetid=" + target.dataset.targetid + "]")
+
    
    deselectOther(links, contents);
-   target.classList.add("active");
+
+    linkTargets.forEach((link) => {
+      link.classList.add("active");
+    });
+   
    contentTarget.classList.add("active");
 
    simulateScroll();
