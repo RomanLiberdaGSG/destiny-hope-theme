@@ -55,7 +55,7 @@
     }
   .collections-grid > :nth-child(n+3) {
         grid-column: span 2;
-    
+
     }
   .collection_image_wrapper{
     position: relative;
@@ -65,11 +65,11 @@
     display: block;
     width: 100%;
     height: auto;
-    
+
   }
   .collection_item{
     text-decoration: none;
-    
+
   }
 {% endstylesheet %}
 
@@ -80,9 +80,12 @@
       {%- case block.type -%}
         {%- when 'featured_collection' -%}
           <a href="{{ block.settings.collection.url }}" class="collection_item">
-        <div class="collection_image_wrapper">
-            {{ block.settings.image | image_url: width: 500 | image_tag }}
-        </div>
+            <div class="collection_image_wrapper">
+              {{ block.settings.image | image_url: width: 500 | image_tag }}
+              <div class="collection_arrow">
+                <i class="maxxus-arrow-down"></i>
+              </div>
+            </div>
             <h3>{{ block.settings.title }}</h3>
             <p>{{ block.settings.description }}</p>
           </a>
