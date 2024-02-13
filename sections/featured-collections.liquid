@@ -25,6 +25,12 @@
       "id": "arrow_color",
       "label": "Arrow color",
       "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "collection_description_color",
+      "label": "Collection description color",
+      "default": "#000000"
     }
     
   ],
@@ -67,6 +73,7 @@
 :root {
   --arrow-bg-color: {{ section.settings.arrow_bg_color }};
     --arrow-color: {{ section.settings.arrow_color}};
+  --collection-description-color: {{ section.settings.collection_description_color}};
 }
 {% endstyle %}
 
@@ -119,6 +126,9 @@
     color: var(--arrow-color);
   
   }
+  .collection_desc{
+    color: var(--collection-description-color);
+  }
 {% endstylesheet %}
 
 <div class="page-width">
@@ -136,7 +146,7 @@
               </div>
             </div>
             <h4>{{ block.settings.title }}</h4>
-            <div>{{ block.settings.description }}</div>
+            <div class="collection_desc">{{ block.settings.description }}</div>
           </a>
       {%- endcase -%}
     {% endfor %}
