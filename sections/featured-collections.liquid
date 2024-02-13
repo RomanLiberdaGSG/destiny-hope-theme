@@ -179,12 +179,16 @@
   .collection_title{
     margin: 1.5rem 0 1rem;
   }
+  .featured_collections_desc{
+    margin-bottom: 3rem;
+    
+  }
   
 {% endstylesheet %}
 
 <div class="page-width section-{{ section.id }}-padding ">
   <h2>{{ section.settings.title }}</h2>
-  <p>{{ section.settings.description }}</p>
+  <p class="featured_collections_desc">{{ section.settings.description }}</p>
   <div class="collections-grid">
     {% for block in section.blocks %}
       {%- case block.type -%}
