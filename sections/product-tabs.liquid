@@ -55,12 +55,13 @@
     justify-content: space-between;
     color: #0073fe;
     text-decoration: none;
-    border-top: 1px solid #f6f6f6;
     border-bottom: 1px solid #f6f6f6;
   }
       .product-tabs{
-        padding-top: 10rem;
-        padding-bottom: 3rem;
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+        border-bottom: 1px solid #f6f6f6;
+
       }
       .product-tabs-items-list{
         display: none;
@@ -144,8 +145,13 @@
          }
          .product-tab-contents{
             border: 1px solid #f6f6f6;
-           padding: 1em;
+            padding: 1em;
          }
+         .product-tabs{
+           border-bottom: none;
+         }
+
+
        }
 {% endstylesheet %}
 
