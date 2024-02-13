@@ -77,14 +77,14 @@
 }
 
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}rem;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}rem;
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top }}rem;
+      padding-bottom: {{ section.settings.padding_bottom }}rem;
     }
   }
 {% endstyle %}
@@ -152,7 +152,7 @@
   
 {% endstylesheet %}
 
-<div class="page-width .section-{{ section.id }}-padding ">
+<div class="page-width section-{{ section.id }}-padding ">
   <h2>{{ section.settings.title }}</h2>
   <p>{{ section.settings.description }}</p>
   <div class="collections-grid">
