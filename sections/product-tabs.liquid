@@ -188,6 +188,17 @@ transform: rotate(90deg);
      });
  }
 
+ function doSelect(target, links, contents) {
+   const contentTarget = document.getElementById(e.currentTarget.dataset.targetid);
+   
+   deselectOther(links, contents);
+   target.classList.add("active");
+   contentTarget.classList.add("active");
+
+   simulateScroll();
+ }
+
+  
  document.addEventListener("DOMContentLoaded", (e) => {
      var links = document.querySelectorAll(".product-tab-link, .product-tab-link-m");
      var contents = document.querySelectorAll(".product-tab-content");
@@ -197,16 +208,7 @@ transform: rotate(90deg);
      links.forEach(function(link) {
          link.addEventListener("click", function(e) {
              e.preventDefault();
-             deselectOther(links, contents);
-
-             e.currentTarget.classList.add("active");
-
-             var target = document.getElementById(e.currentTarget.dataset.targetid);
-
-             target.classList.add("active");
-
-             simulateScroll();
-
+             doSelect(e.currentTarget, link, contents);
          });
      });
  });
