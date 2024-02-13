@@ -96,16 +96,17 @@ transform: rotate(-180deg);
         align-items: center;
         padding: .5em 2em;
         background-color: rgba(var(--color-foreground),.08);
+border: 0;
         color: black;
         text-decoration: none;
-        border-top: transparent;
-        border-left: transparent;
-        border-right: transparent;
+        
         
       }
       .product-tab-link.active{
         color: #0073fe;
-
+border-top: 1px solid rgba(var(--color-foreground),.08);
+        border-left: 1px solid rgba(var(--color-foreground),.08);
+        border-right: 1px solid rgba(var(--color-foreground),.08);
         box-shadow: inset 0px 5px 0px 0px #0073fe;
         background-color: white;
       }
