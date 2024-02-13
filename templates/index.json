@@ -202,7 +202,10 @@
         "featured_collection_RJUntg"
       ],
       "settings": {
-        "section_title": "Beliebteste Kategorien"
+        "title": "Beliebteste Kategorien",
+        "description": "Featured collections description",
+        "arrow_bg_color": "#e3fa0a",
+        "arrow_color": "#000000"
       }
     }
   },
