@@ -50,11 +50,18 @@
         grid-template-columns: repeat(6, 1fr);
         gap: 10px;
   }
-  
-
   .collections-grid > :nth-child(-n+2) {
         grid-column: span 3;
     }
+  .collection_image_wrapper{
+    position: relative;
+    width: 100%;
+  }
+  .collection_image_wrapper>img{
+    display: block;
+    width: 100%;
+    
+  }
 {% endstylesheet %}
 
 <div class="page-width">
@@ -64,7 +71,9 @@
       {%- case block.type -%}
         {%- when 'featured_collection' -%}
           <a href="{{ block.settings.collection.url }}" class="btn">
+        <div class="collection_image_wrapper">
             {{ block.settings.image | image_url: width: 500 | image_tag }}
+        </div>
             <h3>{{ block.settings.title }}</h3>
             <p>{{ block.settings.description }}</p>
           </a>
