@@ -1,6 +1,24 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Blocks Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Custom Blocks Section"
+    }
+  ]
+}
 {% endschema %}
+
+<div class="custom-blocks-section">
+  <h2>{{ section.settings.section_title }}</h2>
+  {% for block in section.settings.blocks %}
+    <div class="block">
+      <h3>{{ block.block_title }}</h3>
+      <p>{{ block.block_text }}</p>
+      <a href="/collections/{{ block.block_collection }}" class="btn">View Collection</a>
+    </div>
+  {% endfor %}
+</div>
