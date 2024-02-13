@@ -144,12 +144,33 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "featured_collections_zmJwpL": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured_collection_KUG6Dy": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crosstrainer_1200x725_d11297ae-ab04-44cf-b653-49d40d80b95b.png",
+            "title": "Crosstrainer",
+            "description": "Gleiten Sie durch Ihre Fitnessreise mit unserem Crosstrainer – die perfekte Kombination aus Eleganz und Ausdauer.",
+            "collection": "crosstrainer"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KUG6Dy"
+      ],
+      "settings": {
+        "section_title": "Featured collections"
+      }
     }
   },
   "order": [
     "image_banner",
     "multicolumn_CkdRLG",
     "featured_collection",
-    "1706874465e8819809"
+    "1706874465e8819809",
+    "featured_collections_zmJwpL"
   ]
 }
