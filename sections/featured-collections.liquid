@@ -126,6 +126,17 @@
         grid-column: span 2;
 
     }
+
+
+  @media screen and (min-width: 750px) {
+    .collections-grid > :nth-child(-n+2) {
+        grid-column: span 6;
+    }
+  .collections-grid > :nth-child(n+3) {
+        grid-column: span 6;
+    }
+  }
+  
   .collection_image_wrapper{
     position: relative;
     width: 100%;
