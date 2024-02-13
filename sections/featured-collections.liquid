@@ -43,16 +43,31 @@
 }
 {% endschema %}
 
+{% stylesheet %}
+  .collections-grid
+  {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 10px;
+    }
+
+  .collections-grid > :nth-child(-n+2) {
+        grid-column: span 3;
+    }
+{% endstylesheet %}
+
 <div class="page-width">
   <h2>{{ section.settings.section_title }}</h2>
-  {% for block in section.blocks %}
-    {%- case block.type -%}
-      {%- when 'featured_collection' -%}
-        <a href="{{ block.settings.collection.url }}" class="btn">
-          {{ block.settings.image | image_url: width: 500 | image_tag }}
-          <h3>{{ block.settings.title }}</h3>
-          <p>{{ block.settings.description }}</p>
-        </a>
-    {%- endcase -%}
-  {% endfor %}
+  <div class="collections-grid">
+    {% for block in section.blocks %}
+      {%- case block.type -%}
+        {%- when 'featured_collection' -%}
+          <a href="{{ block.settings.collection.url }}" class="btn">
+            {{ block.settings.image | image_url: width: 500 | image_tag }}
+            <h3>{{ block.settings.title }}</h3>
+            <p>{{ block.settings.description }}</p>
+          </a>
+      {%- endcase -%}
+    {% endfor %}
+  </div>
 </div>
