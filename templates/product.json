@@ -63,7 +63,7 @@
         "complementary_pV7kDa": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Passt gut zu",
+            "block_heading": "Passendes Zubehör gleich mitbestellen",
             "make_collapsible_row": false,
             "icon": "price_tag",
             "product_list_limit": 10,
