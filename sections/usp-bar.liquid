@@ -23,7 +23,6 @@
 
 <div class="usp_container">
   <div class="page-width">
-    
     <div class="glide">
       <div class="glide__arrows" data-glide-el="controls">
         <button class="glide__arrow glide__arrow--leftt" data-glide-dir="<"><i class="maxxus-arrow-left"></i></button>
@@ -43,37 +42,38 @@
   </div>
 </div>
 {% stylesheet %}
-  .usp_container{
-    background-color: silver;
+   .usp_container{
+     background-color: silver;
 
-  }
-  .glide{
-    
-   display: flex;
-    gap: 2rem;
-    align-items: center;
-  }
-  .glide__track{
-    
-  flex-grow: 1;
-  }
-  .glide__slider{
-    width: 100%;
-  }
-  .glide__arrow{
-    background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-    
-  }
+   }
+   .glide{
+
+    display: flex;
+     gap: 2rem;
+     align-items: center;
+   }
+   .glide__track{
+
+   flex-grow: 1;
+   }
+   .glide__slider{
+     width: 100%;
+   }
+   .glide__arrow{
+     background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+
+   }
 {% endstylesheet %}
 
 {% javascript %}
   const carousel = new Glide('.glide').mount({
+    breakpoints:{
   600: {
     perView: 2
   },
@@ -81,5 +81,6 @@
     perView: 3
   }
     }
+  }
   });
 {% endjavascript %}
