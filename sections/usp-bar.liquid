@@ -20,22 +20,48 @@
 ]
 }
 {% endschema %}
+
+<div class="usp_container">
+  <div class="page-width">
+    <div claas="flex">
+      <i class="maxxus-arrow-left control-left"></i>
+      <div class="glide">
+        <div class="" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">USP 1 Lorem ipsum</li>
+            <li class="glide__slide">USP 2 Lorem ipsum</li>
+            <li class="glide__slide">USP 3 Lorem ipsum</li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>
+      </div>
+      <i class="maxxus-arrow-right control-right"></i>
+    </div>
+  </div>
+</div>
 {% stylesheet %}
   .usp_container{
     background-color: silver;
-    
+
   }
   .glide{
     overflow: hidden;
     width:100%;
-    
+
   }
 {% endstylesheet %}
 
 {% javascript %}
   const carousel = new Glide('.glide').mount({
     classes: {
-      
+
     direction: {
     ltr: 'control-left',
     rtl: 'control-right'
@@ -43,28 +69,3 @@
     }
   });
 {% endjavascript %}
-<div class="usp_container">
-<div class="page-width">
-  <div claas="flex">
-  <i class="maxxus-arrow-left control-left"></i>
-  <div class="glide">
-    <div class="" data-glide-el="track">
-      <ul class="glide__slides">
-        <li class="glide__slide">USP 1 Lorem ipsum</li>
-        <li class="glide__slide">USP 2 Lorem ipsum</li>
-        <li class="glide__slide">USP 3 Lorem ipsum</li>
-      </ul>
-    </div>
-    <div class="glide__arrows" data-glide-el="controls">
-    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-  </div>
-  <div class="glide__arrows" data-glide-el="controls">
-    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-  </div>
-  </div>
-  <i class="maxxus-arrow-right control-right"></i>
-  </div>
-</div>
-</div>
