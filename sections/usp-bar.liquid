@@ -70,6 +70,11 @@
 
 {% javascript %}
   const carousel = new Glide('.glide', {
-    perView: 3
+    perView: 1,
+    breakpoints: {
+      600: {
+        perView: 3
+      }
+    }
   }).mount();
 {% endjavascript %}
