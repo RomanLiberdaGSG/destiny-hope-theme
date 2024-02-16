@@ -8,7 +8,8 @@
         "usp_item_dYE9Rc": {
           "type": "usp_item",
           "settings": {
-            "text": "Premium Fitnessstudio-ähnliche Ausstattung"
+            "text": "Premium Fitnessstudio-ähnliche Ausstattung",
+            "icon": "shopify:\/\/shop_images\/like.svg"
           }
         },
         "usp_item_cRNRcx": {
