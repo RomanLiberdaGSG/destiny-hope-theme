@@ -87,6 +87,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_8CrpiL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Kostenloser Versand & Kostenlose Rücksendungen",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "complementary_pV7kDa": {
           "type": "complementary",
           "settings": {
@@ -114,6 +123,7 @@
         "collapsible_tab_Ukm7dt",
         "collapsible_tab_pbXnDT",
         "collapsible_tab_UtyBeR",
+        "collapsible_tab_8CrpiL",
         "complementary_pV7kDa"
       ],
       "settings": {
