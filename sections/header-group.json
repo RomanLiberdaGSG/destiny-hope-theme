@@ -22,12 +22,19 @@
           "settings": {
             "text": "Kundensupport-Exzellenz"
           }
+        },
+        "usp_item_fMrYpV": {
+          "type": "usp_item",
+          "settings": {
+            "text": "Über 25 Jahre Erfahrung im Fitnessbereich"
+          }
         }
       },
       "block_order": [
         "usp_item_dYE9Rc",
         "usp_item_cRNRcx",
-        "usp_item_qiYpUy"
+        "usp_item_qiYpUy",
+        "usp_item_fMrYpV"
       ],
       "settings": {
       }
