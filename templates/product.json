@@ -91,7 +91,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Kostenloser Versand & Kostenlose Rücksendungen",
-            "icon": "none",
+            "icon": "maxxus-shipping-usp",
             "content": "<p>Stressfreies Einkaufen ohne zusätzliche Kosten für Versand und Rücksendung.<\/p>",
             "page": ""
           }
@@ -100,7 +100,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Sichere Zahlung",
-            "icon": "none",
+            "icon": "maxxus-secured-usp",
             "content": "<p>Vertrauen Sie auf unsere sicheren Zahlungsoptionen und geben Sie Ihre finanziellen Informationen beruhigt an – für ein sorgenfreies Online-Shopping-Erlebnis.\"<\/p>",
             "page": ""
           }
