@@ -27,8 +27,8 @@
 {% endjavascript %}
 
 <div class="carousel">
-  <div class="carousel-track" data-glide-el="track">
-    <div>
+  <div class="glide-track" data-glide-el="track">
+    <div class="glide-slides">
       {% for block in section.blocks %}
         {%- case block.type -%}
           {%- when 'usp_item' -%}
