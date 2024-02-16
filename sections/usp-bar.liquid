@@ -22,20 +22,20 @@
 {% endschema %}
 
 {% javascript %}
-  const carousel = new Glide('.carousel').mount();
+  const carousel = new Glide('.glide').mount();
   
 {% endjavascript %}
 
-<div class="carousel">
-  <div data-glide-el="track">
-    <ul>
-      
-      {% for block in section.blocks %}
-        {%- case block.type -%}
-          {%- when 'usp_item' -%}
-            <li>{{ block.settings.text }}</li>
-        {%- endcase -%}
-      {% endfor %}
+
+<div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <li class="glide__slide">0</li>
+      <li class="glide__slide">1</li>
+      <li class="glide__slide">2</li>
     </ul>
   </div>
 </div>
+
+
+
