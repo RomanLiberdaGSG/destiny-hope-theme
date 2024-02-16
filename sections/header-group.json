@@ -34,6 +34,12 @@
           "settings": {
             "text": "Kostenloser Versand & Kostenlose Rücksendungen"
           }
+        },
+        "usp_item_PU84f8": {
+          "type": "usp_item",
+          "settings": {
+            "text": "Sichere Zahlung"
+          }
         }
       },
       "block_order": [
@@ -41,7 +47,8 @@
         "usp_item_cRNRcx",
         "usp_item_qiYpUy",
         "usp_item_fMrYpV",
-        "usp_item_C4t4eK"
+        "usp_item_C4t4eK",
+        "usp_item_PU84f8"
       ],
       "settings": {
       }
