@@ -73,7 +73,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Kundensupport-Exzellenz",
-            "icon": "none",
+            "icon": "maxxus-support-usp",
             "content": "<p>Persönliche Unterstützung garantiert während Ihres gesamten Einkaufs<\/p>",
             "page": ""
           }
@@ -82,7 +82,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Über 25 Jahre Erfahrung im Fitnessbereich",
-            "icon": "none",
+            "icon": "maxxus-fitness-usp",
             "content": "<p>Vertrauen Sie auf unsere langjährige Expertise und kontinuierliche Hingabe zur Qualität in der Fitnessbranche.<\/p>",
             "page": ""
           }
