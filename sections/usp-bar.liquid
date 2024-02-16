@@ -29,12 +29,11 @@
       </div>
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-          <li class="glide__slide">USP 1 Lorem ipsum</li>
-          <li class="glide__slide">USP 2 Lorem ipsum</li>
-          <li class="glide__slide">USP 3 Lorem ipsum</li>
-          <li class="glide__slide">USP 4 Lorem ipsum</li>
-          <li class="glide__slide">USP 5 Lorem ipsum</li>
-          <li class="glide__slide">USP 6 Lorem ipsum</li>
+          {% for block in section.blocks %}
+            {%- case block.type -%}
+              <li class="glide__slide">{{ block.settings.text }}</li>
+            {%- endcase -%}
+          {%- endfor -%}
         </ul>
       </div>
 
@@ -74,14 +73,14 @@
 {% javascript %}
   const carousel = new Glide('.glide', {
     type: "carousel",
-  
-    perView: 3,    
+
+    perView: 3,
     breakpoints: {
       600: {
-        perView: 1,      
+        perView: 1,
       },
       1000: {
-        perView: 2,   
+        perView: 2,
       }
     }
   }).mount();
