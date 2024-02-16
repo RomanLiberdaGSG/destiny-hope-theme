@@ -11,10 +11,18 @@
             "text": "Entdecken Sie unseren 40% Rabatt – Fitnessgeräte für Ihre Ziele!",
             "link": ""
           }
+        },
+        "announcement_RQkYnK": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_RQkYnK"
       ],
       "settings": {
         "color_scheme": "scheme-58f79055-af7b-4a11-9330-260f5b389765",
