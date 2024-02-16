@@ -73,8 +73,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Kundensupport-Exzellenz",
-            "icon": "check_mark",
-            "content": "",
+            "icon": "none",
+            "content": "<p>Persönliche Unterstützung garantiert während Ihres gesamten Einkaufs<\/p>",
             "page": ""
           }
         },
