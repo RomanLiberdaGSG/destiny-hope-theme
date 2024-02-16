@@ -22,12 +22,14 @@
 {% endschema %}
 
 {% javascript %}
-  const carousel = new Glide('.cartousel').mount();
+  const carousel = new Glide('.carousel').mount();
 {% endjavascript %}
 
 {% for block in section.blocks %}
+  <div class="carousel">
   {%- case block.type -%}
     {%- when 'usp_item' -%}
       <div>{{ block.settings.text }}</div>
   {%- endcase -%}
+  </div>
 {% endfor %}
