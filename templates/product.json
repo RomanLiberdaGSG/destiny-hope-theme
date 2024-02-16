@@ -82,8 +82,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Über 25 Jahre Erfahrung im Fitnessbereich",
-            "icon": "check_mark",
-            "content": "",
+            "icon": "none",
+            "content": "<p>Vertrauen Sie auf unsere langjährige Expertise und kontinuierliche Hingabe zur Qualität in der Fitnessbranche.<\/p>",
             "page": ""
           }
         },
