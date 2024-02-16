@@ -35,7 +35,7 @@
 
 
 <div class="usp_container">
-  {{ section.settings.autoplay }}
+ 
   <div class="page-width">
     <div class="glide">
       <div class="glide__arrows" data-glide-el="controls">
@@ -119,6 +119,7 @@ opacity: .5;
   
 
 <script>
+   document.addEventListener("DOMContentLoaded", (e) => {
   const carousel = new Glide('.glide', {
     type: "carousel",
     perView: 2,
@@ -134,4 +135,5 @@ opacity: .5;
 
     }
   }).mount();
+   });
 </script>
