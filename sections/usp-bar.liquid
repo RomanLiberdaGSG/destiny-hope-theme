@@ -33,7 +33,12 @@
 {% endstylesheet %}
 
 {% javascript %}
-  const carousel = new Glide('.glide').mount();
+  const carousel = new Glide('.glide').mount({
+    direction: {
+    ltr: 'control-left',
+    rtl: 'control-right'
+  },
+  });
 {% endjavascript %}
 <div class="usp_container">
 <div class="page-width">
