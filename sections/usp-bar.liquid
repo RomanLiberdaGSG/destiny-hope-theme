@@ -34,10 +34,13 @@
 
 {% javascript %}
   const carousel = new Glide('.glide').mount({
+    classes: {
+      
     direction: {
     ltr: 'control-left',
     rtl: 'control-right'
   },
+    }
   });
 {% endjavascript %}
 <div class="usp_container">
