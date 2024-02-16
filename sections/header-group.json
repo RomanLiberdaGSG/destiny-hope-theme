@@ -15,7 +15,8 @@
         "usp_item_cRNRcx": {
           "type": "usp_item",
           "settings": {
-            "text": "Direkt vom Hersteller"
+            "text": "Direkt vom Hersteller",
+            "icon": "shopify:\/\/shop_images\/shop.svg"
           }
         },
         "usp_item_qiYpUy": {
