@@ -69,7 +69,7 @@
 {% endstylesheet %}
 
 {% javascript %}
-  const carousel = new Glide('.glide').mount({
-    perView: 1
-  });
+  const carousel = new Glide('.glide', {
+    perView: 3
+  }).mount();
 {% endjavascript %}
