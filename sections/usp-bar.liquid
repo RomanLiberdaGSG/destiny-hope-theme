@@ -1,6 +1,22 @@
 {% schema %}
+{
+  "name": "USP Bar",
+
+  "presets" : [{
+    "name" : "Featured Collections"
+  }],
+   "blocks": [
   {
-    "name": "Section name",
-    "settings": []
+    "name": "USP Item",
+    "type": "usp_item",
+    "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "text"
+        }
+      ]
   }
+]
+}
 {% endschema %}
