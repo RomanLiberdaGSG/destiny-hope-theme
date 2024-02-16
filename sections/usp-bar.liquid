@@ -74,12 +74,12 @@
 
 {% javascript %}
   const carousel = new Glide('.glide').mount({
-    classes: {
-
-    direction: {
-    ltr: 'control-left',
-    rtl: 'control-right'
+  600: {
+    perView: 2
   },
+    800: {
+    perView: 3
+  }
     }
   });
 {% endjavascript %}
