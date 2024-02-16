@@ -64,8 +64,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Direkt vom Hersteller",
-            "icon": "check_mark",
-            "content": "",
+            "icon": "none",
+            "content": "<p>Unsere Fitnessausrüstung ist direkt aus Deutschland – echte Qualität ohne Zwischenhändler.\"<\/p>",
             "page": ""
           }
         },
