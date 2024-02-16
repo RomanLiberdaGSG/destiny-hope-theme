@@ -55,8 +55,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Premium Fitnessstudio-ähnliche Ausstattung",
-            "icon": "dairy_free",
-            "content": "",
+            "icon": "none",
+            "content": "<p>Genießen Sie das Premium-Fitnesserlebnis mit professioneller Ausstattung, die an erstklassige Fitnessstudios erinnert – jetzt auch zu Hause.<\/p>",
             "page": ""
           }
         },
