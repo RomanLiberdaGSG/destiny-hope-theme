@@ -2,6 +2,29 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "usp_bar_HApF97": {
+      "type": "usp-bar",
+      "blocks": {
+        "usp_item_dYE9Rc": {
+          "type": "usp_item",
+          "settings": {
+            "text": "Test"
+          }
+        },
+        "usp_item_cRNRcx": {
+          "type": "usp_item",
+          "settings": {
+            "text": "TEst 2"
+          }
+        }
+      },
+      "block_order": [
+        "usp_item_dYE9Rc",
+        "usp_item_cRNRcx"
+      ],
+      "settings": {
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -32,6 +55,7 @@
         "announcement_naLEHx",
         "announcement_RQkYnK"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-58f79055-af7b-4a11-9330-260f5b389765",
         "show_line_separator": true,
@@ -77,6 +101,7 @@
     }
   },
   "order": [
+    "usp_bar_HApF97",
     "announcement-bar",
     "f5ef79a6-7fec-4b86-8114-bf3a00564198",
     "header"
