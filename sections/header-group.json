@@ -22,7 +22,8 @@
         "usp_item_qiYpUy": {
           "type": "usp_item",
           "settings": {
-            "text": "Kundensupport-Exzellenz"
+            "text": "Kundensupport-Exzellenz",
+            "icon": "shopify:\/\/shop_images\/support.svg"
           }
         },
         "usp_item_fMrYpV": {
