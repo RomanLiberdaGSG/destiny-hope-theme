@@ -29,7 +29,8 @@
         "usp_item_fMrYpV": {
           "type": "usp_item",
           "settings": {
-            "text": "Über 25 Jahre Erfahrung im Fitnessbereich"
+            "text": "Über 25 Jahre Erfahrung im Fitnessbereich",
+            "icon": "shopify:\/\/shop_images\/dumbbel.svg"
           }
         },
         "usp_item_C4t4eK": {
