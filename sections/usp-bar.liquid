@@ -119,9 +119,9 @@ opacity: .5;
       1000: {
         perView: 2,
       },
-      {% if section.settings.autoplay > 0 %}}
+      {% if section.settings.autoplay > 0 %}
       autoplay: {{section.settings.autoplay}} * 1000
-      {% endif %}}}
+      {% endif %}
     }
   }).mount();
 {% endjavascript %}
