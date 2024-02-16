@@ -9,42 +9,48 @@
           "type": "usp_item",
           "settings": {
             "text": "Premium Fitnessstudio-ähnliche Ausstattung",
-            "icon": "shopify:\/\/shop_images\/like.svg"
+            "icon": "shopify:\/\/shop_images\/like.svg",
+            "url": "shopify:\/\/pages\/contact"
           }
         },
         "usp_item_cRNRcx": {
           "type": "usp_item",
           "settings": {
             "text": "Direkt vom Hersteller",
-            "icon": "shopify:\/\/shop_images\/shop.svg"
+            "icon": "shopify:\/\/shop_images\/shop.svg",
+            "url": ""
           }
         },
         "usp_item_qiYpUy": {
           "type": "usp_item",
           "settings": {
             "text": "Kundensupport-Exzellenz",
-            "icon": "shopify:\/\/shop_images\/support_ee9cf70d-59bc-4b31-b0c6-cbda73c55f00.svg"
+            "icon": "shopify:\/\/shop_images\/support_ee9cf70d-59bc-4b31-b0c6-cbda73c55f00.svg",
+            "url": ""
           }
         },
         "usp_item_fMrYpV": {
           "type": "usp_item",
           "settings": {
             "text": "Über 25 Jahre Erfahrung im Fitnessbereich",
-            "icon": "shopify:\/\/shop_images\/fitness.svg"
+            "icon": "shopify:\/\/shop_images\/fitness.svg",
+            "url": ""
           }
         },
         "usp_item_C4t4eK": {
           "type": "usp_item",
           "settings": {
             "text": "Kostenloser Versand & Kostenlose Rücksendungen",
-            "icon": "shopify:\/\/shop_images\/box.svg"
+            "icon": "shopify:\/\/shop_images\/box.svg",
+            "url": ""
           }
         },
         "usp_item_PU84f8": {
           "type": "usp_item",
           "settings": {
             "text": "Sichere Zahlung",
-            "icon": "shopify:\/\/shop_images\/shield.svg"
+            "icon": "shopify:\/\/shop_images\/shield.svg",
+            "url": ""
           }
         }
       },
