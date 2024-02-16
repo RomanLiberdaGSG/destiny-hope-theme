@@ -36,13 +36,15 @@
         "usp_item_C4t4eK": {
           "type": "usp_item",
           "settings": {
-            "text": "Kostenloser Versand & Kostenlose Rücksendungen"
+            "text": "Kostenloser Versand & Kostenlose Rücksendungen",
+            "icon": "shopify:\/\/shop_images\/box.svg"
           }
         },
         "usp_item_PU84f8": {
           "type": "usp_item",
           "settings": {
-            "text": "Sichere Zahlung"
+            "text": "Sichere Zahlung",
+            "icon": "shopify:\/\/shop_images\/shield.svg"
           }
         }
       },
