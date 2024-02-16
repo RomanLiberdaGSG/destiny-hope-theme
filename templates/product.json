@@ -54,7 +54,34 @@
         "collapsible_tab_EEUft6": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Premium Fitnessstudio-ähnliche Ausstattung",
+            "icon": "dairy_free",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Ukm7dt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Direkt vom Hersteller",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pbXnDT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Kundensupport-Exzellenz",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UtyBeR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Über 25 Jahre Erfahrung im Fitnessbereich",
             "icon": "check_mark",
             "content": "",
             "page": ""
@@ -84,6 +111,9 @@
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
         "quantity_selector_CLb8ee",
         "collapsible_tab_EEUft6",
+        "collapsible_tab_Ukm7dt",
+        "collapsible_tab_pbXnDT",
+        "collapsible_tab_UtyBeR",
         "complementary_pV7kDa"
       ],
       "settings": {
