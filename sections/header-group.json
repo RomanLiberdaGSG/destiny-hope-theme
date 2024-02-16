@@ -28,13 +28,20 @@
           "settings": {
             "text": "Über 25 Jahre Erfahrung im Fitnessbereich"
           }
+        },
+        "usp_item_C4t4eK": {
+          "type": "usp_item",
+          "settings": {
+            "text": "Kostenloser Versand & Kostenlose Rücksendungen"
+          }
         }
       },
       "block_order": [
         "usp_item_dYE9Rc",
         "usp_item_cRNRcx",
         "usp_item_qiYpUy",
-        "usp_item_fMrYpV"
+        "usp_item_fMrYpV",
+        "usp_item_C4t4eK"
       ],
       "settings": {
       }
