@@ -31,6 +31,7 @@
         <ul class="glide__slides">
           {% for block in section.blocks %}
             {%- case block.type -%}
+              {%- when 'usp_item' -%}
               <li class="glide__slide">{{ block.settings.text }}</li>
             {%- endcase -%}
           {%- endfor -%}
