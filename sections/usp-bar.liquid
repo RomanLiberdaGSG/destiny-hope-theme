@@ -20,3 +20,14 @@
 ]
 }
 {% endschema %}
+
+{% javascript %}
+  const carousel = new Glide('.cartousel').mount();
+{% endjavascript %}
+
+{% for block in section.blocks %}
+  {%- case block.type -%}
+    {%- when 'usp_item' -%}
+      <div>{{ block.settings.text }}</div>
+  {%- endcase -%}
+{% endfor %}
