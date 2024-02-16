@@ -22,18 +22,19 @@
 {% endschema %}
 
 {% javascript %}
- // const carousel = new Glide('.carousel').mount();
+  const carousel = new Glide('.carousel').mount();
+  
 {% endjavascript %}
 
-{% for block in section.blocks %}
-  <div class="carousel">
-    <div class="carousel-track" data-glide-el="track">
-      <div>
-      {%- case block.type -%}
-        {%- when 'usp_item' -%}
-          <div>{{ block.settings.text }}</div>
-      {%- endcase -%}
-      </div>
+<div class="carousel">
+  <div class="carousel-track" data-glide-el="track">
+    <div>
+      {% for block in section.blocks %}
+        {%- case block.type -%}
+          {%- when 'usp_item' -%}
+            <div>{{ block.settings.text }}</div>
+        {%- endcase -%}
+      {% endfor %}
     </div>
   </div>
-{% endfor %}
+</div>
