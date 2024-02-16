@@ -112,7 +112,7 @@ opacity: .5;
       
   {% assign autoplay = section.settings.autoplay | times: 1000 %}
 {% else %}
-  {% assign autoplay = false| times: 1000 %}
+  {% assign autoplay = false%}
   {% endif %}
   
 
@@ -128,7 +128,7 @@ opacity: .5;
         perView: 2,
       },
   
-      autoplay: '{{ autoplay }}'
+      autoplay: {{ autoplay }}
 
     }
   }).mount();
