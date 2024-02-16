@@ -123,6 +123,7 @@ opacity: .5;
   const carousel = new Glide('.glide', {
     type: "carousel",
     perView: 2,
+    autoplay: {{ autoplay }}
     breakpoints: {
       700: {
         perView: 1,
@@ -130,9 +131,6 @@ opacity: .5;
       1000: {
         perView: 2,
       },
-
-      autoplay: 1000
-
     }
   }).mount();
    });
