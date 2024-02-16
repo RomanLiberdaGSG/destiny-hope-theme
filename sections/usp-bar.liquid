@@ -111,14 +111,17 @@ opacity: .5;
 {% javascript %}
   const carousel = new Glide('.glide', {
     type: "carousel",
-perView: 2,
+    perView: 2,
     breakpoints: {
       700: {
         perView: 1,
       },
       1000: {
         perView: 2,
-      }
+      },
+      {% if section.settings.autoplay > 0 %}}
+      autoplay: {{section.settings.autoplay}} * 1000
+      {% endif %}}}
     }
   }).mount();
 {% endjavascript %}
