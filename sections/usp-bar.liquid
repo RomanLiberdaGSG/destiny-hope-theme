@@ -27,15 +27,15 @@
 {% endjavascript %}
 
 <div class="carousel">
-  <div class="glide-track" data-glide-el="track">
-    <div class="glide-slides">
+  <div data-glide-el="track">
+    <ul>
       
       {% for block in section.blocks %}
         {%- case block.type -%}
           {%- when 'usp_item' -%}
-            <div>{{ block.settings.text }}</div>
+            <li>{{ block.settings.text }}</li>
         {%- endcase -%}
       {% endfor %}
-    </div>
+    </ul>
   </div>
 </div>
