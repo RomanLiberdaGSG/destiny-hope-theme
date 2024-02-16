@@ -51,7 +51,7 @@
           {% for block in section.blocks %}
             {%- case block.type -%}
               {%- when 'usp_item' -%}
-              <li class="glide__slide"><a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %}}class="usp_item">{% if block.settings.icon%}<div class="ups_item_image_wrapper">{{ block.settings.icon | image_url: width: 30 | image_tag }}</div>{% endif %}{{ block.settings.text }}</a></li>
+              <li class="glide__slide"><a {% if block.settings.url %}href="{{ block.settings.url }}"{% endif %} class="usp_item">{% if block.settings.icon%}<div class="ups_item_image_wrapper">{{ block.settings.icon | image_url: width: 30 | image_tag }}</div>{% endif %}{{ block.settings.text }}</a></li>
             {%- endcase -%}
           {%- endfor -%}
         </ul>
