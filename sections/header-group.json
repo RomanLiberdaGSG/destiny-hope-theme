@@ -16,11 +16,18 @@
           "settings": {
             "text": "Direkt vom Hersteller"
           }
+        },
+        "usp_item_qiYpUy": {
+          "type": "usp_item",
+          "settings": {
+            "text": "Kundensupport-Exzellenz"
+          }
         }
       },
       "block_order": [
         "usp_item_dYE9Rc",
-        "usp_item_cRNRcx"
+        "usp_item_cRNRcx",
+        "usp_item_qiYpUy"
       ],
       "settings": {
       }
