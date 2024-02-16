@@ -70,10 +70,18 @@
 
 {% javascript %}
   const carousel = new Glide('.glide', {
-    perView: 1,
     breakpoints: {
       600: {
+        perView: 1
+        
+      },
+      800: {
         perView: 2
+        
+      },
+      1000: {
+        perView: 3
+        
         
       }
     }
