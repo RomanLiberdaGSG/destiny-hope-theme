@@ -96,6 +96,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_Va4irN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sichere Zahlung",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "complementary_pV7kDa": {
           "type": "complementary",
           "settings": {
@@ -124,6 +133,7 @@
         "collapsible_tab_pbXnDT",
         "collapsible_tab_UtyBeR",
         "collapsible_tab_8CrpiL",
+        "collapsible_tab_Va4irN",
         "complementary_pV7kDa"
       ],
       "settings": {
