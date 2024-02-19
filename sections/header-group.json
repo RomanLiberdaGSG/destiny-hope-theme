@@ -66,47 +66,6 @@
         "autoplay": 3
       }
     },
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Entdecken Sie unseren 40% Rabatt – Fitnessgeräte für Ihre Ziele!",
-            "link": ""
-          }
-        },
-        "announcement_naLEHx": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "announcement_RQkYnK": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement-bar-0",
-        "announcement_naLEHx",
-        "announcement_RQkYnK"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-58f79055-af7b-4a11-9330-260f5b389765",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
-    },
     "f5ef79a6-7fec-4b86-8114-bf3a00564198": {
       "type": "custom-liquid",
       "disabled": true,
@@ -139,12 +98,36 @@
         "mobile_logo_position": "center",
         "margin_bottom": 0
       }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Entdecken Sie unseren 40% Rabatt",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "color_scheme": "scheme-58f79055-af7b-4a11-9330-260f5b389765",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "usp_bar_HApF97",
-    "announcement-bar",
     "f5ef79a6-7fec-4b86-8114-bf3a00564198",
-    "header"
+    "header",
+    "announcement-bar"
   ]
 }
