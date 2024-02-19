@@ -32,7 +32,7 @@
         "usp_item_fMrYpV": {
           "type": "usp_item",
           "settings": {
-            "text": "Über 25 Jahre Erfahrung im Fitnessbereich",
+            "text": "Studioqualität für Zuhause",
             "icon": "shopify:\/\/shop_images\/fitness.svg",
             "url": ""
           }
@@ -40,7 +40,7 @@
         "usp_item_C4t4eK": {
           "type": "usp_item",
           "settings": {
-            "text": "Kostenloser Versand & Kostenlose Rücksendungen",
+            "text": "Gratis Versand & 30 Tage Widerruf",
             "icon": "shopify:\/\/shop_images\/box.svg",
             "url": ""
           }
@@ -63,7 +63,7 @@
         "usp_item_PU84f8"
       ],
       "settings": {
-        "autoplay": 10
+        "autoplay": 3
       }
     },
     "announcement-bar": {
