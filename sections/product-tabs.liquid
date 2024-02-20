@@ -174,6 +174,33 @@ transform: rotate(-180deg);
 
 {% javascript %}
 
+
+  function observerSpecs(){
+    var targetNode = document.querySelector('.app__easy-specs-container');
+
+
+var config = { childList: true };
+
+
+var callback = function(mutationsList, observer) {
+    for(var mutation of mutationsList) {
+        if (mutation.type === 'childList') {
+            // Check if content was added to the div
+            if (mutation.addedNodes.length > 0) {
+                // Call your function here
+                showSpecs();
+            }
+        }
+    }
+};
+
+
+var observer = new MutationObserver(callback);
+
+
+observer.observe(targetNode, config);
+  }
+
  function showDownloads() {
      const container = document.querySelector('.tigren-attachments');
      const hiddenElems = document.querySelectorAll('.js__product-files-hidden');
@@ -231,7 +258,8 @@ function showSpecs(){
      var contents = document.querySelectorAll(".product-tab-content");
 
      showDownloads();
-   setTimeout(()=>{showSpecs()},1000);
+   observerSpecs();
+   
      
 
      links.forEach(function(link) {
