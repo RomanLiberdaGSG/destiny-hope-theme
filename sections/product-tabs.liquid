@@ -25,10 +25,10 @@
       <div class="product-tab-content active" id="js__product-desc">
         {{ product.description }}
       </div>
-      <a class="product-tab-link-m" data-targetid="js__product-spec" href="#"><span>{{- 'product_tabs.technical_specification' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
-      <div class="product-tab-content app__easy-specs-container" id="js__product-spec"></div>
-      <a class="product-tab-link-m js__product-specs-hidden" data-targetid="js__product-revs" href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
-      <div class="product-tab-content js__product-specs-hidden" id="js__product-revs">
+      <a class="product-tab-link-m js__product-specs-hidden" data-targetid="js__product-spec" href="#"><span>{{- 'product_tabs.technical_specification' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
+      <div class="product-tab-content app__easy-specs-container js__product-specs-hidden" id="js__product-spec"></div>
+      <a class="product-tab-link-m" data-targetid="js__product-revs" href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
+      <div class="product-tab-content" id="js__product-revs">
         <!-- Start of Judge.me code -->
         <div style="clear:both"></div>
         <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">
@@ -56,7 +56,7 @@
     text-decoration: none;
     color: var(--color-foreground);
     border-top: 1px solid rgba(var(--color-foreground),.08);
-  
+
   }
   .product-tab-link-m span{
     color: rgba(var(--color-foreground));
