@@ -6,7 +6,7 @@
           {{- 'product_tabs.descripiton' | t -}}
         </a>
       </li>
-      <li class="product-tab-item">
+      <li class="product-tab-item js__product-specs-hidden">
         <a class="product-tab-link" data-targetid="js__product-spec" href="#">
           {{- 'product_tabs.technical_specification' | t -}}
         </a>
@@ -27,8 +27,8 @@
       </div>
       <a class="product-tab-link-m" data-targetid="js__product-spec" href="#"><span>{{- 'product_tabs.technical_specification' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
       <div class="product-tab-content app__easy-specs-container" id="js__product-spec"></div>
-      <a class="product-tab-link-m" data-targetid="js__product-revs" href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
-      <div class="product-tab-content" id="js__product-revs">
+      <a class="product-tab-link-m js__product-specs-hidden" data-targetid="js__product-revs" href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
+      <div class="product-tab-content js__product-specs-hidden" id="js__product-revs">
         <!-- Start of Judge.me code -->
         <div style="clear:both"></div>
         <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">
@@ -184,7 +184,27 @@ transform: rotate(-180deg);
          });
      }
  }
+function showSpecs(){
 
+
+
+
+
+const container = document.querySelector('.easyspecs-table');
+     const hiddenElems = document.querySelectorAll('.js__product-specs-hidden');
+     
+      if (container.childNodes.length > 0) {
+         hiddenElems.forEach((elem) => {
+             elem.classList.remove('js__product-specs-hidden');
+         });
+     }
+
+
+
+  
+}
+
+  
  function simulateScroll(){
    window.scrollBy(0, 1);
    window.scrollBy(0, -1);
