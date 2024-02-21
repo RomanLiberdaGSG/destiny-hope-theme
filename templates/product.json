@@ -51,21 +51,30 @@
           "settings": {
           }
         },
-        "collapsible_tab_EEUft6": {
+        "collapsible_tab_8CrpiL": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Premium Fitnessstudio-ähnliche Ausstattung",
-            "icon": "maxxus-premium-usp",
-            "content": "<p>Genießen Sie das Premium-Fitnesserlebnis mit professioneller Ausstattung, die an erstklassige Fitnessstudios erinnert – jetzt auch <a href=\"\/pages\/unsere-agb\" title=\"AGB\">zu Hause.<\/a><\/p>",
+            "heading": "Gratis Versand & Rückversand (DE)",
+            "icon": "maxxus-shipping-usp",
+            "content": "<p>Überzeugen Sie sich bequem und in Ruhe von unseren Produkten. <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Wir bieten gratis Versand & Rückversand (DE).<\/a><\/p>",
             "page": ""
           }
         },
         "collapsible_tab_Ukm7dt": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Direkt vom Hersteller",
+            "heading": "30 Tage Widerruf",
             "icon": "maxxus-factory-usp",
-            "content": "<p>Unsere Fitnessausrüstung ist direkt aus Deutschland – echte Qualität ohne Zwischenhändler.\"<\/p>",
+            "content": "<p>Kaufen Sie ohne Risiko! Bei uns gibt es <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">30 Tage Widerrufs- und Rückgaberecht<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_EEUft6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Premium Fitnessstudio-ähnliche Ausstattung",
+            "icon": "maxxus-premium-usp",
+            "content": "<p>Genießen Sie das Premium-Fitnesserlebnis mit professioneller Ausstattung, die an erstklassige Fitnessstudios erinnert – jetzt auch <a href=\"\/pages\/unsere-agb\" title=\"AGB\">zu Hause.<\/a><\/p>",
             "page": ""
           }
         },
@@ -84,15 +93,6 @@
             "heading": "Über 25 Jahre Erfahrung im Fitnessbereich",
             "icon": "maxxus-fitness-usp",
             "content": "<p>Vertrauen Sie auf unsere langjährige Expertise und kontinuierliche Hingabe zur Qualität in der Fitnessbranche.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_tab_8CrpiL": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Gratis Versand & Rückversand (DE)",
-            "icon": "maxxus-shipping-usp",
-            "content": "<p>Überzeugen Sie sich bequem und in Ruhe von unseren Produkten. <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Wir bieten gratis Versand & Rückversand (DE).<\/a><\/p>",
             "page": ""
           }
         },
@@ -128,11 +128,11 @@
         "variant_picker_DYgnri",
         "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
         "quantity_selector_CLb8ee",
-        "collapsible_tab_EEUft6",
+        "collapsible_tab_8CrpiL",
         "collapsible_tab_Ukm7dt",
+        "collapsible_tab_EEUft6",
         "collapsible_tab_pbXnDT",
         "collapsible_tab_UtyBeR",
-        "collapsible_tab_8CrpiL",
         "collapsible_tab_Va4irN",
         "complementary_pV7kDa"
       ],
