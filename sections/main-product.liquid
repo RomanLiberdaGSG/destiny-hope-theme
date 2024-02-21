@@ -93,7 +93,7 @@
                 </p>
               {%- when 'featured_payments' -%}
               <div style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}; border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }}; color: {{ block.settings.text_color }};">
-              <div class="container-fluid">
+        
               <div class="row">
               <div class="col-auto">
               {{ "paypal" | payment_type_svg_tag: class: 'icon icon--full-color' }}
@@ -103,7 +103,7 @@
               </div>
               <div class="col">
               <div style="font-size:{{ block.settings.font_size }}rem">{{ block.settings.featured_payments_description }}</div>
-              </div>
+           
               </div>
               </div>
               
