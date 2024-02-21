@@ -90,9 +90,9 @@
         "collapsible_tab_8CrpiL": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Kostenloser Versand & Kostenlose Rücksendungen",
+            "heading": "Gratis Versand & Rückversand (DE)",
             "icon": "maxxus-shipping-usp",
-            "content": "<p>Stressfreies Einkaufen ohne zusätzliche Kosten für Versand und Rücksendung.<\/p>",
+            "content": "<p>Überzeugen Sie sich bequem und in Ruhe von unseren Produkten. <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Wir bieten gratis Versand & Rückversand (DE).<\/a><\/p>",
             "page": ""
           }
         },
