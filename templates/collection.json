@@ -13,6 +13,7 @@
       "blocks": {
         "pobo_page_builder_app_block_GmCdDB": {
           "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/app-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
+          "disabled": true,
           "settings": {
           }
         }
