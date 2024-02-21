@@ -48,7 +48,7 @@
         "usp_item_PU84f8": {
           "type": "usp_item",
           "settings": {
-            "text": "Sichere Zahlung",
+            "text": "Ratenzahlung & Rechnungskauf",
             "icon": "shopify:\/\/shop_images\/shield.svg",
             "url": ""
           }
