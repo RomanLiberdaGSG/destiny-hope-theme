@@ -96,11 +96,11 @@
               <div class="featured_payments" style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}; border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }}; color: {{ block.settings.text_color }};">
               <div class="row align-items-center gx-5">
               <div class="col-auto">
-              <div class="row g-3">
-              <div class="col-12 col-md-auto">
+              <div class="row row-cols-1 row-cols-md-2 g-3">
+              <div class="col">
               {{ "paypal" | payment_type_svg_tag: class: 'icon icon--full-color d-block' }}
               </div>
-              <div class="col-12 col-md-auto">
+              <div class="col">
               {{ "klarna" | payment_type_svg_tag: class: 'icon icon--full-color d-block' }}
               </div>
               </div>
