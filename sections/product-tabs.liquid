@@ -176,10 +176,7 @@ transform: rotate(-180deg);
 
 
 
-  function keepScrollPosition(yourElement){
-
-    var initialScrollPos = window.pageYOffset || document.documentElement.scrollTop;
-
+  function keepScrollPosition(yourElement, initialScrollPos){
 
         var rect = yourElement.getBoundingClientRect();
     var elementOffsetTop = rect.top + window.pageYOffset;
@@ -261,7 +258,7 @@ function showSpecs(){
  function doSelect(target, links, contents) {
    const contentTarget = document.getElementById(target.dataset.targetid);
    const linkTargets = document.querySelectorAll(".product-tab-link[data-targetid=" + target.dataset.targetid + "], .product-tab-link-m[data-targetid=" + target.dataset.targetid + "]")
-
+const initialScrollPos = window.pageYOffset || document.documentElement.scrollTop;
    deselectOther(links, contents);
 
     linkTargets.forEach((link) => {
@@ -270,7 +267,7 @@ function showSpecs(){
    
    contentTarget.classList.add("active");
 
-   keepScrollPosition(target);
+   keepScrollPosition(target, initialScrollPos);
    
    simulateScroll();
  }
@@ -278,7 +275,6 @@ function showSpecs(){
  document.addEventListener("DOMContentLoaded", (e) => {
      var links = document.querySelectorAll(".product-tab-link, .product-tab-link-m");
      var contents = document.querySelectorAll(".product-tab-content");
-
      showDownloads();
    observerSpecs();
    
