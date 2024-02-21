@@ -5,6 +5,22 @@
     "usp_bar_HApF97": {
       "type": "usp-bar",
       "blocks": {
+        "usp_item_fMrYpV": {
+          "type": "usp_item",
+          "settings": {
+            "text": "Studioqualität für Zuhause",
+            "icon": "shopify:\/\/shop_images\/fitness.svg",
+            "url": "shopify:\/\/pages\/uber-uns"
+          }
+        },
+        "usp_item_C4t4eK": {
+          "type": "usp_item",
+          "settings": {
+            "text": "Gratis Versand & Rückversand",
+            "icon": "shopify:\/\/shop_images\/box.svg",
+            "url": ""
+          }
+        },
         "usp_item_cRNRcx": {
           "type": "usp_item",
           "settings": {
@@ -21,22 +37,6 @@
             "url": "shopify:\/\/policies\/contact-information"
           }
         },
-        "usp_item_fMrYpV": {
-          "type": "usp_item",
-          "settings": {
-            "text": "Studioqualität für Zuhause",
-            "icon": "shopify:\/\/shop_images\/fitness.svg",
-            "url": ""
-          }
-        },
-        "usp_item_C4t4eK": {
-          "type": "usp_item",
-          "settings": {
-            "text": "Gratis Versand & Rückversand",
-            "icon": "shopify:\/\/shop_images\/box.svg",
-            "url": ""
-          }
-        },
         "usp_item_PU84f8": {
           "type": "usp_item",
           "settings": {
@@ -47,10 +47,10 @@
         }
       },
       "block_order": [
-        "usp_item_cRNRcx",
-        "usp_item_qiYpUy",
         "usp_item_fMrYpV",
         "usp_item_C4t4eK",
+        "usp_item_cRNRcx",
+        "usp_item_qiYpUy",
         "usp_item_PU84f8"
       ],
       "settings": {
