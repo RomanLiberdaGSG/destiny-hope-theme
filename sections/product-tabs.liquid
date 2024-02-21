@@ -175,6 +175,24 @@ transform: rotate(-180deg);
 {% javascript %}
 
 
+
+  function keepScrollPosition(yourElement){
+
+    var initialScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+
+
+        var rect = yourElement.getBoundingClientRect();
+    var elementOffsetTop = rect.top + window.pageYOffset;
+
+      window.scrollTo({
+        top: initialScrollPos + elementOffsetTop,
+    });
+    
+});
+ 
+  
+
+
   function observerSpecs(){
     var targetNode = document.querySelector('.app__easy-specs-container');
 
@@ -251,6 +269,8 @@ function showSpecs(){
    
    contentTarget.classList.add("active");
 
+   keepScrollPosition(target);
+   
    simulateScroll();
  }
 
