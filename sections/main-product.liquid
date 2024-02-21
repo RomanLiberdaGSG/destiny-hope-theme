@@ -91,6 +91,10 @@
                 >
                   {{- block.settings.text -}}
                 </p>
+              {%- when 'featured_payments' -%}
+              <div>
+                {{ block.settings.featured_payments_description }}
+              </div>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                   <h1>{{ product.title | escape }}</h1>
@@ -790,7 +794,7 @@
       "settings":[
         {
           "type": "text",
-          "id": "featured_payments_desc",
+          "id": "featured_payments_description",
           "label": "Description"
         }
       ]
