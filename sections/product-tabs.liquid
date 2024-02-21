@@ -176,12 +176,11 @@ transform: rotate(-180deg);
 
 
 
-  function keepScrollPosition(yourElement, initialScrollPos){
-        var rect = yourElement.getBoundingClientRect();
-    var elementOffsetTop = rect.top + window.pageYOffset;
+  function keepScrollPosition(target, initialScrollPos){
+    const pos = target.getBoundingClientRect().top + window.pageYOffset - 10
 
       window.scrollTo({
-        top: initialScrollPos + elementOffsetTop,
+        top: pos,
     });
   }
 
