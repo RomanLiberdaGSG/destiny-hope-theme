@@ -1,13 +1,14 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
-{% stylesheet %}
+{% style %}
 .promocode{
-  border: 1px solid white;
+  border: 1px solid rgba(--color-foreground);
   line-height: 3rem;
   padding: .3rem .7rem;
+  margin: 0 .8rem;
 }
-{% endstylesheet %}
+{% endstyle %}
 
 {%- liquid
   assign social_icons = true
