@@ -92,7 +92,7 @@
                   {{- block.settings.text -}}
                 </p>
               {%- when 'featured_payments' -%}
-              <div class="color-{{ block.settings.color_scheme }}" style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}">
+              <div class="color-{{ block.settings.color_scheme }}" style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}; border: 1px solid {{ block.settings.border_color }};">
                 {{ block.settings.featured_payments_description }}
               </div>
               {%- when 'title' -%}
