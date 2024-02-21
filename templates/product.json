@@ -35,9 +35,11 @@
           "type": "featured_payments",
           "settings": {
             "featured_payments_description": "Zahle in Raten oder auf Rechnung mit Klarna & PayPal. Details im Checkout",
-            "bg_color": "#e7fdff",
-            "border_color": "#8eefff",
-            "border_width": 1,
+            "bg_color": "#f4f4f4",
+            "border_color": "rgba(0,0,0,0)",
+            "text_color": "#0073fe",
+            "font_size": 1.3,
+            "border_width": 0,
             "padding": 1
           }
         },
