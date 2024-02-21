@@ -30,6 +30,10 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+    .featured_payments svg{
+      width: 4rem;
+    }
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -92,7 +96,7 @@
                   {{- block.settings.text -}}
                 </p>
               {%- when 'featured_payments' -%}
-              <div style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}; border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }}; color: {{ block.settings.text_color }};">
+              <div class="featured_payments" style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}; border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }}; color: {{ block.settings.text_color }};">
               <div class="row align-items-center g-4">
               <div class="col-auto">
               {{ "paypal" | payment_type_svg_tag: class: 'icon icon--full-color d-block' }}
