@@ -106,7 +106,8 @@
           "type": "announcement",
           "settings": {
             "text": "Entdecken Sie unseren 40% Rabatt",
-            "link": ""
+            "link": "",
+            "promo": "PROMOCODE"
           }
         }
       },
