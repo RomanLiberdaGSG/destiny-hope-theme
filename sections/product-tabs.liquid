@@ -256,7 +256,7 @@ function showSpecs(){
  function doSelect(target, links, contents) {
    const contentTarget = document.getElementById(target.dataset.targetid);
    const linkTargets = document.querySelectorAll(".product-tab-link[data-targetid=" + target.dataset.targetid + "], .product-tab-link-m[data-targetid=" + target.dataset.targetid + "]")
-const initialScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+
    deselectOther(links, contents);
 
     linkTargets.forEach((link) => {
@@ -265,7 +265,7 @@ const initialScrollPos = window.pageYOffset || document.documentElement.scrollTo
    
    contentTarget.classList.add("active");
 
-   keepScrollPosition(target, initialScrollPos);
+   keepScrollPosition(target);
    
    simulateScroll();
  }
