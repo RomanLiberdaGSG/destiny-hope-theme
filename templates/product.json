@@ -31,6 +31,26 @@
           "settings": {
           }
         },
+        "variant_picker_DYgnri": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_picker_type": "swatch",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_CLb8ee": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "e28ee9e2-802e-4374-ab01-5f25ff68fe58": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
         "featured_payments_dpn8AD": {
           "type": "featured_payments",
           "settings": {
@@ -41,26 +61,6 @@
             "font_size": 1.3,
             "border_width": 0,
             "padding": 1
-          }
-        },
-        "variant_picker_DYgnri": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_picker_type": "swatch",
-            "swatch_shape": "circle"
-          }
-        },
-        "e28ee9e2-802e-4374-ab01-5f25ff68fe58": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
-          }
-        },
-        "quantity_selector_CLb8ee": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "collapsible_tab_8CrpiL": {
@@ -110,10 +110,10 @@
         "title",
         "short_description_DWAzGj",
         "price",
-        "featured_payments_dpn8AD",
         "variant_picker_DYgnri",
-        "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
         "quantity_selector_CLb8ee",
+        "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
+        "featured_payments_dpn8AD",
         "collapsible_tab_8CrpiL",
         "collapsible_tab_Ukm7dt",
         "collapsible_tab_pbXnDT",
