@@ -97,13 +97,18 @@
                 </p>
               {%- when 'featured_payments' -%}
               <div class="featured_payments" style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}; border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }}; color: {{ block.settings.text_color }};">
-              <div class="row align-items-center g-4">
-              <div class="col-auto">
+              <div class="row align-items-center gx-5">
+              <div class="col-12 col-md-auto">
+              <div class="row gx-3">
+              <div class="col">
               {{ "paypal" | payment_type_svg_tag: class: 'icon icon--full-color d-block' }}
               </div>
-              <div class="col-auto">
+              <div class="col">
               {{ "klarna" | payment_type_svg_tag: class: 'icon icon--full-color d-block' }}
               </div>
+              </div>
+              </div>
+              
               <div class="col">
               <div style="font-size:{{ block.settings.font_size }}rem">{{ block.settings.featured_payments_description }}</div>
            
