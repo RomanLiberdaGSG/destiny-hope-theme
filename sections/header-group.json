@@ -5,18 +5,10 @@
     "usp_bar_HApF97": {
       "type": "usp-bar",
       "blocks": {
-        "usp_item_dYE9Rc": {
-          "type": "usp_item",
-          "settings": {
-            "text": "Premium Fitnessstudio-ähnliche Ausstattung",
-            "icon": "shopify:\/\/shop_images\/like.svg",
-            "url": ""
-          }
-        },
         "usp_item_cRNRcx": {
           "type": "usp_item",
           "settings": {
-            "text": "Direkt vom Hersteller",
+            "text": "30 Tage Widerruf",
             "icon": "shopify:\/\/shop_images\/shop.svg",
             "url": ""
           }
@@ -55,7 +47,6 @@
         }
       },
       "block_order": [
-        "usp_item_dYE9Rc",
         "usp_item_cRNRcx",
         "usp_item_qiYpUy",
         "usp_item_fMrYpV",
