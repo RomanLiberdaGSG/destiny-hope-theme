@@ -103,7 +103,7 @@
             "pagination_style": "counter",
             "image_ratio": "square",
             "enable_quick_add": true,
-            "margin_top": 2,
+            "margin_top": 3,
             "margin_bottom": 0
           }
         }
