@@ -10,15 +10,15 @@
             "text_style": "uppercase"
           }
         },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
         "sku_j8UTt7": {
           "type": "sku",
           "settings": {
             "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
           }
         },
         "short_description_DWAzGj": {
@@ -106,8 +106,8 @@
       },
       "block_order": [
         "vendor",
-        "sku_j8UTt7",
         "title",
+        "sku_j8UTt7",
         "short_description_DWAzGj",
         "price",
         "variant_picker_DYgnri",
