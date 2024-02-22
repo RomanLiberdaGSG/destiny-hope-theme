@@ -6,7 +6,7 @@
      if request.page_type != 'product'
   assign og_description = page_description | default: shop.description | default: shop.name
    else
-   assign og_description = product.metafields.basic_data.short_description | default: page_description | default: shop.description | default: shop.name
+   assign og_description = product.metafields.long_description | default: page_description | default: shop.description | default: shop.name
    endif
    
 
