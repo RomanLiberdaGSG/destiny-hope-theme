@@ -56,7 +56,7 @@
         "featured_payments_dpn8AD": {
           "type": "featured_payments",
           "settings": {
-            "featured_payments_description": "<p>Zahle in Raten oder auf Rechnung mit <strong>Klarna & PayPal<\/strong>. Details im Checkout<\/p>",
+            "featured_payments_description": "<p>Zahlen Sie in Raten oder auf Rechnung mit <strong>Klarna & PayPal<\/strong>. Details im Checkou<\/p>",
             "bg_color": "rgba(0,0,0,0)",
             "border_color": "rgba(0,0,0,0)",
             "text_color": "#4b4b4b",
