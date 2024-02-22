@@ -19,7 +19,7 @@
           "type": "sku",
           "settings": {
             "label": "Art. Nr.",
-            "color": "#F0F0F0",
+            "color": "#acacac",
             "text_style": "uppercase"
           }
         },
