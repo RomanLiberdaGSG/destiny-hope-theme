@@ -534,7 +534,7 @@
                 {%- endif -%}
               {%- when 'complementary' -%}
                 <product-recommendations
-                  style="margin-top: {{ block.settings.margin_top }}; margin-bottom: {{ block.settings.margin_bottom }};"
+                  style="margin-top: {{ block.settings.margin_top }}rem; margin-bottom: {{ block.settings.margin_bottom }}rem;"
                   class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}{% if block.settings.enable_quick_add %} complementary-products-contains-quick-add{% endif %}"
                   data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary"
                 >
