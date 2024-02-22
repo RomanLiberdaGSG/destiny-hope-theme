@@ -33,6 +33,13 @@
 
   {%- endstyle -%}
 
+  {% stylesheet %}
+    .featured_payments{
+      display: flex;
+      gap: 2rem;
+    }
+  {% endstylesheet %}
+
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
   {%- if product.quantity_price_breaks_configured? -%}
@@ -94,23 +101,22 @@
                 </p>
               {%- when 'featured_payments' -%}
               <div class="featured_payments" style="padding: {{ block.settings.padding }}rem; background-color: {{ block.settings.bg_color }}; border: {{ block.settings.border_width }}px solid {{ block.settings.border_color }}; color: {{ block.settings.text_color }};">
-              <div class="row align-items-center gx-5">
-              <div class="col-auto">
-              <div class="row  g-3">
-              <div class="col-md-6">
+              
+              <div class="fp_icons_container">
+              <div class="fp_icon_wrapper">
               {{ "paypal" | payment_type_svg_tag: class: 'icon icon--full-color d-block' }}
               </div>
-              <div class="col-md-6">
+              <div class="fp_icon_wrapper">
               {{ "klarna" | payment_type_svg_tag: class: 'icon icon--full-color d-block' }}
               </div>
               </div>
-              </div>
+            
               
-              <div class="col">
+              
               <div style="font-size:{{ block.settings.font_size }}rem">{{ block.settings.featured_payments_description }}</div>
            
-              </div>
-              </div>
+            
+      
               
               </div>
               {%- when 'title' -%}
