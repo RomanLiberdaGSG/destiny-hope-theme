@@ -18,6 +18,8 @@
         "sku_j8UTt7": {
           "type": "sku",
           "settings": {
+            "label": "Art. Nr.",
+            "color": "#F0F0F0",
             "text_style": "uppercase"
           }
         },
