@@ -534,6 +534,7 @@
                 {%- endif -%}
               {%- when 'complementary' -%}
                 <product-recommendations
+                  style="margin-top: {{ block.settings.margin_top }}; margin-bottom: {{ block.settings.margin_bottom }};"
                   class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}{% if block.settings.enable_quick_add %} complementary-products-contains-quick-add{% endif %}"
                   data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary"
                 >
@@ -1667,6 +1668,27 @@
           "id": "enable_quick_add",
           "label": "t:sections.main-product.blocks.complementary_products.settings.enable_quick_add.label",
           "default": false
+        },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "unit": "rem",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 0,
+          "label": "Margin Top"
+        }
+        ,
+        {
+          "type": "range",
+          "id": "margin_bottom",
+          "unit": "rem",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 0,
+          "label": "Margin Bottom"
         }
       ]
     },
