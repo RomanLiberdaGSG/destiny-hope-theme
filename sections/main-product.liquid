@@ -143,7 +143,7 @@
                 </div>
               {%- when 'short_description' -%}
                 {% if product.metafields.product.long_description != blank %}
-                  <p>{{ product.metafields.product.long_description }}</p>
+                  <p>{{ product.metafields.product.long_description | metafield_tag }}</p>
                 {% endif %}
               {%- when 'price' -%}
                 <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
