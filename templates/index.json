@@ -51,29 +51,6 @@
         "show_text_below": false
       }
     },
-    "rich_text_BFLkgn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VRMnUE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Your Journey. Our Expertise.",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VRMnUE"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 24
-      }
-    },
     "multicolumn_CkdRLG": {
       "type": "multicolumn",
       "blocks": {
@@ -171,7 +148,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Crosstrainer_1200x725_d11297ae-ab04-44cf-b653-49d40d80b95b.png",
             "title": "Crosstrainer",
-            "description": "Gleiten Sie durch Ihre Fitnessreise mit unserem Crosstrainer – die perfekte Kombination aus Eleganz und Ausdauer.",
+            "description": "",
             "collection": "crosstrainer"
           }
         },
@@ -180,7 +157,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Laufband_1200x725_254405d3-c392-4dc9-9ea2-0d01dc4d971b.png",
             "title": "Laufband",
-            "description": "Freiheit auf jedem Kilometer – das Maxxus Laufband ist Ihr persönlicher Weg zum Sieg, Schritt für Schritt.",
+            "description": "",
             "collection": "laufband"
           }
         },
@@ -189,7 +166,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rudergerate_1200x725_57001742-7dda-48ff-a0bd-fedc700d0a74.png",
             "title": "Rudergeräte",
-            "description": "Kraft und Stil in unseren Rudergeräten - erleben Sie Wassersport zu Hause.",
+            "description": "",
             "collection": "rudergerat"
           }
         },
@@ -198,7 +175,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Fitness_bikes_1200x725_a24fa9d8-3188-4ca0-9637-ab82bb3eab9c.png",
             "title": "Fitnessbike ",
-            "description": "Schnell, stark, unermüdlich - mit dem Maxxus Fitnessbike sind Sie der Meister Ihrer Route.",
+            "description": "",
             "collection": "fitness-bike"
           }
         },
@@ -207,7 +184,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Kraftgerate_1200x725_05160cde-07f3-4200-8c04-791bbd137cfe.png",
             "title": "Kraftgeräte ",
-            "description": "Trainieren Sie Körper und Geist mit unseren Kraftgeräten!",
+            "description": "",
             "collection": "krafttraining"
           }
         }
@@ -238,7 +215,6 @@
   },
   "order": [
     "image_banner",
-    "rich_text_BFLkgn",
     "multicolumn_CkdRLG",
     "featured_collection",
     "featured_collections_zmJwpL",

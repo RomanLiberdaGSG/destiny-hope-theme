@@ -8,7 +8,7 @@
         "image_RmFRxJ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/footer_newsletter_1.png"
+            "image": "shopify:\/\/shop_images\/footer_newsletter.png"
           }
         },
         "heading_RVqA6k": {
@@ -21,7 +21,7 @@
         "paragraph_9TrRki": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Sichern Sie sich 20 €* auf Ihre nächste Bestellung und werden Sie Teil der MAXXUS Familie.<\/p>"
+            "text": "<p>Sichern Sie sich 10 %* auf Ihre nächste Bestellung und werden Sie Teil der MAXXUS Familie.<\/p>"
           }
         },
         "email_form_VRTnFH": {
