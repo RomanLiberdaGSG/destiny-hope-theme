@@ -1,0 +1,129 @@
+.product-tab-link-m{
+  padding: 1em 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: var(--color-foreground);
+  border-top: 1px solid rgba(var(--color-foreground),.08);
+
+}
+.product-tab-link-m span{
+  color: rgba(var(--color-foreground));
+
+}
+.product-tab-link-m i{
+  font-size: 1rem;
+  margin: 0 1em;
+}
+.product-tab-link-m.active-m i{
+  transform: rotate(-180deg);
+}
+.product-tabs{
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+
+}
+.product-tabs-items-list{
+  display: none;
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  margin: 0 0 -1px 0;
+}
+.product-tab-item{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.product-tab-item{
+  margin-right: .5em;
+}
+.product-tab-link{
+  display: block;
+  min-height: 47px;
+  display: flex;
+  align-items: center;
+  padding: .5em 2em;
+  background-color: #f0f0f0;
+  border: none;
+  color: black;
+  text-decoration: none;
+
+}
+.product-tab-link.active{
+  color: #0073fe;
+  border-top: 1px solid rgba(var(--color-foreground),.08);
+  border-left: 1px solid rgba(var(--color-foreground),.08);
+  border-right: 1px solid rgba(var(--color-foreground),.08);
+  box-shadow: inset 0px 5px 0px 0px #0073fe;
+  background-color: white;
+}
+.product-tab-content{
+  display: none;
+  padding: 1em 0;
+}
+
+.product-tab-contents{
+  border-bottom: 1px solid rgba(var(--color-foreground),.08);
+  padding: 0;
+}
+
+
+.product-tabs .tigren-infor_wrap{
+  text-align: left;
+}
+
+.product-tabs .tigren-productAttachment{
+  box-shadow: none;
+  border-bottom: 1px solid rgba(var(--color-foreground),.08);
+  gap: 2rem;
+  margin-bottom: 0;
+}
+.product-tabs .tigren-productAttachment:last-of-type{
+  border-bottom:none;
+}
+.product-tabs .tigren-linkAttachment
+{
+  font-weight: bold;
+  color: var(--maxxus-blue);
+  line-height: 1;
+  margin-bottom: .3rem;
+}
+.product-tabs .tigren-linkAttachment:hover
+{
+  text-decoration: underline;
+}
+.js__product-files-hidden, .js__product-specs-hidden{
+  display: none;
+
+}
+@media screen and (max-width: 1024px) {
+  .product-tab-content.active-m {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .product-tabs-items-list{
+    display: flex;
+  }
+  .product-tab-link-m{
+    display: none;
+  }
+  .product-tab-contents{
+    border: 1px solid rgba(var(--color-foreground),.08);
+    padding: 1em;
+  }
+  .product-tabs{
+    border-bottom: none;
+  }
+  .product-tab-content{
+    padding: 0;
+    box-shadow: none;
+  }
+  .product-tab-content.active{
+    display: block;
+  }
+}

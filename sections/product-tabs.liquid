@@ -1,314 +1,75 @@
+{{ 'product-tabs.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'product-tabs.js' | asset_url }}" defer="defer"></script>
+
 <div class="page-width">
-  <div class="product-tabs">
-    <ul class="product-tabs-items-list">
-      <li class="product-tab-item">
-        <a class="product-tab-link active" data-targetid="js__product-desc" href="#">
-          {{- 'product_tabs.descripiton' | t -}}
-        </a>
-      </li>
-      <li class="product-tab-item js__product-specs-hidden">
-        <a class="product-tab-link" data-targetid="js__product-spec" href="#">
-          {{- 'product_tabs.technical_specification' | t -}}
-        </a>
-      </li>
-      <li class="product-tab-item">
-        <a class="product-tab-link" data-targetid="js__product-revs" href="#">
-          {{- 'product_tabs.reviews_and_rating' | t -}}
-        </a>
-      </li>
-      <li class="product-tab-item js__product-files-hidden">
-        <a class="product-tab-link" data-targetid="js__product-files" href="#">{{- 'product_tabs.downloads' | t -}}</a>
-      </li>
-    </ul>
-    <div class="product-tab-contents">
-      <a class="product-tab-link-m active" data-targetid="js__product-desc" href="#"><span>{{- 'product_tabs.descripiton' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
-      <div class="product-tab-content active" id="js__product-desc">
-        {{ product.description }}
-      </div>
-      <a class="product-tab-link-m js__product-specs-hidden" data-targetid="js__product-spec" href="#"><span>{{- 'product_tabs.technical_specification' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
-      <div class="product-tab-content app__easy-specs-container js__product-specs-hidden" id="js__product-spec"></div>
-      <a class="product-tab-link-m" data-targetid="js__product-revs" href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
-      <div class="product-tab-content" id="js__product-revs">
-        <!-- Start of Judge.me code -->
-        <div style="clear:both"></div>
-        <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">
-          {{ product.metafields.judgeme.widget }}
+    <div class="product-tabs">
+        <ul class="product-tabs-items-list">
+            <li class="product-tab-item">
+                <a class="product-tab-link active" data-targetid="js__product-desc" href="#">
+                    {{- 'product_tabs.descripiton' | t -}}
+                </a>
+            </li>
+            <li class="product-tab-item js__product-specs-hidden">
+                <a class="product-tab-link" data-targetid="js__product-spec" href="#">
+                    {{- 'product_tabs.technical_specification' | t -}}
+                </a>
+            </li>
+            <li class="product-tab-item">
+                <a class="product-tab-link" data-targetid="js__product-revs" href="#">
+                    {{- 'product_tabs.reviews_and_rating' | t -}}
+                </a>
+            </li>
+            <li class="product-tab-item js__product-files-hidden">
+                <a class="product-tab-link" data-targetid="js__product-files"
+                   href="#">{{- 'product_tabs.downloads' | t -}}</a>
+            </li>
+        </ul>
+        <div class="product-tab-contents">
+            <a class="product-tab-link-m active-m" data-targetid="js__product-desc"
+               href="#"><span>{{- 'product_tabs.descripiton' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
+            <div class="product-tab-content active active-m" id="js__product-desc">
+                {{ product.description }}
+            </div>
+            <a class="product-tab-link-m js__product-specs-hidden" data-targetid="js__product-spec"
+               href="#"><span>{{- 'product_tabs.technical_specification' | t -}}</span> <i
+                        class="maxxus-arrow-down"></i></a>
+            <div class="product-tab-content app__easy-specs-container js__product-specs-hidden"
+                 id="js__product-spec"></div>
+            <a class="product-tab-link-m" data-targetid="js__product-revs"
+               href="#"><span>{{- 'product_tabs.reviews_and_rating' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
+            <div class="product-tab-content" id="js__product-revs">
+                <!-- Start of Judge.me code -->
+                <div style="clear:both"></div>
+                <div id="judgeme_product_reviews" class="jdgm-widget jdgm-review-widget" data-id="{{ product.id }}">
+                    {{ product.metafields.judgeme.widget }}
+                </div>
+                <!-- End of Judge.me code -->
+            </div>
+            <a class="product-tab-link-m js__product-files-hidden" data-targetid="js__product-files"
+               href="#"><span>{{- 'product_tabs.downloads' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
+            <div class="product-tab-content js__product-files-hidden" id="js__product-files">
+                <div class="tigren-product-attachments">
+                    <div class="tigren-attachments"></div>
+                </div>
+            </div>
         </div>
-        <!-- End of Judge.me code -->
-      </div>
-      <a class="product-tab-link-m js__product-files-hidden" data-targetid="js__product-files" href="#"><span>{{- 'product_tabs.downloads' | t -}}</span> <i class="maxxus-arrow-down"></i></a>
-      <div class="product-tab-content js__product-files-hidden" id="js__product-files">
-        <div class="tigren-product-attachments">
-          <div class="tigren-attachments"></div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
 
-{% stylesheet %}
-  .product-tab-link-m{
-    padding: 1em 0;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    color: var(--color-foreground);
-    border-top: 1px solid rgba(var(--color-foreground),.08);
-
-  }
-  .product-tab-link-m span{
-    color: rgba(var(--color-foreground));
-    
-  }
-  .product-tab-link-m i{
-    font-size: 1rem;
-    margin: 0 1em;
-  }
-.product-tab-link-m.active i{
-transform: rotate(-180deg);
-}
-      .product-tabs{
-        margin-top: 10rem;
-        margin-bottom: 3rem;
-       
-      }
-      .product-tabs-items-list{
-        display: none;
-        position: relative;
-        z-index: 2;
-        padding: 0;
-        margin: 0 0 -1px 0;
-      }
-      .product-tab-item{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      .product-tab-item{
-        margin-right: .5em;
-      }
-      .product-tab-link{
-        display: block;
-        min-height: 47px;
-        display: flex;
-        align-items: center;
-        padding: .5em 2em;
-        background-color: #f0f0f0;
-        border: none;
-        color: black;
-        text-decoration: none;
-        
-      }
-      .product-tab-link.active{
-        color: #0073fe;
-        border-top: 1px solid rgba(var(--color-foreground),.08);
-        border-left: 1px solid rgba(var(--color-foreground),.08);
-        border-right: 1px solid rgba(var(--color-foreground),.08);
-        box-shadow: inset 0px 5px 0px 0px #0073fe;
-        background-color: white;
-      }
-      .product-tab-content{
-        display: none;
-        padding: 1em 0;
-      }
-      .product-tab-content.active{
-        display: block;
-      }
-      .product-tab-contents{
-        border-bottom: 1px solid rgba(var(--color-foreground),.08);
-        padding: 0;
-      }
-    
-
-   .product-tabs .tigren-infor_wrap{
-      text-align: left;
-    }
-
-    .product-tabs .tigren-productAttachment{
-      box-shadow: none;
-      border-bottom: 1px solid rgba(var(--color-foreground),.08);
-      gap: 2rem;
-      margin-bottom: 0;
-    }
-    .product-tabs .tigren-productAttachment:last-of-type{
-      border-bottom:none;
-    }
-    .product-tabs .tigren-linkAttachment
-    {
-      font-weight: bold;
-      color: var(--maxxus-blue);
-      line-height: 1;
-      margin-bottom: .3rem;
-    }
-    .product-tabs .tigren-linkAttachment:hover
-    {
-      text-decoration: underline;
-    }
-  .js__product-files-hidden, .js__product-specs-hidden{
-    display: none;
-    
-  }
-
-     @media screen and (min-width: 1024px){
-          .product-tabs-items-list{
-            display: flex;
-          }
-         .product-tab-link-m{
-            display: none;
-         }
-         .product-tab-contents{
-            border: 1px solid rgba(var(--color-foreground),.08);
-            padding: 1em;
-         }
-         .product-tabs{
-           border-bottom: none;
-         }
-         .product-tab-content{
-         padding: 0;
-           box-shadow: none;
-         }
-       }
-{% endstylesheet %}
-
-{% javascript %}
-
-
-
-  function keepScrollPosition(target,currentPos){
-    const stickyHeaderHeight = document.querySelector('.shopify-section-header-sticky').offsetHeight;
-   
-    var targetPos = target.getBoundingClientRect().top + window.pageYOffset;
-
-
-    if(targetPos > currentPos){
-      targetPos = targetPos - 10;
-    } else if (targetPos < currentPos) {
-      targetPos = targetPos - stickyHeaderHeight;
-    }
-    
-      window.scrollTo({
-        top: targetPos,
-    });
-  }
-
-  
- 
-  
-
-
-  function observerSpecs(){
-    var targetNode = document.querySelector('.app__easy-specs-container');
-
-
-var config = { childList: true };
-
-
-var callback = function(mutationsList, observer) {
-    for(var mutation of mutationsList) {
-        if (mutation.type === 'childList') {
-            // Check if content was added to the div
-            if (mutation.addedNodes.length > 0) {
-                // Call your function here
-                showSpecs();
-            }
-        }
-    }
-};
-
-
-var observer = new MutationObserver(callback);
-
-
-observer.observe(targetNode, config);
-  }
-
- function showDownloads() {
-     const container = document.querySelector('.tigren-attachments');
-     const hiddenElems = document.querySelectorAll('.js__product-files-hidden');
-     
-      if (container.childNodes.length > 0) {
-         hiddenElems.forEach((elem) => {
-             elem.classList.remove('js__product-files-hidden');
-         });
-     }
- }
-function showSpecs(){
-     const container = document.querySelector('.easyspecs-table');
-     const hiddenElems = document.querySelectorAll('.js__product-specs-hidden');
-     
-      if (container.childNodes.length > 0) {
-         hiddenElems.forEach((elem) => {
-             elem.classList.remove('js__product-specs-hidden');
-         });
-     }  
-}
-
-  
- function simulateScroll(){
-   window.scrollBy(0, 1);
-   window.scrollBy(0, -1);
- }
-
- function deselectOther(links, contents) {
-     links.forEach(function(link) {
-         link.classList.remove("active");
-     });
-    
-   contents.forEach(function(link) {
-         link.classList.remove("active");
-     });
- }
-  
-
- function doSelect(target, links, contents) {
-   const contentTarget = document.getElementById(target.dataset.targetid);
-   const linkTargets = document.querySelectorAll(".product-tab-link[data-targetid=" + target.dataset.targetid + "], .product-tab-link-m[data-targetid=" + target.dataset.targetid + "]")
- const currentPos = window.scrollY || window.pageYOffset;
-    
-   deselectOther(links, contents);
-
-    linkTargets.forEach((link) => {
-      link.classList.add("active");
-    });
-   
-   contentTarget.classList.add("active");
-
-   keepScrollPosition(target, currentPos);
-   
-   
-   simulateScroll();
- }
-
- document.addEventListener("DOMContentLoaded", (e) => {
-     var links = document.querySelectorAll(".product-tab-link, .product-tab-link-m");
-     var contents = document.querySelectorAll(".product-tab-content");
-     showDownloads();
-   observerSpecs();
-   
-     
-
-     links.forEach(function(link) {
-         link.addEventListener("click", function(e) {
-             e.preventDefault();
-             doSelect(e.currentTarget, links, contents);
-         });
-     });
- });
-{% endjavascript %}
 
 {% schema %}
 {
   "name": "Product Tabs",
   "settings": [],
-  "presets" : [{
-    "name" : "Product Tabs"
-  }],
+  "presets": [
+    {
+      "name": "Product Tabs"
+    }
+  ],
   "blocks": [
-  {
-    "type": "@app"
-  }
-]
+    {
+      "type": "@app"
+    }
+  ]
 }
 {% endschema %}
