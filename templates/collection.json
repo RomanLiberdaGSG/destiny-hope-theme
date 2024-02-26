@@ -3,24 +3,13 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
       }
     },
     "17053343374f3c40de": {
       "type": "apps",
-      "blocks": {
-        "pobo_page_builder_app_block_GmCdDB": {
-          "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/app-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "pobo_page_builder_app_block_GmCdDB"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -47,17 +36,6 @@
     },
     "rich_text_JA7Kje": {
       "type": "rich-text",
-      "blocks": {
-        "text_mgwCir": {
-          "type": "text",
-          "settings": {
-            "text": "{{ collection.metafields.colletions.text_after_products | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "text_mgwCir"
-      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
