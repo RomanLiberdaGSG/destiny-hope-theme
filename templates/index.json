@@ -6,22 +6,22 @@
         "heading_qDbwCQ": {
           "type": "heading",
           "settings": {
-            "heading": "FLEXIBEL",
-            "heading_size": "h0"
+            "heading": "STÄRKE UND AUSDAUER",
+            "heading_size": "h1"
           }
         },
         "text_UBteyW": {
           "type": "text",
           "settings": {
-            "text": "TRAINIEREN",
+            "text": "mit jedem Schritt",
             "text_style": "subtitle"
           }
         },
         "buttons_TTLUxH": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "LAUFBÄNDER ENTDECKEN",
-            "button_link_1": "shopify:\/\/collections\/laufband",
+            "button_label_1": "REOSSTRAINER ENTDECKEN",
+            "button_link_1": "shopify:\/\/collections\/crosstrainer",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -40,7 +40,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Shopify_Homepage_Main_Banner_1920x865_px_1.png",
         "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
