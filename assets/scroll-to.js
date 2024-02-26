@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   links.forEach(link => {
     const target = document.getElementById(link.getAttribute('href').replace('#', ''));
     if(target){
-      link.style.display = 'inherit';
+      link.style.display = 'revert';
       link.addEventListener('click', function(e) {
         e.preventDefault();
         target.scrollIntoView({behavior: 'smooth'});
