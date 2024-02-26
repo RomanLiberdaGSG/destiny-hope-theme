@@ -105,6 +105,7 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-58f79055-af7b-4a11-9330-260f5b389765",
         "show_line_separator": true,
