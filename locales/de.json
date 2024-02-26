@@ -1,4 +1,8 @@
 {
+  "discount-code": {
+    "copy": "Kopieren",
+    "copied": "Der Code wurde kopiert"
+  },
   "general": {
     "password_page": {
       "login_form_heading": "Shop mit Passwort betreten:",

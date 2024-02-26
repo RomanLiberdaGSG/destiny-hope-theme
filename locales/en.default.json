@@ -1,4 +1,8 @@
 {
+  "discount-code": {
+    "copy": "Copy",
+    "copied": "Copied"
+  },
   "payments": {
     "heading": "Payment methods"
   },
