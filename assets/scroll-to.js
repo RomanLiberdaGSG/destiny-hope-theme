@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const target = document.getElementById(link.getAttribute('href').replace('#', ''));
     if(target){
       link.style.display = 'revert';
+
       link.addEventListener('click', function(e) {
         e.preventDefault();
         target.scrollIntoView({behavior: 'smooth'});
