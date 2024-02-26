@@ -1,0 +1,25 @@
+.promocode{
+    border: 1px solid rgba(var(--color-foreground));
+    line-height: 3rem;
+    padding: .3rem .8rem;
+    margin: 0 .8rem;
+    white-space: nowrap;
+}
+.promocode i svg {
+    vertical-align: middle;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-top: -.3rem;
+    margin-left: 1rem;
+}
+.promocode i svg path {
+    fill: rgba(var(--color-foreground));
+}
+.promocode:hover{
+    cursor: pointer;
+    background-color: rgba(var(--color-foreground));
+    color: rgba(var(--color-background));
+}
+.promocode:hover i svg path{
+    fill: rgba(var(--color-background));
+}
