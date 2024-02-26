@@ -32,7 +32,8 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "vertical_padding": 5,
+        "color_scheme": "scheme-2"
       }
     }
   },
