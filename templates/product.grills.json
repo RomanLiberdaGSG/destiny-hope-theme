@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "sku_j8UTt7": {
+          "type": "sku",
+          "settings": {
+            "label": "Art. Nr.",
+            "color": "#acacac",
+            "text_style": "uppercase"
+          }
+        },
+        "short_description_DWAzGj": {
+          "type": "short_description",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_DYgnri": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_picker_type": "swatch",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_CLb8ee": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "e28ee9e2-802e-4374-ab01-5f25ff68fe58": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "featured_payments_dpn8AD": {
+          "type": "featured_payments",
+          "settings": {
+            "featured_payments_description": "<p>Zahlen Sie in Raten oder auf Rechnung mit <strong>Klarna & PayPal<\/strong>. Details im Checkout<\/p>",
+            "bg_color": "rgba(0,0,0,0)",
+            "border_color": "rgba(0,0,0,0)",
+            "text_color": "#4b4b4b",
+            "font_size": 1.3,
+            "border_width": 0,
+            "padding": 0
+          }
+        },
+        "collapsible_tab_8CrpiL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Gratis Versand & Rückversand (DE)",
+            "icon": "maxxus-shipping-usp",
+            "content": "<p>Überzeugen Sie sich bequem und in Ruhe von unseren Produkten. <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">Wir bieten gratis Versand & Rückversand (DE).<\/a><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Ukm7dt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "30 Tage Widerruf",
+            "icon": "maxxus-factory-usp",
+            "content": "<p>Kaufen Sie ohne Risiko! Bei uns gibt es <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">30 Tage Widerrufs- und Rückgaberecht<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_pbXnDT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Telefonische Beratung",
+            "icon": "maxxus-support-usp",
+            "content": "<p>Gerne beraten wir Sie individuell per Telefon (<a href=\"tel:00496152510860\" title=\"tel:00496152510860\">+(49) 6152 - 510 860<\/a>). Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr.<\/p>",
+            "page": ""
+          }
+        },
+        "complementary_pV7kDa": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Zubehör gleich mitbestellen",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true,
+            "margin_top": 3,
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "sku_j8UTt7",
+        "short_description_DWAzGj",
+        "price",
+        "variant_picker_DYgnri",
+        "quantity_selector_CLb8ee",
+        "e28ee9e2-802e-4374-ab01-5f25ff68fe58",
+        "featured_payments_dpn8AD",
+        "collapsible_tab_8CrpiL",
+        "collapsible_tab_Ukm7dt",
+        "collapsible_tab_pbXnDT",
+        "complementary_pV7kDa"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "170533423438e24e42": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1706019427ee54c24d": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product_tabs_H6PBYM": {
+      "type": "product-tabs",
+      "blocks": {
+        "pobo_page_builder_product_block_FQjVW7": {
+          "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/product-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "pobo_page_builder_product_block_FQjVW7"
+      ],
+      "settings": {
+      }
+    },
+    "featured_collection_bz9qdc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Weitere Grills & Zubehör",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "grills",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Kunden kauften auch",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "17054960691a1f8cc4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "170533423438e24e42",
+    "1706019427ee54c24d",
+    "product_tabs_H6PBYM",
+    "featured_collection_bz9qdc",
+    "related-products",
+    "17054960691a1f8cc4"
+  ]
+}
