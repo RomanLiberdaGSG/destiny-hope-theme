@@ -1,3 +1,4 @@
 .js__scroll-to{
     display: none;
+    white-space: nowrap;
 }
