@@ -310,7 +310,8 @@
       "view_all_label": "Alle Produkte in der Kategorie {{ collection_name }} anzeigen"
     },
     "collection_list": {
-      "view_all": "Alle anzeigen"
+      "view_all": "Alle anzeigen",
+      "view_full_description": "Vollständige Beschreibung anzeigen"
     },
     "collection_template": {
       "title": "Kategorie",
