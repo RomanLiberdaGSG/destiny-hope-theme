@@ -29,12 +29,14 @@
   }
 
   .footer-collapser_header{
+  position: relative;
     cursor:pointer;
     display: flex;
     justify-content: space-between;
     border-bottom:1px solid rgba(var(--color-foreground), 0.1);
     padding: 1.5rem 0;
     margin-bottom: 0;
+  letter-spacing: 0.1rem;
   }
   .footer-collapser_block{
     margin: 0 0 0 0 !important;
@@ -150,7 +152,7 @@
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'footer-contact' -%}
-                    {% render 'footer-contact', settings: block.settings %}
+                    {% render 'footer-contact', settings: block.settings, globalSettings: section.settings, has_social_icons: has_social_icons %}
                   {%- when 'text' -%}
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
@@ -199,9 +201,6 @@
                       {%- endif -%}
                       {%- if settings.brand_description != blank -%}
                         <div class="rte">{{ settings.brand_description }}</div>
-                      {%- endif -%}
-                      {%- if block.settings.show_social and has_social_icons -%}
-                        {%- render 'social-icons', class: 'footer__list-social' -%}
                       {%- endif -%}
                     </div>
                   {%- when 'image' -%}
@@ -311,9 +310,6 @@
             </div>
           {%- endif -%}
 
-          {%- if section.settings.show_social and has_social_icons -%}
-            {%- render 'social-icons', class: 'footer__list-social' -%}
-          {%- endif -%}
         </div>
       </div>
     {%- endunless -%}
@@ -423,12 +419,11 @@
     </div>
   </div>
   {% endcomment %}
-</footer>
-<div class="footer__content-bottom-wrapper footer__content-bottom-wrapper--center">
-  <div class="page-width">
+  <div class="footer__content-bottom-wrapper footer__content-bottom-wrapper--center pb-5">
+    <div class="page-width">
       <div class="footer__copyright caption">
         <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
+        >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
         </small>
         <small class="copyright__content">{{ powered_by_link }}</small>
         {%- if section.settings.show_policy -%}
@@ -437,7 +432,7 @@
               {%- if policy != blank -%}
                 <li>
                   <small class="copyright__content"
-                    ><a href="{{ policy.url }}">{{ policy.title }}</a></small
+                  ><a href="{{ policy.url }}">{{ policy.title }}</a></small
                   >
                 </li>
               {%- endif -%}
@@ -446,7 +441,9 @@
         {%- endif -%}
       </div>
     </div>
-</div>
+  </div>
+</footer>
+
 
 {% schema %}
 {
@@ -504,7 +501,14 @@
       "id": "payment_enable",
       "default": true,
       "label": "t:sections.footer.settings.payment_enable.label"
-    }
+    },
+
+        {
+          "type": "checkbox",
+          "id": "show_social",
+          "default": true,
+          "label": "Show social icons"
+        }
       ]
     },
     {

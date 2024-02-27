@@ -302,7 +302,11 @@
       "new_estimated_total": "Neuer geschätzter Gesamtbetrag"
     },
     "footer": {
-      "payment": "Zahlungsmethoden"
+      "payment": "Zahlungsmethoden",
+      "support-time": "Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr",
+      "contact-us": "Kontaktieren sie uns",
+      "follow-us": "Folgen Sie uns",
+      "our-address": "Unsere Adresse"
     },
     "featured_blog": {
       "view_all": "Alle anzeigen",

@@ -1,16 +1,23 @@
 {% style %}
-  ul.footer-contact {
+    ul.footer-contact {
     --icon-space: 4rem;
     list-style: none;
     padding: 0;
-  }
+    margin: 0;
+    }
 
-  ul.footer-contact li {
+    .footer-block__heading{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    }
+
+
+    ul.footer-contact li {
     margin-bottom: 1em;
     padding-left: var(--icon-space);
-  }
+    }
 
-  ul.footer-contact li:before {
+    ul.footer-contact li:before {
     font-family: "maxxus-font";
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
@@ -19,111 +26,136 @@
     line-height: 1;
     vertical-align: middle;
     margin-right: -.2em;
-  }
-  ul.footer-contact li.locator:before{
+    }
+    ul.footer-contact li.locator:before{
     content: "\e920";
-  }
+    }
     ul.footer-contact li.phone:before{
-     content: "\e90e";
-  }
-      ul.footer-contact li.envelope:before{
-     content: "\e921";
-  }
+    content: "\e90e";
+    }
+    ul.footer-contact li.envelope:before{
+    content: "\e921";
+    }
     ul.footer-contact .address{
-      font-size: 1.4rem;
+    font-size: 1.4rem;
+    }
+    .footer-contact__list-social{
+    justify-content: flex-start;
+
+    }
+    .footer-contact__list-social .link.list-social__link{
+    padding: 0.5rem; margin-right: .6rem;
+    margin-bottom: .6rem;
     }
 {% endstyle %}
 {% if settings.footer_logo != blank %}
-  {{
+    {{
     settings.footer_logo
     | image_url: width: 1100
     | image_tag: loading: 'lazy', widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100', width: settings.image_width
-  }}
+    }}
 {% endif %}
 
-<div class="row">
-  <div class="col">
-    <ul class="footer-contact">
-      <li class="locator">
+
+
+<div class="row mt-5 g-5">
+    <div class="col-12 col-sm-6">
+        <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
+            {{ 'sections.footer.our-address' | t }}
+        </h2>
+        <ul class="footer-contact">
+            <li class="locator">
         <span class="address">
           {{ shop.address.address1 -}}
           <br>
           {{ shop.address.zip }}
-          {{ shop.address.city -}}
+            {{ shop.address.city -}}
           <br>
           {{ shop.address.country }}
         </span>
-      </li>
-      <li class="phone">
-        <a class="link link--text" href="tel:{{ shop.phone }}">{{ shop.phone }}</a><br>
-        <small>Telefonischer Support Mo - Fr | 13:00 - 16:00 Uhr</small>
-      </li>
-      <li class="envelope">
-        <a class="link link--text" href="mailto:{{ shop.email }}">{{ shop.email }}</a>
-      </li>
-    </ul>
-  </div>
-  <div class="col">
+            </li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-6">
+        <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
+            {{ 'sections.footer.contact-us' | t }}
+        </h2>
+        <ul class="footer-contact">
+            <li class="phone">
+                <a class="link link--text" href="tel:{{ shop.phone }}">{{ shop.phone }}</a><br>
+                <small>{{ 'sections.footer.support-time' | t }}</small>
+            </li>
+            <li class="envelope">
+                <a class="link link--text" href="mailto:{{ shop.email }}">{{ shop.email }}</a>
+            </li>
+        </ul>
+    </div>
     {%- if settings.enable_country_selector and localization.available_countries.size > 1 -%}
-      <div class="row">
-        <div class="col">
-          <noscript>
-            {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
-              <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
-                <select
-                  class="localization-selector link"
-                  name="country_code"
-                  aria-labelledby="FooterCountryLabelNoScript"
-                >
-                  {%- for country in localization.available_countries -%}
-                    <option
-                      value="{{ country.iso_code }}"
-                      {%- if country.iso_code == localization.country.iso_code %}
-                        selected
-                      {% endif %}
-                    >
-                      {{ country.name }} ({{ country.currency.iso_code }}
-                      {{ country.currency.symbol }})
-                    </option>
-                  {%- endfor -%}
-                </select>
-                {% render 'icon-caret' %}
-              </div>
-              <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
-            {%- endform -%}
-          </noscript>
-          <localization-form>
-            {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
-              <div class="no-js-hidden">
-                <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
-                  {{ 'localization.country_label' | t }}
-                </h2>
-                {%- render 'country-localization', localPosition: 'FooterCountry' -%}
-              </div>
-            {%- endform -%}
-          </localization-form>
-        </div>
-      </div>
-  {%- endif -%}
-      {%- if settings.payment_enable -%}
-        <div class="row">
-          <div class="col">
-            <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
-                  {{ 'payments.heading' | t }}
-                </h2>
-            <div class="footer__payment">
-              <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-              <ul class="list list-payment" role="list">
-                {%- for type in shop.enabled_payment_types -%}
-                  <li class="list-payment__item">
-                    {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                  </li>
-                {%- endfor -%}
-              </ul>
-            </div>
-          </div>
+        <div class="col-12 col-sm-6">
+            <noscript>
+                {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
+                    <div class="localization-form__select">
+                        <h2 class="visually-hidden"
+                            id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+                        <select
+                                class="localization-selector link"
+                                name="country_code"
+                                aria-labelledby="FooterCountryLabelNoScript"
+                        >
+                            {%- for country in localization.available_countries -%}
+                                <option
+                                        value="{{ country.iso_code }}"
+                                        {%- if country.iso_code == localization.country.iso_code %}
+                                            selected
+                                        {% endif %}
+                                >
+                                    {{ country.name }} ({{ country.currency.iso_code }}
+                                    {{ country.currency.symbol }})
+                                </option>
+                            {%- endfor -%}
+                        </select>
+                        {% render 'icon-caret' %}
+                    </div>
+                    <button class="button button--tertiary">{{ 'localization.update_country' | t }}</button>
+                {%- endform -%}
+            </noscript>
+            <localization-form>
+                {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
+                    <div class="no-js-hidden">
+                        <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
+                            {{ 'localization.country_label' | t }}
+                        </h2>
+                        {%- render 'country-localization', localPosition: 'FooterCountry' -%}
+                    </div>
+                {%- endform -%}
+            </localization-form>
         </div>
     {%- endif -%}
-  </div>
+    {%- if settings.show_social and has_social_icons -%}
+
+        <div class="col-12 col-sm-6">
+            <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
+                {{ 'sections.footer.follow-us' | t }}
+            </h2>
+
+            {%- render 'social-icons', class: 'footer-contact__list-social' -%}
+        </div>
+    {%- endif -%}
+    {%- if settings.payment_enable -%}
+        <div class="col-12 col-sm-6">
+            <h2 class="footer-block__heading inline-richtext" id="FooterCountryLabel">
+                {{ 'payments.heading' | t }}
+            </h2>
+            <div class="footer__payment">
+                <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+                <ul class="list list-payment" role="list">
+                    {%- for type in shop.enabled_payment_types -%}
+                        <li class="list-payment__item">
+                            {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                        </li>
+                    {%- endfor -%}
+                </ul>
+            </div>
+        </div>
+    {%- endif -%}
 </div>

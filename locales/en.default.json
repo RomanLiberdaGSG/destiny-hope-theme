@@ -318,7 +318,11 @@
       }
     },
     "footer": {
-      "payment": "Payment methods"
+      "payment": "Payment methods",
+      "support-time": "Monday - Friday: 9:00 - 17:00",
+      "contact-us": "Contact us",
+      "follow-us": "Follow us",
+      "our-address": "Our address"
     },
     "featured_blog": {
       "view_all": "View all",
