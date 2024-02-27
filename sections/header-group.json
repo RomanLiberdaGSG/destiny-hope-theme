@@ -25,7 +25,7 @@
           "type": "usp_item",
           "settings": {
             "text": "30 Tage Widerruf",
-            "icon": "shopify:\/\/shop_images\/shop.svg",
+            "icon": "shopify:\/\/shop_images\/return.svg",
             "url": "shopify:\/\/policies\/refund-policy"
           }
         },
