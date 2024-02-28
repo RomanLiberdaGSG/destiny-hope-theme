@@ -3691,3 +3691,6 @@ max-width: var(--page-width) !important;
     padding: 0 5rem !important;
   }
 }
+.shopify-policy__title{
+  text-align: left !important;
+}
