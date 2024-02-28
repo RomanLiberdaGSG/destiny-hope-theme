@@ -3682,5 +3682,5 @@ details-disclosure > details {
   text-align: left !important;
 }
 .shopify-policy__container {
-max-width: 100% !important;
+max-width: 80ch !important;
 }
