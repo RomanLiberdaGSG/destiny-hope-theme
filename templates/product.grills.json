@@ -78,7 +78,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "30 Tage Widerruf",
-            "icon": "maxxus-factory-usp",
+            "icon": "maxxus-return-usp",
             "content": "<p>Kaufen Sie ohne Risiko! Bei uns gibt es <a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">30 Tage Widerrufs- und Rückgaberecht<\/a>.<\/p>",
             "page": ""
           }
