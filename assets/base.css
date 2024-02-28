@@ -3683,4 +3683,11 @@ details-disclosure > details {
 }
 .shopify-policy__container {
 max-width: var(--page-width) !important;
+  margin: 0 auto !important;
+  padding: 0 1.5rem !important;
+}
+@media screen and (min-width: 750px) {
+  .shopify-policy__container {
+    padding: 0 5rem !important;
+  }
 }
