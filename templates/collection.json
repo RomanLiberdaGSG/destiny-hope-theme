@@ -7,8 +7,14 @@
         "color_scheme": "scheme-1"
       }
     },
+    "custom_product_grid_ERVCNb": {
+      "type": "custom-product-grid",
+      "settings": {
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -39,6 +45,7 @@
   },
   "order": [
     "banner",
+    "custom_product_grid_ERVCNb",
     "product-grid",
     "banner-full"
   ]
