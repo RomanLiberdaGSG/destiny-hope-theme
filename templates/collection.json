@@ -9,12 +9,12 @@
     },
     "custom_product_grid_ERVCNb": {
       "type": "custom-product-grid",
+      "disabled": true,
       "settings": {
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
