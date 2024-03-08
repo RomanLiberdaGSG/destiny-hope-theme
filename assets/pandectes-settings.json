@@ -6,7 +6,7 @@
     "primaryLocale": "de",
     "adminMode": false
   },
-  "tsPublished": 1709890967,
+  "tsPublished": 1709891047,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -316,9 +316,9 @@
     },
     "content": {
       "href": "https:\/\/maxxus.at\/policies\/privacy-policy",
-      "imprintHref": "\/",
+      "imprintHref": "https:\/\/maxxus.at\/policies\/legal-notice",
       "close": "&#10005;",
-      "target": "_blank",
+      "target": "",
       "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0681\/9302\/6264\/t\/5\/assets\/pandectes-logo.png?v=1709890521\" alt=\"MAXXUS\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-left-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
