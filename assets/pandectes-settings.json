@@ -6,7 +6,7 @@
     "primaryLocale": "de",
     "adminMode": false
   },
-  "tsPublished": 1709890604,
+  "tsPublished": 1709890665,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -381,19 +381,365 @@
   },
   "cookies": {
     "0": [
-
+      {
+        "name": "keep_alive",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "de": "Wird im Zusammenhang mit der Käuferlokalisierung verwendet."
+        }
+      },
+      {
+        "name": "secure_customer_sig",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Wird im Zusammenhang mit dem Kundenlogin verwendet."
+        }
+      },
+      {
+        "name": "localization",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Lokalisierung von Shopify-Shops"
+        }
+      },
+      {
+        "name": "cart_currency",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "de": "Das Cookie ist für die sichere Checkout- und Zahlungsfunktion auf der Website erforderlich. Diese Funktion wird von shopify.com bereitgestellt."
+        }
+      },
+      {
+        "name": "_cmp_a",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 day(s)",
+        "expires": 1,
+        "unit": "declDays",
+        "purpose": {
+          "de": "Wird zum Verwalten der Datenschutzeinstellungen des Kunden verwendet."
+        }
+      },
+      {
+        "name": "_tracking_consent",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Tracking-Einstellungen."
+        }
+      },
+      {
+        "name": "_pandectes_gdpr",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Pandectes",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Wird für die Funktionalität des Cookies-Zustimmungsbanners verwendet."
+        }
+      },
+      {
+        "name": "_secure_session_id",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 month(s)",
+        "expires": 1,
+        "unit": "declMonths",
+        "purpose": {
+          "de": "Wird in Verbindung mit der Navigation durch eine Storefront verwendet."
+        }
+      }
     ],
     "1": [
-
+      {
+        "name": "wpm-domain-test",
+        "domain": "at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "de": "Wird verwendet, um die Speicherung von Parametern zu Produkten, die dem Warenkorb hinzugefügt wurden, oder zur Zahlungswährung zu testen"
+        }
+      },
+      {
+        "name": "wpm-domain-test",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "de": "Wird verwendet, um die Speicherung von Parametern zu Produkten, die dem Warenkorb hinzugefügt wurden, oder zur Zahlungswährung zu testen"
+        }
+      },
+      {
+        "name": "locale_bar_accepted",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "GrizzlyAppsSRL",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": -54,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Dieses Cookie wird von der App (BEST Currency Converter) bereitgestellt und dient dazu, die vom Kunden gewählte Währung zu sichern."
+        }
+      }
     ],
     "2": [
-
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "de": "Shopify-Analysen in Bezug auf Marketing und Empfehlungen."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "de": "Verfolgt Zielseiten."
+        }
+      },
+      {
+        "name": "_shopify_y",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Shopify-Analysen."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "de": "Shopify-Analysen."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "2 ",
+        "expires": 2,
+        "unit": "declSession",
+        "purpose": {
+          "de": "Verfolgt Zielseiten."
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "de": "Shopify-Analysen in Bezug auf Marketing und Empfehlungen."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": "at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": false,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declSeconds",
+        "purpose": {
+          "de": "Shopify-Analysen."
+        }
+      },
+      {
+        "name": "_ga",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Cookie wird von Google Analytics mit unbekannter Funktionalität gesetzt"
+        }
+      },
+      {
+        "name": "_boomr_clss",
+        "domain": "https:\/\/maxxus.at",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Wird zur Überwachung und Optimierung der Leistung von Shopify-Shops verwendet."
+        }
+      },
+      {
+        "name": "_ga_4MY9JYMFB2",
+        "domain": ".maxxus.at",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": ""
+        }
+      }
     ],
     "4": [
-
+      {
+        "name": "__kla_id",
+        "domain": "maxxus.at",
+        "path": "\/",
+        "provider": "Klaviyo",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": "Verfolgt, wenn jemand durch eine Klaviyo-E-Mail auf Ihre Website klickt"
+        }
+      }
     ],
     "8": [
-
+      {
+        "name": "klaviyoPagesVisitCount",
+        "domain": "https:\/\/maxxus.at",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Session",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": ""
+        }
+      },
+      {
+        "name": "_kla_test",
+        "domain": "https:\/\/maxxus.at",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": ""
+        }
+      },
+      {
+        "name": "__storage_test__",
+        "domain": "https:\/\/maxxus.at",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": ""
+        }
+      },
+      {
+        "name": "local-storage-test",
+        "domain": "https:\/\/maxxus.at",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": ""
+        }
+      },
+      {
+        "name": "klaviyoOnsite",
+        "domain": "https:\/\/maxxus.at",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Persistent",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "de": ""
+        }
+      }
     ]
   },
   "blocker": {
