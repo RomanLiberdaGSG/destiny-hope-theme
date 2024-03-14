@@ -1,12 +1,12 @@
 {
   "store": {
     "id": 68193026264,
-    "plan": "basic",
+    "plan": "plus",
     "theme": "destiny-hope-theme\/stage",
     "primaryLocale": "de",
     "adminMode": false
   },
-  "tsPublished": 1710425290,
+  "tsPublished": 1710425442,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -372,7 +372,7 @@
     "implicitSavePreferences": false,
     "cookieIcon": false,
     "blockBots": false,
-    "showCookiesDetails": true,
+    "showCookiesDetails": false,
     "hasTransition": true,
     "blockingPage": false,
     "showOnlyLandingPage": false,
@@ -633,19 +633,6 @@
         }
       },
       {
-        "name": "_boomr_clss",
-        "domain": "https:\/\/maxxus.at",
-        "path": "\/",
-        "provider": "Shopify",
-        "firstParty": true,
-        "retention": "Persistent",
-        "expires": 1,
-        "unit": "declYears",
-        "purpose": {
-          "de": "Wird zur Überwachung und Optimierung der Leistung von Shopify-Shops verwendet."
-        }
-      },
-      {
         "name": "_ga_4MY9JYMFB2",
         "domain": ".maxxus.at",
         "path": "\/",
@@ -675,71 +662,7 @@
       }
     ],
     "8": [
-      {
-        "name": "klaviyoPagesVisitCount",
-        "domain": "https:\/\/maxxus.at",
-        "path": "\/",
-        "provider": "Unknown",
-        "firstParty": true,
-        "retention": "Session",
-        "expires": 1,
-        "unit": "declYears",
-        "purpose": {
-          "de": ""
-        }
-      },
-      {
-        "name": "_kla_test",
-        "domain": "https:\/\/maxxus.at",
-        "path": "\/",
-        "provider": "Unknown",
-        "firstParty": true,
-        "retention": "Persistent",
-        "expires": 1,
-        "unit": "declYears",
-        "purpose": {
-          "de": ""
-        }
-      },
-      {
-        "name": "__storage_test__",
-        "domain": "https:\/\/maxxus.at",
-        "path": "\/",
-        "provider": "Unknown",
-        "firstParty": true,
-        "retention": "Persistent",
-        "expires": 1,
-        "unit": "declYears",
-        "purpose": {
-          "de": ""
-        }
-      },
-      {
-        "name": "local-storage-test",
-        "domain": "https:\/\/maxxus.at",
-        "path": "\/",
-        "provider": "Unknown",
-        "firstParty": true,
-        "retention": "Persistent",
-        "expires": 1,
-        "unit": "declYears",
-        "purpose": {
-          "de": ""
-        }
-      },
-      {
-        "name": "klaviyoOnsite",
-        "domain": "https:\/\/maxxus.at",
-        "path": "\/",
-        "provider": "Unknown",
-        "firstParty": true,
-        "retention": "Persistent",
-        "expires": 1,
-        "unit": "declYears",
-        "purpose": {
-          "de": ""
-        }
-      }
+
     ]
   },
   "blocker": {
