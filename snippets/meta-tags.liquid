@@ -2,7 +2,13 @@
   assign og_title = page_title | default: shop.name
   assign og_url = canonical_url | default: request.origin
   assign og_type = 'website'
-  assign og_description = page_description | default: shop.description | default: shop.name
+
+  if request.page_type != 'product'
+    assign og_description = page_description | default: shop.description | default: shop.name
+  else
+    assign og_description = product.metafields.basic_data.short_description | default: page_description | default: shop.description | default: shop.name
+  endif
+
 
   if request.page_type == 'product'
     assign og_type = 'product'
@@ -12,7 +18,7 @@
     assign og_url = request.origin
   endif
 %}
-
+<meta name="description" content="{{ og_description }}">
 <meta property="og:site_name" content="{{ shop.name }}">
 <meta property="og:url" content="{{ og_url }}">
 <meta property="og:title" content="{{ og_title | escape }}">
