@@ -1,0 +1,1167 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQk8z_g&skey=3445dd5b86d56e57&v=v19) format('woff');
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbouRQk8z_g&skey=3445dd5b86d56e57&v=v19) format('woff');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg8z6hR4jNCH5Z.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6hR4jNCA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg8z6hR4jNCH5Z.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6hR4jNCA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-500323948383175453 .blur{--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: }.gps-500323948383175453 .pointer-events-auto{pointer-events:auto}.gps-500323948383175453 .relative{position:relative}.gps-500323948383175453 .mx-auto{margin-left:auto;margin-right:auto}.gps-500323948383175453 .mb-0{margin-bottom:0}.gps-500323948383175453 .\!inline{display:inline!important}.gps-500323948383175453 .flex{display:flex}.gps-500323948383175453 .inline-flex{display:inline-flex}.gps-500323948383175453 .grid{display:grid}.gps-500323948383175453 .h-full{height:100%}.gps-500323948383175453 .w-full{width:100%}.gps-500323948383175453 .max-w-full{max-width:100%}.gps-500323948383175453 .flex-1{flex:1 1 0%}.gps-500323948383175453 .cursor-pointer{cursor:pointer}.gps-500323948383175453 .flex-row{flex-direction:row}.gps-500323948383175453 .flex-col{flex-direction:column}.gps-500323948383175453 .items-center{align-items:center}.gps-500323948383175453 .gap-y-0{row-gap:0}.gps-500323948383175453 .overflow-hidden{overflow:hidden}.gps-500323948383175453 .rounded{border-radius:4px}.gps-500323948383175453 .border{border-width:1px}.gps-500323948383175453 .p-4{padding:16px}.gps-500323948383175453 .px-4{padding-left:16px;padding-right:16px}.gps-500323948383175453 .py-2{padding-bottom:8px;padding-top:8px}.gps-500323948383175453 .pb-0{padding-bottom:0}.gps-500323948383175453 .italic{font-style:italic}.gps-500323948383175453 .text-g-text-2{color:var(--g-c-text-2)}.gps-500323948383175453 .blur{--tw-blur:blur(8px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.gps-500323948383175453 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-500323948383175453 .duration-200{transition-duration:.2s}.gps-500323948383175453 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (max-width:1023px){.gps-500323948383175453 .tablet\:flex-row{flex-direction:row}.gps-500323948383175453 .tablet\:flex-col{flex-direction:column}}.gps-500323948383175453 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-500323948383175453 .\[\&_p\]\:inline p{display:inline}.gps-500323948383175453 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-500323948383175453 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="ggIE5jt7Gt"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:72px;--pl:15px;--pb:72px;--pr:15px;--pt-mobile:62px;--pb-mobile:62px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="ggIE5jt7Gt mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gh1_iLkrlh relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g595ZDKPin"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:0px;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g595ZDKPin mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gAkjqwASUC relative flex flex-col"
+    >
+      
+    <gp-tab gp-data='{"setting":{"borderTab":{"active":{"border":"solid","color":"#242424","isCustom":true,"width":"0px 0px 2px 0px"},"hover":{"border":"solid","borderLabel":"Style 1","borderType":"style-1","color":"#242424","isCustom":true,"width":"1px 1px 1px 1px"},"normal":{"border":"solid","borderLabel":"Style 1","borderType":"style-1","color":"#E0E0E0","isCustom":true,"width":"1px 1px 1px 1px"}},"childItem":["<p>Product Description</p>","<p>Product Details</p>","<p>Product Services</p>"],"labelAlign":{"desktop":"center"},"labelBgColor":{"active":"#242424","hover":"#242424","normal":"text-3"},"labelColor":{"active":"text-3","hover":"text-3","normal":"#242424"},"labelTypo":{"custom":{"desktop":{"fontFamily":"heading","fontSize":"16px","fontStyle":"normal","fontWeight":"700","letterSpacing":"0px","lineHeight":"150%"},"mobile":{"fontSize":"14px"},"tablet":{"fontSize":"16px","lineHeight":"150%"}}},"labelTypoV2":{"custom":{"fontFamily":"Red Hat Display","fontSize":{"desktop":"16px","mobile":"14px","tablet":"16px"},"fontStyle":"normal","fontVariants":["300","regular","500","600","700","800","900","300italic","italic","500italic","600italic","700italic","800italic","900italic"],"fontWeight":"700","letterSpacing":"normal","lineHeight":"150%"},"type":"paragraph-1"},"labelWidth":{"desktop":"200px"},"panelAlign":{"desktop":"left"},"panelFullWidth":{"desktop":true,"mobile":true,"tablet":true},"panelWidth":{"desktop":"15px","tablet":"100%"},"position":{"0":"t","1":"o","2":"p","desktop":"top","tablet":"top"}},"builderProps":{"uid":"grg6bIWbfn","builderData":{"advanced":{"border":{"border":"solid","borderLabel":"None","borderType":"none","color":"#121212","isCustom":true,"width":"0px","position":"all"},"boxShadow":{"angle":90,"blur":"4px","color":"rgba(18, 18, 18, 0.12)","distance":"2px","spread":"0px","type":"shadow-1"},"d":{"desktop":true,"mobile":true,"tablet":true},"hasBoxShadow":false,"op":{"desktop":"100%"},"rounded":{"bblr":"0px","bbrr":"0px","btlr":"0px","btrr":"0px","radiusType":"none"},"spacing-setting":{"desktop":{"margin":"","padding":""},"mobile":{"margin":"","padding":""},"tablet":{"margin":"","padding":""}}},"childrens":["g-0D27BDIV","g67yTLLoov","g4-lil_koB"],"label":"Tab","settings":{"borderTab":{"active":{"border":"solid","color":"#242424","isCustom":true,"width":"0px 0px 2px 0px"},"hover":{"border":"solid","borderLabel":"Style 1","borderType":"style-1","color":"#242424","isCustom":true,"width":"1px 1px 1px 1px"},"normal":{"border":"solid","borderLabel":"Style 1","borderType":"style-1","color":"#E0E0E0","isCustom":true,"width":"1px 1px 1px 1px"}},"childItem":["<p>Product Description</p>","<p>Product Details</p>","<p>Product Services</p>"],"labelAlign":{"desktop":"center"},"labelBgColor":{"active":"#242424","hover":"#242424","normal":"text-3"},"labelColor":{"active":"text-3","hover":"text-3","normal":"#242424"},"labelTypo":{"custom":{"desktop":{"fontFamily":"heading","fontSize":"16px","fontStyle":"normal","fontWeight":"700","letterSpacing":"0px","lineHeight":"150%"},"mobile":{"fontSize":"14px"},"tablet":{"fontSize":"16px","lineHeight":"150%"}}},"labelTypoV2":{"custom":{"fontFamily":"Red Hat Display","fontSize":{"desktop":"16px","mobile":"14px","tablet":"16px"},"fontStyle":"normal","fontVariants":["300","regular","500","600","700","800","900","300italic","italic","500italic","600italic","700italic","800italic","900italic"],"fontWeight":"700","letterSpacing":"normal","lineHeight":"150%"},"type":"paragraph-1"},"labelWidth":{"desktop":"200px"},"panelAlign":{"desktop":"left"},"panelFullWidth":{"desktop":true,"mobile":true,"tablet":true},"panelWidth":{"desktop":"15px","tablet":"100%"},"position":{"0":"t","1":"o","2":"p","desktop":"top","tablet":"top"}},"styles":{},"tag":"Tabs","uid":"grg6bIWbfn","type":"component"}}}'>
+      <div
+        
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+        class="flex grg6bIWbfn"
+      >
+        <div
+          class="flex w-full  flex-col tablet:flex-col"
+        >
+          <div
+            class="flex"
+            style="--jc:left"
+          >
+            <ul
+              class="gp-tab-header-list flex  0:flex-row 1:flex-row 2:flex-row flex-row tablet:flex-row"
+              style="--minw:100%;--minw-tablet:100%;--minw-mobile:100%;--w:15px;--w-tablet:100%"
+            >
+              
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="grg6bIWbfn"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Product Description</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="grg6bIWbfn"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Product Details</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+                  <li
+                    class="gp-navs-tab flex flex-1 cursor-pointer py-2 px-4"
+                    aria-hidden
+                    key="grg6bIWbfn"
+                  >
+                    
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] cursor-pointer overflow-hidden"
+          style="--w:100%;--ta:center;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Product Services</p>
+        </div>
+      </div>
+    </div>
+                  </li>
+                
+            </ul>
+          </div>
+          <div
+            class="flex flex-1"
+          >
+            <div
+              class="gp-tab-item-container p-4 pb-0"
+              key="grg6bIWbfn" 
+              style="--w:100%"
+            >
+            
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="glYbqLoV4r"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-2xl);--pl:var(--g-s-2xl);--pb:var(--g-s-2xl);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="glYbqLoV4r mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="ggJaM7zyj4 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g9zPmPYJym "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl)"
+      >
+      <div class="flex" style="--jc:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] text-g-text-2 gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:28px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>Technical Specifications</p>
+        </h2>
+      </div>
+    </div>
+      
+      
+    <div
+      parentTag="Col" id="g1CXX1V4gX"
+        style="--b:solid;--bc:#F1F3F4;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-l);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g1CXX1V4gX mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="ga33bgRBW9 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g04hZzpZxE "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:14px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Compatible operating systems</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gK8ZNJkAMh relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g0acj1HLm_ "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Windows 10 May 2019 update or higher - Significant improvements have been added to the Windows Mixed Reality platform to optimize for the visual quality of this device. For the best performance, please ensure you have the latest updates from Windows 10: version 1903/1909 (KB4577062 or later) or 2004 (KB4577063 or later).</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gSxLZ1JlkA"
+        style="--b:solid;--bc:#F1F3F4;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-l);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gSxLZ1JlkA mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g3r0zz4g3Z relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gO5S2s1uFW "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:14px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Memory</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gPDjegjwIs relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gSEp_QzsjQ "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>128GB/256GB</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gQjoNpswsR"
+        style="--b:solid;--bc:#F1F3F4;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-l);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gQjoNpswsR mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g3cKZgnysI relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gyMtmWLfvV "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:14px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Field of view</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gF3KAyVYgx relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gsdgz9cXOV "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>120 degrees</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="g0T086xPfE"
+        style="--b:solid;--bc:#F1F3F4;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-l);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g0T086xPfE mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gdaGq6ucaR relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gKOSDNM_E6 "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:14px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Resolution</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g4xkTUJ7Lx relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g9xTzemx49 "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>2448 x 2448 pixels per eye</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gVYTV7Gn2q"
+        style="--b:solid;--bc:#F1F3F4;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-l);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gVYTV7Gn2q mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gDi1JEGKud relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gF9CYHTiyR "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:14px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Weight</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gtrPm82gJc relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gOh8OekcjV "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>560 grams</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="ghVjCbRS5M"
+        style="--b:solid;--bc:#F1F3F4;--bw:0px 0px 1px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-l);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="ghVjCbRS5M mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g2PB-uTRtY relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gep10tndQJ "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:14px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Material</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gJLfDqbSlf relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gwAGNbNj9R "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Magnesium alloy, plastic</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="gWGb2yKbQ9"
+        style="--b:solid;--bc:#F1F3F4;--bw:0px 0px 0px 0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-l);--pb:var(--g-s-l);--cg:var(--g-s-l);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gWGb2yKbQ9 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gAa2OuSyij relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="guHLANdbLf "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:14px"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Color</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g8VqUzptGh relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g_JIHJLS97 "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Black</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+  </div>
+  
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="gdEvL9Jcaf"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-2xl);--pl:var(--g-s-2xl);--pb:var(--g-s-2xl);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gdEvL9Jcaf mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gYhdFHcRLq relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="guNSGawQgQ "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl)"
+      >
+      <div class="flex" style="--jc:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] text-g-text-2 gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:28px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>What's Included</p>
+        </h2>
+      </div>
+    </div>
+      
+      
+    <div
+      parentTag="Col" id="gNa8uSPrhj"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 4fr) minmax(0, 8fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:780px;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gNa8uSPrhj mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gGZP7Z4OiW relative flex flex-col"
+    >
+      <div style="" class="g1WLXzrmJp ">
+      
+    
+    <div
+      uid="g1WLXzrmJp"
+       style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb-mobile:28px;--ta:left;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll">
+     
+     <ul
+        class="inline-flex flex-col"
+        style="--rg:auto"
+        >
+        
+    <li
+      class="flex w-full items-center gp-icon-list-item"
+      style="--cg:var(--g-s-l)"
+    >
+    <div
+      
+      style=""
+      class="g2O8Q9D0EJ relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gc334-jizG"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/91ce2c27-4f58-4d91-8009-8e4fa824d958/-/format/auto/" data-srcset="https://ucarecdn.com/91ce2c27-4f58-4d91-8009-8e4fa824d958/-/format/auto/ 768w,https://ucarecdn.com/91ce2c27-4f58-4d91-8009-8e4fa824d958/-/format/auto/ 1024w,https://ucarecdn.com/91ce2c27-4f58-4d91-8009-8e4fa824d958/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="112" height="112" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:112/112;--aspect-tablet:112/112;--aspect-mobile:112/112;--objf:cover;--w:56px;--w-tablet:56px;--w-mobile:56px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div><div
+      
+      style=""
+      class="gJTEFWSXcK relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gtHZN30uRV "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>VR Headset</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </li>
+    <li
+      class="flex w-full items-center gp-icon-list-item"
+      style="--cg:var(--g-s-l)"
+    >
+    <div
+      
+      style=""
+      class="gtPiUkR54c relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gg6Xh7c6wD"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/278d9347-b18a-44ec-8f36-81b3a62b75e2/-/format/auto/" data-srcset="https://ucarecdn.com/278d9347-b18a-44ec-8f36-81b3a62b75e2/-/format/auto/ 768w,https://ucarecdn.com/278d9347-b18a-44ec-8f36-81b3a62b75e2/-/format/auto/ 1024w,https://ucarecdn.com/278d9347-b18a-44ec-8f36-81b3a62b75e2/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="112" height="112" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:112/112;--aspect-tablet:112/112;--aspect-mobile:112/112;--objf:cover;--w:56px;--w-tablet:56px;--w-mobile:56px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div><div
+      
+      style=""
+      class="ggSCbRYPli relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gDPOPosmy3 "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>2 Touch Controllers</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </li>
+    <li
+      class="flex w-full items-center gp-icon-list-item"
+      style="--cg:var(--g-s-l)"
+    >
+    <div
+      
+      style=""
+      class="g9V5sCihoQ relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gn7zUrigMA"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/2727deae-0ae5-4295-8e14-aa32de935f61/-/format/auto/" data-srcset="https://ucarecdn.com/2727deae-0ae5-4295-8e14-aa32de935f61/-/format/auto/ 768w,https://ucarecdn.com/2727deae-0ae5-4295-8e14-aa32de935f61/-/format/auto/ 1024w,https://ucarecdn.com/2727deae-0ae5-4295-8e14-aa32de935f61/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="112" height="112" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:112/112;--aspect-tablet:112/112;--aspect-mobile:112/112;--objf:cover;--w:56px;--w-tablet:56px;--w-mobile:56px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div><div
+      
+      style=""
+      class="g-f3FW6qV- relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gdNe7HRhiy "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Charging Cable</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </li>
+    <li
+      class="flex w-full items-center gp-icon-list-item"
+      style="--cg:var(--g-s-l)"
+    >
+    <div
+      
+      style=""
+      class="grSOwP8r5m relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image g9zrevZSeF"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/c848ca41-11dc-4898-9fd1-0deabc70cded/-/format/auto/" data-srcset="https://ucarecdn.com/c848ca41-11dc-4898-9fd1-0deabc70cded/-/format/auto/ 768w,https://ucarecdn.com/c848ca41-11dc-4898-9fd1-0deabc70cded/-/format/auto/ 1024w,https://ucarecdn.com/c848ca41-11dc-4898-9fd1-0deabc70cded/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="112" height="112" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:112/112;--aspect-tablet:112/112;--aspect-mobile:112/112;--objf:cover;--w:56px;--w-tablet:56px;--w-mobile:56px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div><div
+      
+      style=""
+      class="gS7DWj1r8K relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gicQrbmrM7 "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Power Adapter</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </li>
+    <li
+      class="flex w-full items-center gp-icon-list-item"
+      style="--cg:var(--g-s-l)"
+    >
+    <div
+      
+      style=""
+      class="gxfP76bwGE relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gJlTVShdwe"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/e5aaab23-49c7-4ee8-92cb-aa2d2d2981ff/-/format/auto/" data-srcset="https://ucarecdn.com/e5aaab23-49c7-4ee8-92cb-aa2d2d2981ff/-/format/auto/ 768w,https://ucarecdn.com/e5aaab23-49c7-4ee8-92cb-aa2d2d2981ff/-/format/auto/ 1024w,https://ucarecdn.com/e5aaab23-49c7-4ee8-92cb-aa2d2d2981ff/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="112" height="112" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:112/112;--aspect-tablet:112/112;--aspect-mobile:112/112;--objf:cover;--w:56px;--w-tablet:56px;--w-mobile:56px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div><div
+      
+      style=""
+      class="gipnI4al_U relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gXhZsWcvNk "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Glasses Spacer</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </li>
+      </ul>
+  </div>
+  
+      </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g3qw93MThR relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gne0CmfYf_"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/f7ecd1b3-3140-444e-b9c0-de4cb644fc6a/-/format/auto/" data-srcset="https://ucarecdn.com/f7ecd1b3-3140-444e-b9c0-de4cb644fc6a/-/format/auto/ 768w,https://ucarecdn.com/f7ecd1b3-3140-444e-b9c0-de4cb644fc6a/-/format/auto/ 1024w,https://ucarecdn.com/f7ecd1b3-3140-444e-b9c0-de4cb644fc6a/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="721" height="706" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:721/706;--aspect-tablet:721/706;--aspect-mobile:721/706;--objf:cover;--w:100%;--w-tablet:100%;--w-mobile:100%;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+  </div>
+  
+  <div
+    
+    style=""
+    class="gp-tab-item"
+  >
+    
+      
+      
+    <div
+      parentTag="TabItem" id="gkjZIVhbbF"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:192px;--pl:var(--g-s-2xl);--pb:192px;--pr:var(--g-s-2xl);--pt-mobile:28px;--pl-mobile:28px;--pb-mobile:28px;--pr-mobile:28px;--pt-tablet:152px;--pl-tablet:var(--g-s-2xl);--pb-tablet:152px;--pr-tablet:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gkjZIVhbbF mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gUOlApW-Gq relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gAnYXOQOOj "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl)"
+      >
+      <div class="flex" style="--jc:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] text-g-text-2 gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:28px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>Professional Support</p>
+        </h2>
+      </div>
+    </div>
+      
+      
+    <div
+      parentTag="Col" id="gbha3kmwHP"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:780px;--w-tablet:780px;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gbha3kmwHP mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g5kLlAvLUx relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image g6iIghPmTT"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small);--mb:var(--g-s-l);--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:center"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/bd6653c3-a524-45de-a014-df1d9d5e7912/-/format/auto/" data-srcset="https://ucarecdn.com/bd6653c3-a524-45de-a014-df1d9d5e7912/-/format/auto/ 768w,https://ucarecdn.com/bd6653c3-a524-45de-a014-df1d9d5e7912/-/format/auto/ 1024w,https://ucarecdn.com/bd6653c3-a524-45de-a014-df1d9d5e7912/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="112" height="112" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:112/112;--aspect-tablet:112/112;--aspect-mobile:112/112;--objf:cover;--w:56px;--w-tablet:56px;--w-mobile:56px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-small);border-radius:inherit"
+  />
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gbOaVZMXrD "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:0;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Installation</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gjDNSVlpTh "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small);--mb-mobile:28px"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:0;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>We set up your VR headsets for direct use, by preconfiguring the headsets and pre-installing your desired application and 360° content.</p>
+        </div>
+      </div>
+    </div>
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="g4GvMY6_cH relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gBI3nBV9VJ"
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small);--mb:var(--g-s-l);--ta:center"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="border-radius:inherit;--ta:center"
+      >
+        <img
+    quality="70" title="Image Title"
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="https://ucarecdn.com/7bbcf9cb-a7ad-4704-b002-555390cd715b/-/format/auto/" data-srcset="https://ucarecdn.com/7bbcf9cb-a7ad-4704-b002-555390cd715b/-/format/auto/ 768w,https://ucarecdn.com/7bbcf9cb-a7ad-4704-b002-555390cd715b/-/format/auto/ 1024w,https://ucarecdn.com/7bbcf9cb-a7ad-4704-b002-555390cd715b/-/format/auto/ 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="112" height="112" alt="Alt Image" priority base-src
+    sizes="100vw"
+    style="--aspect:112/112;--aspect-tablet:112/112;--aspect-mobile:112/112;--objf:cover;--w:56px;--w-tablet:56px;--w-mobile:56px;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:0px;--bc:transparent;--radius:var(--g-radius-small);border-radius:inherit"
+  />
+      </div>
+  </div>
+    <div
+      parentTag="Col"
+        class="gfo6beQrq7 "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:0;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>24/7 Support Desk</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gFedyCG4E0 "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:0;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For questions and problems, you can always&nbsp;<br>get in touch with our support desk, so we can get you back, up and running.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+    
+  </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </gp-tab>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-tab.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 2",
+    "tag": "section",
+    "class": "gps-500323948383175453 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/maxxus-de-production/apps/bold/app/shopify/edit?pageType=GP_PRODUCT&editorId=500323945531049190&sectionId=500323948383175453)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}

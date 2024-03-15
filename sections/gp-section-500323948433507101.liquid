@@ -1,0 +1,1320 @@
+
+  
+  
+      <style>
+        @font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=LDIqapSCOBt_aeQQ7ftydoa05efelJoy&skey=7204b863223fc69a&v=v11) format('woff');
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbmyWQk8z_g&skey=3445dd5b86d56e57&v=v19) format('woff');
+}
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=8vIf7wUr0m80wwYf0QCXZzYzUoTK8RZQvRd-D1NYbouRQk8z_g&skey=3445dd5b86d56e57&v=v19) format('woff');
+}
+/* thai */
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efegJo02SuCgcva.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efem5o02SuCgcva.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efempo02SuCgcva.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/baijamjuree/v11/LDIqapSCOBt_aeQQ7ftydoa05efelJo02SuCgQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg8z6hR4jNCH5Z.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6hR4jNCA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg8z6hR4jNCH5Z.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Red Hat Display';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/redhatdisplay/v19/8vIQ7wUr0m80wwYf0QCXZzYzUoTg_T6hR4jNCA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
+  <style>
+    .gps-500323948433507101 .-rotate-90,.gps-500323948433507101 .rotate-180,.gps-500323948433507101 .rotate-90{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1}.gps-500323948433507101 .focus\:\!shadow-none,.gps-500323948433507101 .hover\:\!shadow-none{--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000}.gps-500323948433507101 .invisible{visibility:hidden}.gps-500323948433507101 .fixed{position:fixed}.gps-500323948433507101 .absolute{position:absolute}.gps-500323948433507101 .relative{position:relative}.gps-500323948433507101 .top-\[27px\]{top:27px}.gps-500323948433507101 .z-1{z-index:1}.gps-500323948433507101 .z-100{z-index:100}.gps-500323948433507101 .mx-auto{margin-left:auto;margin-right:auto}.gps-500323948433507101 .mb-0{margin-bottom:0}.gps-500323948433507101 .flex{display:flex}.gps-500323948433507101 .inline-flex{display:inline-flex}.gps-500323948433507101 .grid{display:grid}.gps-500323948433507101 .hidden{display:none}.gps-500323948433507101 .\!h-auto{height:auto!important}.gps-500323948433507101 .h-5{height:20px}.gps-500323948433507101 .h-6{height:24px}.gps-500323948433507101 .h-full{height:100%}.gps-500323948433507101 .min-h-0{min-height:0}.gps-500323948433507101 .min-h-\[150px\]{min-height:150px}.gps-500323948433507101 .w-5{width:20px}.gps-500323948433507101 .w-6{width:24px}.gps-500323948433507101 .w-full{width:100%}.gps-500323948433507101 .max-w-full{max-width:100%}.gps-500323948433507101 .shrink-0{flex-shrink:0}.gps-500323948433507101 .-rotate-90{--tw-rotate:-90deg}.gps-500323948433507101 .-rotate-90,.gps-500323948433507101 .rotate-180{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.gps-500323948433507101 .rotate-180{--tw-rotate:180deg}.gps-500323948433507101 .rotate-90{--tw-rotate:90deg;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes spin{to{transform:rotate(1turn)}}.gps-500323948433507101 .animate-spin{animation:spin 1s linear infinite}.gps-500323948433507101 .cursor-pointer{cursor:pointer}.gps-500323948433507101 .flex-row-reverse{flex-direction:row-reverse}.gps-500323948433507101 .flex-col{flex-direction:column}.gps-500323948433507101 .items-center{align-items:center}.gps-500323948433507101 .justify-center{justify-content:center}.gps-500323948433507101 .gap-y-0{row-gap:0}.gps-500323948433507101 .overflow-hidden{overflow:hidden}.gps-500323948433507101 .overflow-clip{overflow:clip}.gps-500323948433507101 .break-words{overflow-wrap:break-word}.gps-500323948433507101 .rounded{border-radius:4px}.gps-500323948433507101 .rounded-none{border-radius:0}.gps-500323948433507101 .border{border-width:1px}.gps-500323948433507101 .\!bg-none{background-image:none!important}.gps-500323948433507101 .p-\[16px\]{padding:16px}.gps-500323948433507101 .text-\[14px\]{font-size:14px}.gps-500323948433507101 .leading-normal{line-height:1.5}.gps-500323948433507101 .text-g-text-1{color:var(--g-c-text-1)}.gps-500323948433507101 .text-g-text-3{color:var(--g-c-text-3)}.gps-500323948433507101 .no-underline{text-decoration-line:none}.gps-500323948433507101 .opacity-25{opacity:.25}.gps-500323948433507101 .opacity-75{opacity:.75}.gps-500323948433507101 .\!outline-none{outline:2px solid transparent!important;outline-offset:2px!important}.gps-500323948433507101 .transition-all{transition-duration:.15s;transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-500323948433507101 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-500323948433507101 .duration-200{transition-duration:.2s}.gps-500323948433507101 .duration-300{transition-duration:.3s}.gps-500323948433507101 .duration-500{transition-duration:.5s}.gps-500323948433507101 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-500323948433507101 .disabled\:btn-disabled:disabled{cursor:default}@media (hover:hover) and (pointer:fine){.gps-500323948433507101 .hover\:\!shadow-none:hover{--tw-shadow:0 0 #0000!important;--tw-shadow-colored:0 0 #0000!important;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)!important}}.gps-500323948433507101 .focus\:\!shadow-none:focus{--tw-shadow:0 0 #0000!important;--tw-shadow-colored:0 0 #0000!important;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)!important}.gps-500323948433507101 .disabled\:pointer-events-none:disabled{pointer-events:none}.gps-500323948433507101 .disabled\:opacity-30:disabled{opacity:.3}.gps-500323948433507101 .group[data-state=loading] .group-data-\[state\=loading\]\:visible{visibility:visible}.gps-500323948433507101 .group[data-state=loading] .group-data-\[state\=loading\]\:invisible{visibility:hidden}.gps-500323948433507101 .\[\&\>svg\]\:\!h-\[var\(--height-desktop\)\]>svg{height:var(--height-desktop)!important}.gps-500323948433507101 .\[\&\>svg\]\:\!h-\[var\(--height-iconCollapseSize\)\]>svg{height:var(--height-iconCollapseSize)!important}.gps-500323948433507101 .\[\&\>svg\]\:\!w-auto>svg{width:auto!important}@media (max-width:1023px){.gps-500323948433507101 .tablet\:\[\&\>svg\]\:\!h-\[var\(--height-tablet\)\]>svg{height:var(--height-tablet)!important}}@media (max-width:767px){.gps-500323948433507101 .mobile\:\[\&\>svg\]\:\!h-\[var\(--height-mobile\)\]>svg{height:var(--height-mobile)!important}}.gps-500323948433507101 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-500323948433507101 .\[\&_p\]\:inline p{display:inline}.gps-500323948433507101 .\[\&_p\]\:whitespace-pre-line p{white-space:pre-line}.gps-500323948433507101 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-500323948433507101 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
+  </style>
+  
+      
+      
+            <section
+              class="mx-auto max-w-full"
+              style="--w:100%;--w-tablet:100%;--w-mobile:100%;--pl:0px;--pl-tablet:0px;--pl-mobile:0px;--pr:0px;--pr-tablet:0px;--pr-mobile:0px"
+            >
+              
+    <div
+      id="g8ViWlATTZ"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--pt:72px;--pl:15px;--pb:72px;--pr:15px;--pt-mobile:62px;--pb-mobile:62px;--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#FFFFFF;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g8ViWlATTZ mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gndP4ifyqI relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gyEKqXhyul"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-3xl);--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gyEKqXhyul mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gz9dvVkulM relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g4R7R22IxW "
+        style="--tt:uppercase;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small);--mb:var(--g-s-s);--pl:var(--g-s-l);--pr:var(--g-s-l)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:0;--c:#242424;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--tt:uppercase;word-break:break-word;overflow:hidden"
+        >
+        <p>FIND YOUR ANSWERS HERE</p>
+        </div>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gMemsDzD9o "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-small);--mb:var(--g-s-s);--pl:var(undefined);--pr:var(undefined);--pl-mobile:var(undefined);--pr-mobile:var(undefined)"
+      >
+      <div class="flex" style="--jc:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:#242424;--fs:normal;--ff:var(--g-font-Bai-Jamjuree, 'Bai Jamjuree');--weight:700;--ls:normal;--lh:120%;--size:38px;--size-tablet:38px;--size-mobile:33px;word-break:break-word;overflow:hidden"
+        >
+        <p>FREQUENTLY ASKED QUESTIONS</p>
+        </h2>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      parentTag="Col" id="g7XpTcYEen"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--cg:62px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g7XpTcYEen mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gBdY7MDiPC relative flex flex-col"
+    >
+      <div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl)" class="gp6VVS9H3L ">
+      
+    <gp-accordion
+     uid="gp6VVS9H3L"
+      class="flex w-full flex-col "
+      style="--gg:var(--g-s-l)"
+      gp-data='{"setting":{"iconSvg":"plus","isIconPlus":true,"activeKey":"0","expanded":false,"expandItem":false,"iconPosition":"right","iconGlobalSize":{"desktop":{"gap":"16px","height":"16px","width":"16px"}},"layoutHeader":"text-only","expandedMode":"single","configIconSize":16,"parentUid":"gp6VVS9H3L","childListNumber":[],"chidlrenUid":["g-iujuUGvB","gMx9B8PYyE","g_Ea8pT_1f","gHCYiyuySp","gvISb9zsj8","gpZmZMlJ3J","gDT0IGzc03"]},"styles":{"bgColor":{"normal":"transparent"},"color":{"normal":"#242424"},"headerBorder":{"normal":{"border":"solid","borderLabel":"Style 1","borderType":"style-1","color":"#E0E0E0","isCustom":true,"width":"1px 1px 1px 1px"}},"fullWidth":{"desktop":true},"width":{"desktop":"800px"},"itemHeaderSpacing":{"custom":{"desktop":{"horizontal":"32px","vertical":"16px"}}},"textColor":{"normal":"#242424"},"iconColor":{"active":"#121212","hover":"#121212","normal":"#121212"},"contentSizePadding":{"desktop":{"gap":"var(--g-s-l)","padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}},"mobile":{"padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}},"tablet":{"padding":{"bottom":"0px","left":"0px","right":"0px","top":"0px","type":"custom"}}},"headerContentPadding":{"desktop":{"padding":{"bottom":"16px","left":"32px","right":"32px","top":"16px","type":"custom"}},"mobile":{"padding":{"bottom":"16px","left":"32px","right":"32px","top":"16px","type":"custom"}},"tablet":{"padding":{"bottom":"16px","left":"32px","right":"32px","top":"16px","type":"custom"}}},"widthHeightSize":{"desktop":{"width":"100%"},"mobile":{"width":"100%"},"tablet":{"width":"100%"}}},"uid":"gp6VVS9H3L"}'
+    >
+    <div class="hidden rotate-90 -rotate-90 rotate-180"></div>
+    <div
+                class="flex"
+                style="--jc:flex-start"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+    <div
+      data-index="0"
+      class="gp6VVS9H3L gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="g-iujuUGvB"
+        id="g-iujuUGvB"
+        data-index="0"
+        class="gp6VVS9H3L gp-accordion-item-gp6VVS9H3L-0 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:32px;--pr:32px;--pt:16px;--pb:16px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:transparent;--c:#242424;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0"
+      >
+       <style class="accordion-style">.gp-accordion-item-gp6VVS9H3L-0:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#242424;width:16px;height:16px"
+            data-index="0"
+            class="gp6VVS9H3L gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        Why can’t I get the eye tracking calibration to start?
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="g-iujuUGvB"
+        data-index="0"
+        class="gp6VVS9H3L gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="g-iujuUGvB"
+        data-index="0"
+        class="gp6VVS9H3L gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gfevXMJm2O relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gFwDX991pG"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pt:var(--g-s-l);--pl:var(--g-s-2xl);--pb:var(--g-s-l);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gFwDX991pG mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g4ML8PVMav relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g5Gr-FJZnK "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For eye tracking to work accurately, your headset needs to be correctly positioned on your head and in front of your eyes. Please see detailed instructions for positioning the headset and using eye tracking.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:flex-start"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+    <div
+      data-index="1"
+      class="gp6VVS9H3L gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gMx9B8PYyE"
+        id="gMx9B8PYyE"
+        data-index="1"
+        class="gp6VVS9H3L gp-accordion-item-gp6VVS9H3L-1 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:32px;--pr:32px;--pt:16px;--pb:16px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:transparent;--c:#242424;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0"
+      >
+       <style class="accordion-style">.gp-accordion-item-gp6VVS9H3L-1:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#242424;width:16px;height:16px"
+            data-index="1"
+            class="gp6VVS9H3L gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        Is it normal if the headset gets warm during use?
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gMx9B8PYyE"
+        data-index="1"
+        class="gp6VVS9H3L gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gMx9B8PYyE"
+        data-index="1"
+        class="gp6VVS9H3L gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gtc9ybcv2w relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g6cELj_o_D"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pt:var(--g-s-l);--pl:var(--g-s-2xl);--pb:var(--g-s-l);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g6cELj_o_D mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gi_E0F6fQQ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g1iWO7mm9W "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For eye tracking to work accurately, your headset needs to be correctly positioned on your head and in front of your eyes. Please see detailed instructions for positioning the headset and using eye tracking.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:flex-start"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+    <div
+      data-index="2"
+      class="gp6VVS9H3L gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="g_Ea8pT_1f"
+        id="g_Ea8pT_1f"
+        data-index="2"
+        class="gp6VVS9H3L gp-accordion-item-gp6VVS9H3L-2 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:32px;--pr:32px;--pt:16px;--pb:16px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:transparent;--c:#242424;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0"
+      >
+       <style class="accordion-style">.gp-accordion-item-gp6VVS9H3L-2:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#242424;width:16px;height:16px"
+            data-index="2"
+            class="gp6VVS9H3L gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        Can I use this headset without an internet connection?
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="g_Ea8pT_1f"
+        data-index="2"
+        class="gp6VVS9H3L gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="g_Ea8pT_1f"
+        data-index="2"
+        class="gp6VVS9H3L gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gFvCPItwPp relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="grMqECFgz7"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pt:var(--g-s-l);--pl:var(--g-s-2xl);--pb:var(--g-s-l);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="grMqECFgz7 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gG8UbI6fOb relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gPR2XwgTkZ "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For eye tracking to work accurately, your headset needs to be correctly positioned on your head and in front of your eyes. Please see detailed instructions for positioning the headset and using eye tracking.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:flex-start"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+    <div
+      data-index="3"
+      class="gp6VVS9H3L gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gHCYiyuySp"
+        id="gHCYiyuySp"
+        data-index="3"
+        class="gp6VVS9H3L gp-accordion-item-gp6VVS9H3L-3 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:32px;--pr:32px;--pt:16px;--pb:16px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:transparent;--c:#242424;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0"
+      >
+       <style class="accordion-style">.gp-accordion-item-gp6VVS9H3L-3:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#242424;width:16px;height:16px"
+            data-index="3"
+            class="gp6VVS9H3L gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        How can I reset my position in VR?
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gHCYiyuySp"
+        data-index="3"
+        class="gp6VVS9H3L gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gHCYiyuySp"
+        data-index="3"
+        class="gp6VVS9H3L gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="g3vuBq3gkM relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gx5zRKx0Br"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pt:var(--g-s-l);--pl:var(--g-s-2xl);--pb:var(--g-s-l);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gx5zRKx0Br mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gi_fNB_zI4 relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gRxxgDUPcS "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For eye tracking to work accurately, your headset needs to be correctly positioned on your head and in front of your eyes. Please see detailed instructions for positioning the headset and using eye tracking.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:flex-start"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+    <div
+      data-index="4"
+      class="gp6VVS9H3L gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gvISb9zsj8"
+        id="gvISb9zsj8"
+        data-index="4"
+        class="gp6VVS9H3L gp-accordion-item-gp6VVS9H3L-4 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:32px;--pr:32px;--pt:16px;--pb:16px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:transparent;--c:#242424;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0"
+      >
+       <style class="accordion-style">.gp-accordion-item-gp6VVS9H3L-4:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#242424;width:16px;height:16px"
+            data-index="4"
+            class="gp6VVS9H3L gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        Why doesn't the headset image update when I move?
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gvISb9zsj8"
+        data-index="4"
+        class="gp6VVS9H3L gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gvISb9zsj8"
+        data-index="4"
+        class="gp6VVS9H3L gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gou9m6h7r3 relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="g-ug71UJxi"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pt:var(--g-s-l);--pl:var(--g-s-2xl);--pb:var(--g-s-l);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="g-ug71UJxi mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gt7xiJlXvZ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="g3B4St-kVI "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For eye tracking to work accurately, your headset needs to be correctly positioned on your head and in front of your eyes. Please see detailed instructions for positioning the headset and using eye tracking.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:flex-start"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+    <div
+      data-index="5"
+      class="gp6VVS9H3L gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gpZmZMlJ3J"
+        id="gpZmZMlJ3J"
+        data-index="5"
+        class="gp6VVS9H3L gp-accordion-item-gp6VVS9H3L-5 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:32px;--pr:32px;--pt:16px;--pb:16px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:transparent;--c:#242424;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0"
+      >
+       <style class="accordion-style">.gp-accordion-item-gp6VVS9H3L-5:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#242424;width:16px;height:16px"
+            data-index="5"
+            class="gp6VVS9H3L gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        Why are my controllers not working?
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gpZmZMlJ3J"
+        data-index="5"
+        class="gp6VVS9H3L gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gpZmZMlJ3J"
+        data-index="5"
+        class="gp6VVS9H3L gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gW9Ifr8XJn relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gwlpm7iDyh"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pt:var(--g-s-l);--pl:var(--g-s-2xl);--pb:var(--g-s-l);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gwlpm7iDyh mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gjD1LW1zoJ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gwnjJeGQ8Q "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For eye tracking to work accurately, your headset needs to be correctly positioned on your head and in front of your eyes. Please see detailed instructions for positioning the headset and using eye tracking.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            <div
+                class="flex"
+                style="--jc:flex-start"
+              >
+                
+  <div class="overflow-clip" style="--w:100%;--w-tablet:100%;--w-mobile:100%;--height-iconCollapseSize:16px;--height-configIconSize:16px;--bs:none;--bw:0px 0px 0px 0px;--bc:transparent">
+    <div
+      data-index="6"
+      class="gp6VVS9H3L gp-accordion-item overflow-hidden"
+      style="scrollBehavior:smooth"
+    >
+      <div
+        aria-hidden
+        uid="gDT0IGzc03"
+        id="gDT0IGzc03"
+        data-index="6"
+        class="gp6VVS9H3L gp-accordion-item-gp6VVS9H3L-6 flex items-center gp-accordion-item_header cursor-pointer"
+        style="--pl:32px;--pr:32px;--pt:16px;--pb:16px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:16px;--pb-tablet:16px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:16px;--pb-mobile:16px;--fd:row-reverse;--jc:space-between;gap:16px;--bgc:transparent;--c:#242424;--bs:solid;--bw:1px 1px 1px 1px;--bc:#E0E0E0"
+      >
+       <style class="accordion-style">.gp-accordion-item-gp6VVS9H3L-6:hover { 
+              .gp-collapsible-icon { 
+                  color: undefined 
+              }
+
+              .gp-icon { 
+                  color: #121212 
+              }
+          }</style>
+        <div class="inline-flex">
+        <span
+            style="--c:#242424;width:16px;height:16px"
+            data-index="6"
+            class="gp6VVS9H3L gp-accordion-item_icon gp-collapsible-icon rotate-90 inline-flex items-center justify-center overflow-hidden transition-all duration-200 [&>svg]:!h-[var(--height-iconCollapseSize)] [&>svg]:!w-auto"
+          ><svg fill='currentColor' width='16' height='16' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill='currentColor' d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></span>
+          
+        </div>
+      <div class="flex items-center w-full" style="--gg:16px">
+        
+        
+    <div
+      
+        class=" "
+        style=""
+      >
+      <div class="" style="">
+        <span
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] overflow-hidden"
+          style="--w:100%;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        What is included in the 2-year GEMETA Care Package?
+        </span>
+      </div>
+    </div>
+        
+      </div>
+      </div>
+      <div
+        uid="gDT0IGzc03"
+        data-index="6"
+        class="gp6VVS9H3L gp-accordion-item_body transition-all grid duration-500 overflow-hidden"
+        style="grid-template-rows:0fr;grid-template-columns:minmax(auto, 100%)"
+      >
+        <div
+        uid="gDT0IGzc03"
+        data-index="6"
+        class="gp6VVS9H3L gp-accordion-item_body-inner min-h-0 transition-all duration-500"  style="--pl:0px;--pr:0px;--pl-tablet:0px;--pr-tablet:0px;--pl-mobile:0px;--pr-mobile:0px" >
+            <div
+      label="Block" tag="Col" type="component"
+      style=""
+      class="gTqU2NX4xq relative flex flex-col"
+    >
+      
+      
+      
+    <div
+      parentTag="Col" id="gbJs1rv0w4"
+        style="--b:solid;--bc:#E0E0E0;--bw:0px 1px 1px 1px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb:var(undefined);--pt:var(--g-s-l);--pl:var(--g-s-2xl);--pb:var(--g-s-l);--pr:var(--g-s-2xl);--cg:var(--g-s-2xl);--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gbJs1rv0w4 mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="gTiPHa61PQ relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gYLpK-Qh11 "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>For eye tracking to work accurately, your headset needs to be correctly positioned on your head and in front of your eyes. Please see detailed instructions for positioning the headset and using eye tracking.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
+    </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              </div>
+            
+    </gp-accordion>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-accordion.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+      </div>
+      
+      
+    <div
+      parentTag="Col" id="gXm4nqORwn"
+        style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:grid;--d-mobile:grid;--d-tablet:grid;--op:100%;--radius:var(--g-radius-none);--mb-mobile:50px;--cg:var(--g-s-2xl);--pc:center;--gtc:minmax(0, auto);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gXm4nqORwn mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      label="Block" tag="Col" type="component"
+      style="--jc:start"
+      class="g_wpVpLWYj relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-button.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"btnLink":{"link":"#","target":"_self"},"disabled":false,"htmlType":"button","iconAlign":"right","iconSvg":"<svg height=\"100%\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" className=\"w-6 h-6\"  viewBox=\"0 0 512 512\" fill=\"currentColor\">\n              <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"m388.48 280.096 -175.424 153.472c-20.672 18.112 -53.056 3.392 -53.056 -24.096V102.528a32 32 0 0 1 53.088 -24.096l175.36 153.472a32 32 0 0 1 0 48.192z\" /></svg>","iconVisible":true,"label":"See All FAQs"}}' style="">
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:left"
+    class=""
+  >
+    <style>
+    .gQzAI4CAIK.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #234BC8;
+  
+      
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+    }
+
+    .gQzAI4CAIK:hover::before {
+      border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #242424;
+  
+      
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+    }
+  </style>
+    <a
+      href="#" target="_self" data-id="gQzAI4CAIK" aria-label="See All FAQs"
+      data-state="idle"
+      class="gQzAI4CAIK gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none flex-row-reverse"
+      style="--hvr-bg:transparent;--bg:transparent;--hvr-c:#242424;--c:#234BC8;--w:Auto;--w-tablet:Auto;--w-mobile:Auto;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--tt:default;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    <span
+        class="inline-flex shrink-0 items-center justify-center group-data-[state=loading]:invisible z-1 [&>svg]:!h-[var(--height-desktop)] [&>svg]:!w-auto tablet:[&>svg]:!h-[var(--height-tablet)] mobile:[&>svg]:!h-[var(--height-mobile)]"
+        style="--ml:8px;--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      ><svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6"  viewBox="0 0 512 512" fill="currentColor">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="m388.48 280.096 -175.424 153.472c-20.672 18.112 -53.056 3.392 -53.056 -24.096V102.528a32 32 0 0 1 53.088 -24.096l175.36 153.472a32 32 0 0 1 0 48.192z" /></svg></span>
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        See All FAQs
+      </span>
+    </a>
+  </div>
+  </gp-button>
+  
+    </div>
+    </div>
+  
+    
+    </div><div
+      label="Block" tag="Col" type="component"
+      style="--jc:center"
+      class="gxmDa5lgep relative flex flex-col"
+    >
+      
+    <div
+      parentTag="Col"
+        class="gl76QvGb6r "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:center">
+        <h2
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--c:var(--g-c-text-2, text-2);--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:130%;--size:28px;--size-tablet:28px;--size-mobile:24px;word-break:break-word;overflow:hidden"
+        >
+        <p>Can't find an answer to your question?</p>
+        </h2>
+      </div>
+    </div>
+    <div
+      parentTag="Col"
+        class="gG265LuSxy "
+        style="--tt:default;--ta:center;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-2xl)"
+      >
+      <div class="flex" style="--jc:center">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Call us at <strong>999 - 9999 - 999</strong> or email us at <strong>support@gempages.net</strong></p>
+        </div>
+      </div>
+    </div><div style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--pt:var(--g-s-2xl);--pt-tablet:var(--g-s-2xl);--pl-tablet:0px;--pr-tablet:0px" class="gE57x32yKV ">
+      
+    
+    <gp-form 
+      id="gE57x32yKV"
+      style=""
+      data-submit-action=''
+      data-callback='{"link":"","target":"_self"}'
+    >
+      <a
+        hidden
+        id="gp-form-callback-gE57x32yKV"
+        href="" target="_self"
+      >
+      </a>
+      {% form 'contact', class: 'gp-form-gE57x32yKV ' %}
+        {% if form.errors %}
+          <div
+            id="gp-form-error-gE57x32yKV"
+            class="gp-form-message hidden top-[27px] z-100 fixed rounded p-[16px] text-[14px] leading-normal"
+            style="background-color:#FFE9E9;left:50%;transform:translateX(-50%);color:#EA3335"
+          >
+            Can’t send email. Please try again later.
+          </div>
+        {% endif %}
+        <div
+          id="gp-form-success-gE57x32yKV"
+          class="gp-form-message hidden top-[27px] z-100 fixed rounded p-[16px] text-[14px] leading-normal"
+          style="background-color:#F2FFEC;left:50%;transform:translateX(-50%);color:#52C41A"
+        >
+          Thanks for contacting us. We'll get back to you as soon as possible.
+        </div>
+        
+    <div
+      parentTag="ContactForm"
+        class="gPUq5GfQWp "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Email address*</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="gpiaE3Ckxm"
+      style="--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mb:var(--g-s-l);--ta:left"
+    >
+      <input
+        type="email"
+        class="gp-form-item !outline-none !h-auto focus:!shadow-none hover:!shadow-none !bg-none"
+        style="--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--pl:16px;--pr:16px;--pt:12px;--pb:12px;--w:100%;--w-tablet:100%;--w-mobile:100%;--b:solid;--bc:#E0E0E0;--bw:1px 1px 1px 1px;--radius:var(--g-radius-none);--shadow:none"
+        placeholder="youremail@gmail.com"
+        {% if true %}
+        required
+        {% endif %}
+        name="contact[email]"
+        value=""
+        autocomplete="email"
+      ></input>
+    </div>
+  
+    <div
+      parentTag="ContactForm"
+        class="gYP-up-ZAL "
+        style="--tt:default;--ta:left;--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--mb:var(--g-s-s)"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ts:none;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:#424242;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;word-break:break-word;overflow:hidden"
+        >
+        <p>Your question*</p>
+        </div>
+      </div>
+    </div>
+    <div
+      
+      class=""
+      style="--ta:left;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mb:var(--g-s-2xl)"
+    >
+      <textarea
+        class="gp-form-item gsH83EX-mX text-g-text-1 !outline-none !h-auto focus:!shadow-none hover:!shadow-none !bg-none min-h-[150px]"
+        style="--c:var(--g-c-text-1, text-1);--pl:16px;--pr:16px;--pt:12px;--pb:12px;--tt:default;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:400;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px;--b:solid;--bc:#E0E0E0;--bw:1px 1px 1px 1px;--radius:var(--g-radius-none);--shadow:none;--w:100%;--w-tablet:100%;--w-mobile:100%"
+        placeholder="Put your question here"
+        {% if false %}
+        required
+        {% endif %}
+        name="contact[note]"
+        value=""
+      ></textarea>
+    </div>
+  
+    
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-button.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"SUBMIT NOW","htmlType":"submit","iconAlign":"left","iconSvg":"<svg height=\"100%\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" className=\"w-6 h-6\"  viewBox=\"0 0 512 512\" fill=\"currentColor\">\n              <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z\" />\n            </svg>\n          ","iconVisible":false,"btnLink":{}}}' style="">
+  <div
+    
+    style="--b:solid;--bc:#121212;--bw:0px;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--radius:var(--g-radius-none);--ta:center"
+    class=""
+  >
+    <style>
+    .gXBMisrwPH.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 0px 0px 0px 0px;
+  border-color: transparent;
+  
+      
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+    }
+
+    .gXBMisrwPH:hover::before {
+      border-style: none;
+  border-width: 0px 0px 0px 0px;
+  border-color: transparent;
+  
+      
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+    }
+  </style>
+    <button
+      type="submit" data-id="gXBMisrwPH" aria-label="SUBMIT NOW"
+      data-state="idle"
+      class="gXBMisrwPH gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none text-g-text-3"
+      style="--hvr-bg:#242424;--bg:#234BC8;--c:var(--g-c-text-3, text-3);--pl:32px;--pr:32px;--pt:12px;--pb:12px;--pl-tablet:32px;--pr-tablet:32px;--pt-tablet:12px;--pb-tablet:12px;--pl-mobile:32px;--pr-mobile:32px;--pt-mobile:12px;--pb-mobile:12px;--w:auto;--w-tablet:auto;--w-mobile:auto;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--tt:default;--fs:normal;--ff:var(--g-font-Red-Hat-Display, 'Red Hat Display');--weight:700;--ls:normal;--lh:150%;--size:16px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        SUBMIT NOW
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+  
+      {% endform %}
+    </gp-form>
+    <script src="https://d2ls1pfffhvy22.cloudfront.net/assets-v2/gp-form.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
+  
+  
+      </div>
+    </div>
+    </div>
+  
+    
+    </div>
+    </div>
+  
+            </section>
+          
+    
+{% schema %}
+  {
+    
+    "name": "Section 8",
+    "tag": "section",
+    "class": "gps-500323948433507101 gps gpsi",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/maxxus-de-production/apps/bold/app/shopify/edit?pageType=GP_PRODUCT&editorId=500323945531049190&sectionId=500323948433507101)"
+      }
+    ],
+    "blocks": [{"type": "@app"}]
+  }
+{% endschema %}
