@@ -6,22 +6,22 @@
         "heading_qDbwCQ": {
           "type": "heading",
           "settings": {
-            "heading": "FLEXIBEL",
-            "heading_size": "h0"
+            "heading": "STÄRKE UND AUSDAUER",
+            "heading_size": "h1"
           }
         },
         "text_UBteyW": {
           "type": "text",
           "settings": {
-            "text": "TRAINIEREN",
+            "text": "mit jedem Schritt",
             "text_style": "subtitle"
           }
         },
         "buttons_TTLUxH": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "LAUFBÄNDER ENTDECKEN",
-            "button_link_1": "shopify:\/\/collections\/laufband",
+            "button_label_1": "CROSSTRAINER ENTDECKEN",
+            "button_link_1": "shopify:\/\/collections\/crosstrainer",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -38,7 +38,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "image": "shopify:\/\/shop_images\/Shopify_Homepage_Main_Banner_1920x865_px_1.png",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -90,6 +90,7 @@
         "column_8PiNdH",
         "column_DGYCiX"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {font-weight: 700; font-size: 1.5rem; opacity: 0.5;}",
         "img {opacity: 0.5;}"
@@ -139,6 +140,72 @@
         "padding_bottom": 36
       }
     },
+    "featured_collections_zmJwpL": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured_collection_KUG6Dy": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Crosstrainer_1200x725_19b799f7-a5c4-495a-82bf-f4a1713f63f9.png",
+            "title": "Crosstrainer",
+            "description": "",
+            "collection": "crosstrainer"
+          }
+        },
+        "featured_collection_TWXUTz": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Laufband_1200x725_48847faf-9aee-4b73-ae58-247900e95c14.png",
+            "title": "Laufband",
+            "description": "",
+            "collection": "laufband"
+          }
+        },
+        "featured_collection_EQiY3K": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rudergerate_1200x725_70120a65-9341-4eb8-b80d-e1030c129a99.png",
+            "title": "Rudergeräte",
+            "description": "",
+            "collection": "rudergerat"
+          }
+        },
+        "featured_collection_AEajkD": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fitness_bikes_1200x725_01028f5d-72c2-490f-a92f-b48acb3587b2.png",
+            "title": "Fitnessbike ",
+            "description": "",
+            "collection": "fitness-bike"
+          }
+        },
+        "featured_collection_RJUntg": {
+          "type": "featured_collection",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kraftgerate_1200x725_adfc2b71-f7eb-4d94-b5ca-ccd1a5f37b34.png",
+            "title": "Kraftgeräte ",
+            "description": "",
+            "collection": "krafttraining"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KUG6Dy",
+        "featured_collection_TWXUTz",
+        "featured_collection_EQiY3K",
+        "featured_collection_AEajkD",
+        "featured_collection_RJUntg"
+      ],
+      "settings": {
+        "title": "Beliebteste Kategorien",
+        "description": "",
+        "arrow_bg_color": "#e3fa0a",
+        "arrow_color": "#000000",
+        "collection_description_color": "#818181",
+        "padding_top": 3,
+        "padding_bottom": 6
+      }
+    },
     "1706874465e8819809": {
       "type": "apps",
       "settings": {
@@ -150,6 +217,7 @@
     "image_banner",
     "multicolumn_CkdRLG",
     "featured_collection",
+    "featured_collections_zmJwpL",
     "1706874465e8819809"
   ]
 }

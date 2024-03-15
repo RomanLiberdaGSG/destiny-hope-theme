@@ -1,19 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+	<!-- Added by AVADA SEO Suite -->
+	{% include 'avada-seo' %}
+	<!-- /Added by AVADA SEO Suite -->
+	{% render 'pandectes-rules' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-
-})(window,document,'script','dataLayer','GTM-MNWHVFR7');</script>
+    <link rel="alternate" href="https://www.maxxus.com/" hreflang="de"/>
 
     <link rel="canonical" href="{{ canonical_url }}">
 
@@ -37,9 +34,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
     </title>
 
+    {% comment %}
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+    {% endcomment %}
 
     {% render 'meta-tags' %}
 
@@ -284,6 +283,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {{ 'grid.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
+    {{ 'glide.core.min.css' | asset_url | stylesheet_tag }}
+    
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -315,8 +316,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
-<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-MNWHVFR7
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -383,5 +383,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script src="{{ 'glide.min.js' | asset_url }}"></script>
   </body>
 </html>

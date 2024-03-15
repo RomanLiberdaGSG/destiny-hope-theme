@@ -3,25 +3,14 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
+        "show_collection_short_description": true,
         "color_scheme": "scheme-1"
       }
     },
-    "17053343374f3c40de": {
-      "type": "apps",
-      "blocks": {
-        "pobo_page_builder_app_block_GmCdDB": {
-          "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/app-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "pobo_page_builder_app_block_GmCdDB"
-      ],
+    "custom_product_grid_ERVCNb": {
+      "type": "custom-product-grid",
+      "disabled": true,
       "settings": {
-        "include_margins": true
       }
     },
     "product-grid": {
@@ -40,14 +29,24 @@
         "filter_type": "vertical",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 36,
+        "padding_top": 12,
         "padding_bottom": 36
+      }
+    },
+    "banner-full": {
+      "type": "main-collection-banner-full",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "vertical_padding": 5,
+        "color_scheme": "scheme-2"
       }
     }
   },
   "order": [
     "banner",
-    "17053343374f3c40de",
-    "product-grid"
+    "custom_product_grid_ERVCNb",
+    "product-grid",
+    "banner-full"
   ]
 }
