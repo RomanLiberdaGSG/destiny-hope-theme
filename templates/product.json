@@ -148,15 +148,14 @@
     "product_tabs_H6PBYM": {
       "type": "product-tabs",
       "blocks": {
-        "pobo_page_builder_product_block_FQjVW7": {
-          "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/product-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
+        "pobo_page_builder_app_block_pFNUm8": {
+          "type": "shopify:\/\/apps\/pobo-page-builder\/blocks\/app-block\/a1ed2817-36bc-4fe3-8360-7a6f47011449",
           "settings": {
-            "product": "{{product}}"
           }
         }
       },
       "block_order": [
-        "pobo_page_builder_product_block_FQjVW7"
+        "pobo_page_builder_app_block_pFNUm8"
       ],
       "settings": {
       }
@@ -178,11 +177,18 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "17105045911a2c0082": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "product_tabs_H6PBYM",
-    "related-products"
+    "related-products",
+    "17105045911a2c0082"
   ]
 }
