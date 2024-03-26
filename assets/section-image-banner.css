@@ -141,6 +141,12 @@
   }
 }
 
+@media screen and (min-width: 1600px){
+  .banner--medium{
+    aspect-ratio: 2.83/1;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .banner:not(.banner--stacked) {
     flex-direction: row;
