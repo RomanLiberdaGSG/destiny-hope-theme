@@ -6,7 +6,7 @@
     "primaryLocale": "de",
     "adminMode": false
   },
-  "tsPublished": 1710510500,
+  "tsPublished": 1711625205,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -668,9 +668,10 @@
   "blocker": {
     "isActive": false,
     "googleConsentMode": {
-      "id": "",
-      "analyticsId": "",
-      "isActive": false,
+      "id": "GTM-MNWHVFR7",
+      "analyticsId": "G-4MY9JYMFB2",
+      "adwordsId": "AW-748586989",
+      "isActive": true,
       "adStorageCategory": 4,
       "analyticsStorageCategory": 2,
       "personalizationStorageCategory": 1,
@@ -680,7 +681,8 @@
       "redactData": true,
       "urlPassthrough": false,
       "dataLayerProperty": "dataLayer",
-      "waitForUpdate": 2000
+      "waitForUpdate": 2000,
+      "useNativeChannel": false
     },
     "facebookPixel": {
       "id": "",
